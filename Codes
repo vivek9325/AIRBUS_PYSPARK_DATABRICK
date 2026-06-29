@@ -40,3 +40,14 @@ dept_salary_df = df.groupBy("department").agg(count("*").alias("employee_count")
 
 dept_salary_df.show()
 
+=======================================================
+
+
+from pyspark.sql.functions import when
+salary_band_df = (df.withColumn("salary_band", when(col("salary")>=5000, "High").when(col("salary")>=3000, "Medium").otherwise("Low")))
+
+salary_band_df.show()
+
+
+
+
