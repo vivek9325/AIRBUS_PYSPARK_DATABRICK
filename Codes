@@ -7,3 +7,12 @@ df.count()
 df.columns
 df.show()
 
+=========================================================
+
+df = spark.read.csv("/Volumes/rps_demo/default/airbus_demo/employees.csv", header=True, inferSchema=True)
+
+df.printSchema()
+df.count()
+df.columns
+df.show()
+
