@@ -16,3 +16,19 @@ df.count()
 df.columns
 df.show()
 
+========================================================
+
+high_salary_df = df.filter(col("salary") > 3000)
+
+high_salary_df.show()
+
+from pyspark.sql.functions import count
+
+dept_count_df = (
+    df.groupBy("department")
+    .agg(count("*").alias("employee_count"))
+)
+
+dept_count_df.show()
+
+=============================================
