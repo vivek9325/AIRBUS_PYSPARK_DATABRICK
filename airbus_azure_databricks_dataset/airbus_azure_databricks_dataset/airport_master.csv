@@ -1,0 +1,38 @@
+airport_code,airport_name,city,country,timezone,runway_count,runway_length_m,airport_type
+BLR,Bengaluru International Airport,Bengaluru,India,Asia/Kolkata,5,3200,Hub
+DEL,Delhi International Airport,Delhi,India,Asia/Kolkata,1,3600,Regional
+BOM,Mumbai International Airport,Mumbai,India,Asia/Kolkata,1,4000,Regional
+HYD,Hyderabad International Airport,Hyderabad,India,Asia/Kolkata,3,4400,Regional
+MAA,Chennai International Airport,Chennai,India,Asia/Kolkata,5,2800,Hub
+CCU,Kolkata International Airport,Kolkata,India,Asia/Kolkata,3,4000,Hub
+PNQ,Pune International Airport,Pune,India,Asia/Kolkata,1,3200,International
+GOI,Goa International Airport,Goa,India,Asia/Kolkata,2,3200,International
+COK,Kochi International Airport,Kochi,India,Asia/Kolkata,5,3600,International
+AMD,Ahmedabad International Airport,Ahmedabad,India,Asia/Kolkata,4,4400,Regional
+JAI,Jaipur International Airport,Jaipur,India,Asia/Kolkata,1,3200,International
+LKO,Lucknow International Airport,Lucknow,India,Asia/Kolkata,2,2800,International
+PAT,Patna International Airport,Patna,India,Asia/Kolkata,3,4400,Hub
+IXR,Ranchi International Airport,Ranchi,India,Asia/Kolkata,1,3200,International
+BBI,Bhubaneswar International Airport,Bhubaneswar,India,Asia/Kolkata,3,3600,Hub
+DXB,Dubai International Airport,Dubai,UAE,Asia/Dubai,5,3600,Regional
+AUH,Abu Dhabi International Airport,Abu Dhabi,UAE,Asia/Dubai,5,4400,International
+DOH,Doha International Airport,Doha,Qatar,Asia/Qatar,5,3200,Regional
+SIN,Singapore International Airport,Singapore,Singapore,Asia/Singapore,2,4400,International
+KUL,Kuala Lumpur International Airport,Kuala Lumpur,Malaysia,Asia/Kuala_Lumpur,5,3200,International
+BKK,Bangkok International Airport,Bangkok,Thailand,Asia/Bangkok,1,2800,Hub
+HKG,Hong Kong International Airport,Hong Kong,Hong Kong,Asia/Hong_Kong,4,3200,Regional
+NRT,Tokyo International Airport,Tokyo,Japan,Asia/Tokyo,5,3600,Regional
+SYD,Sydney International Airport,Sydney,Australia,Australia/Sydney,3,3200,Hub
+MEL,Melbourne International Airport,Melbourne,Australia,Australia/Melbourne,3,2800,International
+LHR,London International Airport,London,UK,Europe/London,5,3200,International
+CDG,Paris International Airport,Paris,France,Europe/Paris,2,3600,Hub
+FRA,Frankfurt International Airport,Frankfurt,Germany,Europe/Berlin,3,4400,International
+AMS,Amsterdam International Airport,Amsterdam,Netherlands,Europe/Amsterdam,4,4400,Hub
+MAD,Madrid International Airport,Madrid,Spain,Europe/Madrid,4,2800,Regional
+ZRH,Zurich International Airport,Zurich,Switzerland,Europe/Zurich,4,2800,Hub
+IST,Istanbul International Airport,Istanbul,Turkey,Europe/Istanbul,3,4000,Regional
+JFK,New York International Airport,New York,USA,America/New_York,5,2800,Hub
+SFO,San Francisco International Airport,San Francisco,USA,America/Los_Angeles,1,4000,International
+ORD,Chicago International Airport,Chicago,USA,America/Chicago,5,4400,Hub
+YYZ,Toronto International Airport,Toronto,Canada,America/Toronto,3,3200,International
+YVR,Vancouver International Airport,Vancouver,Canada,America/Vancouver,1,3200,International

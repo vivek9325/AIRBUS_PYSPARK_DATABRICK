@@ -1,0 +1,70 @@
+component_id,component_name,component_category,expected_life_hours,criticality,supplier_region
+CMP0001,Engine Turbine Blade V1,Engine,11920,Critical,Europe
+CMP0002,Engine Turbine Blade V2,Engine,11645,Critical,Japan
+CMP0003,Engine Turbine Blade V3,Engine,11769,Critical,Japan
+CMP0004,Fuel Nozzle V1,Engine,8772,High,Japan
+CMP0005,Fuel Nozzle V2,Engine,8794,High,Middle East
+CMP0006,Fuel Nozzle V3,Engine,8528,High,India
+CMP0007,Compressor Disk V1,Engine,14258,Critical,Japan
+CMP0008,Compressor Disk V2,Engine,13527,Critical,Europe
+CMP0009,Compressor Disk V3,Engine,14226,Critical,Japan
+CMP0010,Ignition Exciter V1,Engine,10342,High,Middle East
+CMP0011,Ignition Exciter V2,Engine,9800,High,Japan
+CMP0012,Ignition Exciter V3,Engine,10425,High,India
+CMP0013,Engine Oil Filter V1,Engine,2566,Medium,Europe
+CMP0014,Engine Oil Filter V2,Engine,2800,Medium,USA
+CMP0015,Engine Oil Filter V3,Engine,3495,Medium,Europe
+CMP0016,Hydraulic Pump V1,Hydraulic,7500,High,Japan
+CMP0017,Hydraulic Pump V2,Hydraulic,8190,High,Middle East
+CMP0018,Hydraulic Pump V3,Hydraulic,7834,High,Europe
+CMP0019,Hydraulic Filter V1,Hydraulic,3875,Medium,Japan
+CMP0020,Hydraulic Filter V2,Hydraulic,4157,Medium,India
+CMP0021,Hydraulic Filter V3,Hydraulic,4480,Medium,USA
+CMP0022,Hydraulic Actuator V1,Hydraulic,10453,High,Europe
+CMP0023,Hydraulic Actuator V2,Hydraulic,10350,High,India
+CMP0024,Hydraulic Actuator V3,Hydraulic,9796,High,Europe
+CMP0025,Pressure Control Valve V1,Hydraulic,6682,High,Europe
+CMP0026,Pressure Control Valve V2,Hydraulic,6913,High,Japan
+CMP0027,Pressure Control Valve V3,Hydraulic,6889,High,Middle East
+CMP0028,Flight Management Computer V1,Avionics,18392,Critical,Europe
+CMP0029,Flight Management Computer V2,Avionics,17709,Critical,Europe
+CMP0030,Flight Management Computer V3,Avionics,17578,Critical,Japan
+CMP0031,Navigation Sensor Unit V1,Avionics,15465,High,Europe
+CMP0032,Navigation Sensor Unit V2,Avionics,14615,High,USA
+CMP0033,Navigation Sensor Unit V3,Avionics,14637,High,Middle East
+CMP0034,Weather Radar Unit V1,Avionics,11696,High,Europe
+CMP0035,Weather Radar Unit V2,Avionics,12431,High,USA
+CMP0036,Weather Radar Unit V3,Avionics,11660,High,India
+CMP0037,Radio Altimeter V1,Avionics,13195,Critical,Middle East
+CMP0038,Radio Altimeter V2,Avionics,12770,Critical,Middle East
+CMP0039,Radio Altimeter V3,Avionics,13145,Critical,Middle East
+CMP0040,Landing Gear Actuator V1,Landing Gear,10289,High,India
+CMP0041,Landing Gear Actuator V2,Landing Gear,9929,High,India
+CMP0042,Landing Gear Actuator V3,Landing Gear,10095,High,India
+CMP0043,Brake Assembly V1,Landing Gear,4524,High,USA
+CMP0044,Brake Assembly V2,Landing Gear,5123,High,Europe
+CMP0045,Brake Assembly V3,Landing Gear,5138,High,Japan
+CMP0046,Wheel Bearing V1,Landing Gear,5610,Medium,Europe
+CMP0047,Wheel Bearing V2,Landing Gear,6128,Medium,Japan
+CMP0048,Wheel Bearing V3,Landing Gear,6159,Medium,Europe
+CMP0049,Shock Absorber V1,Landing Gear,9366,High,India
+CMP0050,Shock Absorber V2,Landing Gear,9213,High,Europe
+CMP0051,Shock Absorber V3,Landing Gear,9381,High,USA
+CMP0052,Generator Control Unit V1,Electrical,11380,Critical,Europe
+CMP0053,Generator Control Unit V2,Electrical,11220,Critical,Middle East
+CMP0054,Generator Control Unit V3,Electrical,11198,Critical,USA
+CMP0055,Battery Pack V1,Electrical,7135,High,India
+CMP0056,Battery Pack V2,Electrical,6649,High,Europe
+CMP0057,Battery Pack V3,Electrical,7000,High,Europe
+CMP0058,Power Distribution Module V1,Electrical,10475,High,India
+CMP0059,Power Distribution Module V2,Electrical,10238,High,Europe
+CMP0060,Power Distribution Module V3,Electrical,9702,High,USA
+CMP0061,Cabin Pressure Controller V1,Cabin,11716,Critical,India
+CMP0062,Cabin Pressure Controller V2,Cabin,12209,Critical,Japan
+CMP0063,Cabin Pressure Controller V3,Cabin,11936,Critical,Europe
+CMP0064,Air Conditioning Pack V1,Cabin,9775,Medium,USA
+CMP0065,Air Conditioning Pack V2,Cabin,9787,Medium,USA
+CMP0066,Air Conditioning Pack V3,Cabin,9722,Medium,India
+CMP0067,Oxygen Mask Unit V1,Cabin,9357,High,Japan
+CMP0068,Oxygen Mask Unit V2,Cabin,8526,High,Middle East
+CMP0069,Oxygen Mask Unit V3,Cabin,8676,High,India

@@ -1,0 +1,13 @@
+file_name,row_count,format
+aircraft_master.csv,80,csv
+airport_master.csv,37,csv
+airline_master.csv,12,csv
+flight_operations.csv,2000,csv
+maintenance_work_orders.csv,1200,csv
+sensor_telemetry.json,10000,json
+component_master.csv,69,csv
+parts_inventory.csv,500,csv
+weather_daily.csv,6660,csv
+crew_roster.csv,1000,csv
+incident_reports.json,1000,json
+maintenance_costs.csv,1200,csv

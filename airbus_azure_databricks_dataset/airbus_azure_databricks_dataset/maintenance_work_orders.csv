@@ -1,0 +1,1201 @@
+work_order_id,aircraft_id,component_id,issue_type,issue_severity,reported_date,resolved_date,maintenance_status,technician_id,downtime_hours,root_cause
+WO0000001,AC00062,CMP0045,Landing Gear,Low,2026-03-19,2026-03-21,Completed,TECH334,7.19,Post-flight inspection alert
+WO0000002,AC00046,CMP0023,Hydraulic,High,2026-01-24,2026-01-25,Completed,TECH190,16.05,Pressure instability
+WO0000003,AC00006,CMP0006,Engine,Medium,2026-01-17,2026-01-17,Completed,TECH299,9.41,Pressure instability
+WO0000004,AC00062,CMP0048,Landing Gear,Medium,2026-04-11,2026-04-13,Completed,TECH127,13.46,Oil pressure deviation
+WO0000005,AC00067,CMP0005,Engine,Low,2026-04-28,2026-04-29,Completed,TECH123,9.92,Oil pressure deviation
+WO0000006,AC00051,CMP0038,Avionics,Critical,2026-05-16,2026-05-20,Completed,TECH207,73.65,Oil pressure deviation
+WO0000007,AC00024,CMP0062,Cabin,Low,2026-01-03,,Open,TECH202,9.83,Temperature threshold breach
+WO0000008,AC00038,CMP0002,Engine,Low,2026-01-08,2026-01-10,Completed,TECH264,9.91,High vibration detected
+WO0000009,AC00069,CMP0042,Landing Gear,Medium,2026-05-09,2026-05-10,Completed,TECH107,8.07,Scheduled preventive maintenance
+WO0000010,AC00069,CMP0006,Engine,Low,2026-01-25,2026-01-26,Completed,TECH122,5.33,Intermittent signal failure
+WO0000011,AC00077,CMP0030,Avionics,High,2026-02-14,2026-02-18,Completed,TECH104,70.3,Routine inspection finding
+WO0000012,AC00021,CMP0041,Landing Gear,High,2026-02-12,2026-02-12,Completed,TECH182,15.41,Post-flight inspection alert
+WO0000013,AC00046,CMP0016,Hydraulic,Medium,2026-03-09,2026-03-10,Completed,TECH308,17.51,Pressure instability
+WO0000014,AC00005,CMP0030,Avionics,High,2026-06-09,2026-06-11,Completed,TECH173,32.5,Post-flight inspection alert
+WO0000015,AC00063,CMP0006,Engine,High,2026-01-24,2026-01-26,Completed,TECH220,40.83,Pressure instability
+WO0000016,AC00043,CMP0027,Hydraulic,Medium,2026-03-01,2026-03-03,Completed,TECH302,7.14,Post-flight inspection alert
+WO0000017,AC00048,CMP0055,Electrical,Low,2026-05-23,2026-05-23,Completed,TECH241,4.72,Oil pressure deviation
+WO0000018,AC00069,CMP0043,Landing Gear,Medium,2026-04-21,,In Progress,TECH289,9.35,High vibration detected
+WO0000019,AC00037,CMP0016,Hydraulic,Low,2026-02-18,2026-02-18,Completed,TECH226,10.88,Scheduled preventive maintenance
+WO0000020,AC00054,CMP0052,Electrical,Low,2026-01-28,2026-01-29,Completed,TECH170,3.29,Post-flight inspection alert
+WO0000021,AC00079,CMP0009,Engine,High,2026-01-06,2026-01-07,Completed,TECH103,15.48,Intermittent signal failure
+WO0000022,AC00059,CMP0048,Landing Gear,High,2026-02-12,,In Progress,TECH187,48.8,Routine inspection finding
+WO0000023,AC00049,CMP0056,Electrical,High,2026-03-06,,Open,TECH253,66.23,Pressure instability
+WO0000024,AC00079,CMP0025,Hydraulic,Medium,2026-01-15,2026-01-17,Completed,TECH284,9.18,Post-flight inspection alert
+WO0000025,AC00007,CMP0066,Cabin,Critical,2026-05-31,2026-06-04,Completed,TECH195,118.49,Routine inspection finding
+WO0000026,AC00078,CMP0061,Cabin,Low,2026-03-29,2026-03-30,Completed,TECH262,5.53,Intermittent signal failure
+WO0000027,AC00005,CMP0001,Engine,Medium,2026-01-27,,In Progress,TECH301,17.52,Component wear beyond tolerance
+WO0000028,AC00037,CMP0065,Cabin,Low,2026-02-21,2026-02-21,Completed,TECH203,9.41,Pressure instability
+WO0000029,AC00060,CMP0018,Hydraulic,Medium,2026-05-12,2026-05-14,Completed,TECH342,18.45,Intermittent signal failure
+WO0000030,AC00064,CMP0013,Engine,Low,2026-03-26,,In Progress,TECH152,9.85,Oil pressure deviation
+WO0000031,AC00017,CMP0065,Cabin,High,2026-04-02,,Open,TECH306,64.13,Routine inspection finding
+WO0000032,AC00017,CMP0069,Cabin,Low,2026-01-15,2026-01-15,Completed,TECH346,2.02,Scheduled preventive maintenance
+WO0000033,AC00076,CMP0033,Avionics,Critical,2026-01-07,2026-01-11,Completed,TECH154,96.84,Sensor anomaly correlation
+WO0000034,AC00051,CMP0069,Cabin,High,2026-01-15,2026-01-17,Completed,TECH194,19.42,Sensor anomaly correlation
+WO0000035,AC00033,CMP0017,Hydraulic,Critical,2026-05-06,,In Progress,TECH301,79.38,Routine inspection finding
+WO0000036,AC00058,CMP0051,Landing Gear,Medium,2026-05-05,,In Progress,TECH126,14.32,Component wear beyond tolerance
+WO0000037,AC00047,CMP0065,Cabin,Medium,2026-04-29,2026-04-29,Completed,TECH195,10.34,Pressure instability
+WO0000038,AC00071,CMP0024,Hydraulic,Low,2026-02-08,2026-02-09,Completed,TECH256,4.96,Component wear beyond tolerance
+WO0000039,AC00054,CMP0015,Engine,High,2026-05-21,2026-05-23,Completed,TECH163,67.42,Post-flight inspection alert
+WO0000040,AC00041,CMP0024,Hydraulic,Low,2026-01-31,2026-01-31,Completed,TECH266,1.94,High vibration detected
+WO0000041,AC00073,CMP0050,Landing Gear,Low,2026-03-04,,Open,TECH110,9.78,Intermittent signal failure
+WO0000042,AC00018,CMP0024,Hydraulic,Low,2026-03-12,2026-03-14,Completed,TECH111,1.32,Scheduled preventive maintenance
+WO0000043,AC00013,CMP0062,Cabin,Low,2026-03-10,,In Progress,TECH234,3.34,Temperature threshold breach
+WO0000044,AC00039,CMP0019,Hydraulic,High,2026-02-19,2026-02-21,Completed,TECH317,39.09,High vibration detected
+WO0000045,AC00015,CMP0029,Avionics,Medium,2026-03-25,2026-03-27,Completed,TECH318,11.69,High vibration detected
+WO0000046,AC00053,CMP0008,Engine,Low,2026-03-10,,In Progress,TECH261,11.13,Oil pressure deviation
+WO0000047,AC00052,CMP0034,Avionics,Medium,2026-02-28,2026-03-01,Completed,TECH341,5.9,Post-flight inspection alert
+WO0000048,AC00002,CMP0003,Engine,High,2026-03-12,2026-03-15,Completed,TECH135,65.86,High vibration detected
+WO0000049,AC00042,CMP0017,Hydraulic,Critical,2026-05-15,2026-05-19,Completed,TECH238,108.31,Sensor anomaly correlation
+WO0000050,AC00010,CMP0035,Avionics,Medium,2026-03-23,,In Progress,TECH236,23.38,Component wear beyond tolerance
+WO0000051,AC00015,CMP0031,Avionics,Medium,2026-03-01,2026-03-01,Completed,TECH337,4.31,Sensor anomaly correlation
+WO0000052,AC00063,CMP0008,Engine,High,2026-04-27,,In Progress,TECH164,37.88,Routine inspection finding
+WO0000053,AC00028,CMP0014,Engine,Critical,2026-01-01,2026-01-03,Completed,TECH251,59.16,Post-flight inspection alert
+WO0000054,AC00007,CMP0036,Avionics,Medium,2026-05-11,,In Progress,TECH292,17.17,Post-flight inspection alert
+WO0000055,AC00077,CMP0037,Avionics,Medium,2026-05-25,,In Progress,TECH212,11.87,High vibration detected
+WO0000056,AC00009,CMP0055,Electrical,Low,2026-04-30,2026-05-02,Completed,TECH112,8.49,Oil pressure deviation
+WO0000057,AC00057,CMP0049,Landing Gear,High,2026-04-03,,Open,TECH217,34.78,Post-flight inspection alert
+WO0000058,AC00015,CMP0004,Engine,Medium,2026-05-16,,Open,TECH113,19.03,Temperature threshold breach
+WO0000059,AC00007,CMP0020,Hydraulic,Low,2026-04-07,2026-04-07,Completed,TECH123,3.72,High vibration detected
+WO0000060,AC00055,CMP0046,Landing Gear,Medium,2026-02-07,,In Progress,TECH301,17.42,Scheduled preventive maintenance
+WO0000061,AC00067,CMP0052,Electrical,Medium,2026-05-21,,In Progress,TECH296,7.84,Pressure instability
+WO0000062,AC00010,CMP0050,Landing Gear,Medium,2026-02-07,2026-02-07,Completed,TECH270,13.88,Pressure instability
+WO0000063,AC00076,CMP0042,Landing Gear,High,2026-01-12,2026-01-13,Completed,TECH187,38.91,High vibration detected
+WO0000064,AC00025,CMP0023,Hydraulic,Medium,2026-04-19,2026-04-19,Completed,TECH175,18.06,Pressure instability
+WO0000065,AC00056,CMP0052,Electrical,Low,2026-01-16,2026-01-16,Completed,TECH347,8.88,High vibration detected
+WO0000066,AC00055,CMP0040,Landing Gear,Low,2026-02-13,,Open,TECH298,4.33,Pressure instability
+WO0000067,AC00012,CMP0023,Hydraulic,Medium,2026-04-22,2026-04-22,Completed,TECH241,8.03,Intermittent signal failure
+WO0000068,AC00035,CMP0004,Engine,Critical,2026-03-30,2026-04-02,Completed,TECH180,50.15,Oil pressure deviation
+WO0000069,AC00078,CMP0028,Avionics,Critical,2026-06-23,,In Progress,TECH232,75.27,Sensor anomaly correlation
+WO0000070,AC00054,CMP0022,Hydraulic,Low,2026-03-23,2026-03-23,Completed,TECH254,5.99,High vibration detected
+WO0000071,AC00012,CMP0028,Avionics,Critical,2026-04-23,,Open,TECH310,167.56,Temperature threshold breach
+WO0000072,AC00054,CMP0028,Avionics,Medium,2026-02-12,2026-02-13,Completed,TECH305,20.79,Post-flight inspection alert
+WO0000073,AC00067,CMP0011,Engine,Critical,2026-04-06,2026-04-09,Completed,TECH116,90.0,Temperature threshold breach
+WO0000074,AC00007,CMP0035,Avionics,Medium,2026-04-30,2026-05-01,Completed,TECH143,14.15,Temperature threshold breach
+WO0000075,AC00010,CMP0046,Landing Gear,High,2026-05-08,2026-05-10,Completed,TECH111,24.39,Intermittent signal failure
+WO0000076,AC00056,CMP0040,Landing Gear,Low,2026-04-08,2026-04-10,Completed,TECH195,8.79,Intermittent signal failure
+WO0000077,AC00054,CMP0051,Landing Gear,Medium,2026-05-19,2026-05-21,Completed,TECH131,18.13,Temperature threshold breach
+WO0000078,AC00005,CMP0007,Engine,Medium,2026-02-07,2026-02-09,Completed,TECH220,15.0,Temperature threshold breach
+WO0000079,AC00025,CMP0011,Engine,Medium,2026-05-31,2026-06-01,Completed,TECH203,12.47,Intermittent signal failure
+WO0000080,AC00035,CMP0019,Hydraulic,Medium,2026-01-16,,Open,TECH150,13.07,Pressure instability
+WO0000081,AC00073,CMP0066,Cabin,Low,2026-01-29,2026-01-30,Completed,TECH268,5.7,Pressure instability
+WO0000082,AC00053,CMP0021,Hydraulic,Medium,2026-02-02,2026-02-02,Completed,TECH124,23.33,Pressure instability
+WO0000083,AC00038,CMP0065,Cabin,Low,2026-05-02,2026-05-03,Completed,TECH123,8.09,Intermittent signal failure
+WO0000084,AC00026,CMP0026,Hydraulic,High,2026-02-01,,In Progress,TECH313,61.87,Oil pressure deviation
+WO0000085,AC00032,CMP0043,Landing Gear,Medium,2026-06-15,2026-06-17,Completed,TECH181,14.08,Sensor anomaly correlation
+WO0000086,AC00062,CMP0031,Avionics,Medium,2026-06-16,,In Progress,TECH162,12.3,Post-flight inspection alert
+WO0000087,AC00031,CMP0011,Engine,Low,2026-02-06,,In Progress,TECH340,1.13,Post-flight inspection alert
+WO0000088,AC00016,CMP0024,Hydraulic,Medium,2026-03-07,2026-03-09,Completed,TECH169,17.59,Intermittent signal failure
+WO0000089,AC00077,CMP0066,Cabin,Medium,2026-01-05,,Open,TECH253,5.75,Temperature threshold breach
+WO0000090,AC00018,CMP0054,Electrical,Medium,2026-04-14,,In Progress,TECH283,9.28,Sensor anomaly correlation
+WO0000091,AC00055,CMP0038,Avionics,Medium,2026-05-12,2026-05-14,Completed,TECH145,7.03,Post-flight inspection alert
+WO0000092,AC00007,CMP0038,Avionics,Medium,2026-05-05,,Open,TECH302,20.67,Scheduled preventive maintenance
+WO0000093,AC00007,CMP0049,Landing Gear,Medium,2026-02-12,2026-02-12,Completed,TECH315,12.4,Post-flight inspection alert
+WO0000094,AC00075,CMP0056,Electrical,Low,2026-02-03,2026-02-04,Completed,TECH121,8.18,Sensor anomaly correlation
+WO0000095,AC00051,CMP0016,Hydraulic,High,2026-04-04,2026-04-07,Completed,TECH153,61.81,Sensor anomaly correlation
+WO0000096,AC00033,CMP0025,Hydraulic,Low,2026-05-17,,Open,TECH176,3.53,Oil pressure deviation
+WO0000097,AC00029,CMP0041,Landing Gear,Low,2026-04-29,2026-04-29,Completed,TECH293,6.55,Temperature threshold breach
+WO0000098,AC00075,CMP0062,Cabin,Low,2026-03-17,2026-03-19,Completed,TECH318,8.59,Sensor anomaly correlation
+WO0000099,AC00055,CMP0030,Avionics,High,2026-02-17,,In Progress,TECH115,44.15,Oil pressure deviation
+WO0000100,AC00076,CMP0030,Avionics,Critical,2026-03-12,2026-03-16,Completed,TECH161,85.16,High vibration detected
+WO0000101,AC00021,CMP0005,Engine,Critical,2026-06-05,,In Progress,TECH303,87.41,Component wear beyond tolerance
+WO0000102,AC00027,CMP0067,Cabin,Medium,2026-03-24,2026-03-25,Completed,TECH333,20.07,High vibration detected
+WO0000103,AC00079,CMP0013,Engine,Low,2026-01-06,2026-01-07,Completed,TECH295,6.81,Oil pressure deviation
+WO0000104,AC00046,CMP0017,Hydraulic,Low,2026-04-01,,In Progress,TECH139,9.95,Pressure instability
+WO0000105,AC00066,CMP0025,Hydraulic,High,2026-06-26,,In Progress,TECH283,38.96,Intermittent signal failure
+WO0000106,AC00013,CMP0058,Electrical,Low,2026-02-10,2026-02-12,Completed,TECH273,11.24,Scheduled preventive maintenance
+WO0000107,AC00004,CMP0027,Hydraulic,Medium,2026-02-20,2026-02-20,Completed,TECH168,4.27,Routine inspection finding
+WO0000108,AC00057,CMP0056,Electrical,Critical,2026-01-20,2026-01-28,Completed,TECH196,146.62,Pressure instability
+WO0000109,AC00002,CMP0046,Landing Gear,Low,2026-02-07,,In Progress,TECH321,11.69,Pressure instability
+WO0000110,AC00001,CMP0003,Engine,Low,2026-03-05,,In Progress,TECH235,7.74,Sensor anomaly correlation
+WO0000111,AC00007,CMP0026,Hydraulic,Low,2026-03-05,2026-03-07,Completed,TECH293,2.65,Intermittent signal failure
+WO0000112,AC00006,CMP0049,Landing Gear,Critical,2026-02-13,,In Progress,TECH158,79.26,High vibration detected
+WO0000113,AC00034,CMP0035,Avionics,Medium,2026-05-09,2026-05-09,Completed,TECH179,20.97,Oil pressure deviation
+WO0000114,AC00038,CMP0032,Avionics,Low,2026-06-01,2026-06-02,Completed,TECH325,1.38,Oil pressure deviation
+WO0000115,AC00041,CMP0060,Electrical,Low,2026-02-20,2026-02-21,Completed,TECH170,2.08,Temperature threshold breach
+WO0000116,AC00011,CMP0039,Avionics,Low,2026-02-25,2026-02-25,Completed,TECH188,9.36,Sensor anomaly correlation
+WO0000117,AC00045,CMP0037,Avionics,Medium,2026-06-02,2026-06-04,Completed,TECH206,13.93,Temperature threshold breach
+WO0000118,AC00005,CMP0045,Landing Gear,Low,2026-03-10,2026-03-12,Completed,TECH264,1.76,Temperature threshold breach
+WO0000119,AC00030,CMP0018,Hydraulic,Medium,2026-06-05,2026-06-06,Completed,TECH270,22.87,Routine inspection finding
+WO0000120,AC00075,CMP0060,Electrical,High,2026-06-06,2026-06-07,Completed,TECH242,33.29,Sensor anomaly correlation
+WO0000121,AC00059,CMP0003,Engine,Low,2026-04-09,2026-04-11,Completed,TECH122,4.03,Post-flight inspection alert
+WO0000122,AC00064,CMP0069,Cabin,High,2026-05-24,2026-05-24,Completed,TECH190,17.82,Routine inspection finding
+WO0000123,AC00017,CMP0051,Landing Gear,High,2026-03-28,,Open,TECH253,45.84,Component wear beyond tolerance
+WO0000124,AC00015,CMP0066,Cabin,High,2026-03-19,2026-03-21,Completed,TECH196,44.96,Component wear beyond tolerance
+WO0000125,AC00024,CMP0047,Landing Gear,Low,2026-05-09,,In Progress,TECH194,6.46,Component wear beyond tolerance
+WO0000126,AC00009,CMP0049,Landing Gear,Medium,2026-06-17,,In Progress,TECH308,15.71,Component wear beyond tolerance
+WO0000127,AC00065,CMP0034,Avionics,Low,2026-01-28,2026-01-30,Completed,TECH311,1.52,High vibration detected
+WO0000128,AC00057,CMP0033,Avionics,Low,2026-03-04,,Open,TECH304,4.62,Temperature threshold breach
+WO0000129,AC00040,CMP0002,Engine,Low,2026-02-22,2026-02-24,Completed,TECH159,11.59,Routine inspection finding
+WO0000130,AC00038,CMP0003,Engine,Low,2026-06-25,2026-06-26,Completed,TECH175,9.48,Routine inspection finding
+WO0000131,AC00041,CMP0050,Landing Gear,Medium,2026-03-17,,In Progress,TECH293,20.32,Pressure instability
+WO0000132,AC00068,CMP0066,Cabin,High,2026-01-08,2026-01-10,Completed,TECH303,55.58,Scheduled preventive maintenance
+WO0000133,AC00037,CMP0031,Avionics,Medium,2026-05-10,2026-05-12,Completed,TECH334,20.98,Oil pressure deviation
+WO0000134,AC00028,CMP0020,Hydraulic,High,2026-04-24,2026-04-27,Completed,TECH233,52.43,Routine inspection finding
+WO0000135,AC00078,CMP0018,Hydraulic,Low,2026-05-07,2026-05-08,Completed,TECH272,9.8,Intermittent signal failure
+WO0000136,AC00076,CMP0006,Engine,Medium,2026-06-13,,Open,TECH217,12.45,Pressure instability
+WO0000137,AC00029,CMP0061,Cabin,High,2026-04-21,2026-04-22,Completed,TECH236,31.92,Post-flight inspection alert
+WO0000138,AC00040,CMP0011,Engine,High,2026-05-07,2026-05-09,Completed,TECH230,14.55,Sensor anomaly correlation
+WO0000139,AC00043,CMP0046,Landing Gear,High,2026-06-11,2026-06-13,Completed,TECH203,12.88,Post-flight inspection alert
+WO0000140,AC00026,CMP0062,Cabin,Medium,2026-01-09,2026-01-09,Completed,TECH163,6.89,Sensor anomaly correlation
+WO0000141,AC00021,CMP0036,Avionics,Low,2026-03-27,2026-03-27,Completed,TECH350,8.16,Routine inspection finding
+WO0000142,AC00034,CMP0023,Hydraulic,Low,2026-04-25,2026-04-27,Completed,TECH223,5.57,Sensor anomaly correlation
+WO0000143,AC00064,CMP0009,Engine,High,2026-04-02,2026-04-06,Completed,TECH259,57.94,Temperature threshold breach
+WO0000144,AC00056,CMP0054,Electrical,Medium,2026-02-13,,In Progress,TECH280,5.4,Temperature threshold breach
+WO0000145,AC00078,CMP0065,Cabin,High,2026-02-13,2026-02-16,Completed,TECH317,25.76,Pressure instability
+WO0000146,AC00032,CMP0039,Avionics,Low,2026-04-23,,In Progress,TECH339,2.34,Temperature threshold breach
+WO0000147,AC00013,CMP0063,Cabin,Medium,2026-05-17,2026-05-18,Completed,TECH300,14.29,Intermittent signal failure
+WO0000148,AC00073,CMP0002,Engine,High,2026-03-16,2026-03-17,Completed,TECH195,31.03,Sensor anomaly correlation
+WO0000149,AC00001,CMP0027,Hydraulic,Medium,2026-02-16,2026-02-17,Completed,TECH254,6.95,Temperature threshold breach
+WO0000150,AC00014,CMP0041,Landing Gear,High,2026-04-29,2026-04-29,Completed,TECH215,22.27,Component wear beyond tolerance
+WO0000151,AC00034,CMP0069,Cabin,Low,2026-04-01,2026-04-01,Completed,TECH344,7.17,Temperature threshold breach
+WO0000152,AC00052,CMP0062,Cabin,Medium,2026-04-06,2026-04-06,Completed,TECH106,12.82,Sensor anomaly correlation
+WO0000153,AC00025,CMP0058,Electrical,Low,2026-04-06,2026-04-07,Completed,TECH334,4.13,Pressure instability
+WO0000154,AC00020,CMP0030,Avionics,Low,2026-03-14,2026-03-15,Completed,TECH131,10.89,Component wear beyond tolerance
+WO0000155,AC00047,CMP0062,Cabin,High,2026-06-03,,In Progress,TECH112,50.53,Oil pressure deviation
+WO0000156,AC00073,CMP0039,Avionics,Medium,2026-02-15,2026-02-15,Completed,TECH246,21.87,Post-flight inspection alert
+WO0000157,AC00066,CMP0019,Hydraulic,Medium,2026-03-26,2026-03-28,Completed,TECH111,22.44,Post-flight inspection alert
+WO0000158,AC00070,CMP0029,Avionics,Medium,2026-01-19,2026-01-19,Completed,TECH315,18.52,Oil pressure deviation
+WO0000159,AC00020,CMP0045,Landing Gear,Critical,2026-01-23,2026-01-29,Completed,TECH145,133.15,Sensor anomaly correlation
+WO0000160,AC00073,CMP0002,Engine,Low,2026-06-10,,Open,TECH125,5.46,Post-flight inspection alert
+WO0000161,AC00070,CMP0013,Engine,Low,2026-05-16,,In Progress,TECH347,4.05,Post-flight inspection alert
+WO0000162,AC00004,CMP0015,Engine,Medium,2026-05-30,2026-05-31,Completed,TECH259,8.55,Post-flight inspection alert
+WO0000163,AC00046,CMP0008,Engine,Low,2026-05-04,2026-05-06,Completed,TECH295,2.87,Sensor anomaly correlation
+WO0000164,AC00024,CMP0035,Avionics,Medium,2026-01-17,2026-01-18,Completed,TECH157,9.65,Temperature threshold breach
+WO0000165,AC00078,CMP0063,Cabin,High,2026-03-31,,Open,TECH109,42.28,Post-flight inspection alert
+WO0000166,AC00005,CMP0065,Cabin,Low,2026-03-06,2026-03-08,Completed,TECH217,2.47,Scheduled preventive maintenance
+WO0000167,AC00054,CMP0021,Hydraulic,High,2026-03-31,,Open,TECH310,30.43,Oil pressure deviation
+WO0000168,AC00005,CMP0067,Cabin,Medium,2026-05-23,2026-05-25,Completed,TECH225,22.49,Sensor anomaly correlation
+WO0000169,AC00062,CMP0026,Hydraulic,Medium,2026-04-20,,In Progress,TECH234,20.05,High vibration detected
+WO0000170,AC00066,CMP0012,Engine,Low,2026-05-27,,In Progress,TECH311,3.79,Routine inspection finding
+WO0000171,AC00025,CMP0007,Engine,Low,2026-04-01,2026-04-03,Completed,TECH159,7.33,High vibration detected
+WO0000172,AC00008,CMP0005,Engine,High,2026-05-14,2026-05-14,Completed,TECH125,13.05,High vibration detected
+WO0000173,AC00055,CMP0057,Electrical,Medium,2026-04-12,,In Progress,TECH219,7.16,Intermittent signal failure
+WO0000174,AC00059,CMP0046,Landing Gear,High,2026-02-09,2026-02-12,Completed,TECH264,40.43,Component wear beyond tolerance
+WO0000175,AC00046,CMP0014,Engine,High,2026-02-17,2026-02-19,Completed,TECH194,23.18,Intermittent signal failure
+WO0000176,AC00064,CMP0047,Landing Gear,Medium,2026-02-12,2026-02-13,Completed,TECH114,22.27,Intermittent signal failure
+WO0000177,AC00011,CMP0022,Hydraulic,Medium,2026-01-10,2026-01-10,Completed,TECH288,17.96,Temperature threshold breach
+WO0000178,AC00032,CMP0053,Electrical,High,2026-04-25,2026-04-26,Completed,TECH207,25.09,Pressure instability
+WO0000179,AC00023,CMP0029,Avionics,High,2026-03-28,2026-03-30,Completed,TECH334,36.51,Temperature threshold breach
+WO0000180,AC00071,CMP0029,Avionics,Medium,2026-05-30,2026-06-01,Completed,TECH295,18.66,Routine inspection finding
+WO0000181,AC00015,CMP0028,Avionics,Critical,2026-05-08,,Open,TECH149,142.19,Oil pressure deviation
+WO0000182,AC00065,CMP0051,Landing Gear,Medium,2026-01-03,2026-01-05,Completed,TECH177,12.67,Pressure instability
+WO0000183,AC00070,CMP0005,Engine,Low,2026-06-11,2026-06-13,Completed,TECH186,2.06,Component wear beyond tolerance
+WO0000184,AC00080,CMP0065,Cabin,Critical,2026-02-19,2026-02-20,Completed,TECH126,47.76,High vibration detected
+WO0000185,AC00066,CMP0008,Engine,Low,2026-02-22,2026-02-23,Completed,TECH315,11.51,High vibration detected
+WO0000186,AC00052,CMP0063,Cabin,Low,2026-03-23,2026-03-25,Completed,TECH232,3.08,Scheduled preventive maintenance
+WO0000187,AC00030,CMP0043,Landing Gear,Medium,2026-04-18,2026-04-20,Completed,TECH338,8.82,Component wear beyond tolerance
+WO0000188,AC00019,CMP0051,Landing Gear,Low,2026-06-04,2026-06-04,Completed,TECH247,10.36,High vibration detected
+WO0000189,AC00031,CMP0025,Hydraulic,Low,2026-05-26,2026-05-26,Completed,TECH205,8.24,Oil pressure deviation
+WO0000190,AC00025,CMP0063,Cabin,Low,2026-02-21,2026-02-22,Completed,TECH218,7.49,Scheduled preventive maintenance
+WO0000191,AC00068,CMP0042,Landing Gear,Low,2026-04-26,,Open,TECH237,4.47,High vibration detected
+WO0000192,AC00045,CMP0020,Hydraulic,Low,2026-01-06,,In Progress,TECH158,7.25,Oil pressure deviation
+WO0000193,AC00078,CMP0038,Avionics,High,2026-06-05,2026-06-07,Completed,TECH156,30.95,Intermittent signal failure
+WO0000194,AC00028,CMP0063,Cabin,High,2026-06-23,2026-06-25,Completed,TECH291,26.53,Routine inspection finding
+WO0000195,AC00060,CMP0006,Engine,Low,2026-01-02,,Open,TECH169,6.14,Temperature threshold breach
+WO0000196,AC00056,CMP0064,Cabin,Medium,2026-03-16,2026-03-17,Completed,TECH347,18.82,Routine inspection finding
+WO0000197,AC00012,CMP0022,Hydraulic,Medium,2026-02-12,2026-02-13,Completed,TECH208,22.98,Post-flight inspection alert
+WO0000198,AC00061,CMP0065,Cabin,Low,2026-06-12,2026-06-14,Completed,TECH240,3.72,Post-flight inspection alert
+WO0000199,AC00035,CMP0052,Electrical,Medium,2026-04-11,2026-04-12,Completed,TECH182,8.79,Post-flight inspection alert
+WO0000200,AC00024,CMP0008,Engine,High,2026-05-23,,Open,TECH189,57.05,Scheduled preventive maintenance
+WO0000201,AC00055,CMP0022,Hydraulic,Low,2026-03-29,2026-03-29,Completed,TECH200,4.5,Scheduled preventive maintenance
+WO0000202,AC00068,CMP0034,Avionics,Low,2026-06-19,2026-06-20,Completed,TECH126,10.3,Temperature threshold breach
+WO0000203,AC00064,CMP0065,Cabin,High,2026-04-03,2026-04-05,Completed,TECH309,50.73,High vibration detected
+WO0000204,AC00009,CMP0006,Engine,Critical,2026-05-03,,In Progress,TECH163,43.77,Scheduled preventive maintenance
+WO0000205,AC00058,CMP0010,Engine,Medium,2026-03-20,2026-03-20,Completed,TECH229,15.56,Oil pressure deviation
+WO0000206,AC00080,CMP0008,Engine,Medium,2026-01-25,2026-01-27,Completed,TECH149,6.5,Temperature threshold breach
+WO0000207,AC00010,CMP0038,Avionics,Medium,2026-03-22,2026-03-23,Completed,TECH282,14.09,Intermittent signal failure
+WO0000208,AC00064,CMP0035,Avionics,Low,2026-02-13,2026-02-13,Completed,TECH163,5.69,Temperature threshold breach
+WO0000209,AC00034,CMP0017,Hydraulic,Medium,2026-05-26,2026-05-26,Completed,TECH199,13.45,Component wear beyond tolerance
+WO0000210,AC00009,CMP0026,Hydraulic,High,2026-05-12,,Open,TECH173,62.46,Pressure instability
+WO0000211,AC00034,CMP0019,Hydraulic,Critical,2026-03-08,2026-03-12,Completed,TECH205,79.07,High vibration detected
+WO0000212,AC00064,CMP0039,Avionics,Low,2026-01-23,2026-01-25,Completed,TECH203,9.52,Post-flight inspection alert
+WO0000213,AC00038,CMP0063,Cabin,Medium,2026-06-21,2026-06-21,Completed,TECH331,7.22,Pressure instability
+WO0000214,AC00072,CMP0040,Landing Gear,Medium,2026-01-10,2026-01-11,Completed,TECH317,11.28,Routine inspection finding
+WO0000215,AC00020,CMP0040,Landing Gear,Medium,2026-04-30,,In Progress,TECH275,8.81,Post-flight inspection alert
+WO0000216,AC00030,CMP0033,Avionics,High,2026-04-16,2026-04-18,Completed,TECH238,13.34,Sensor anomaly correlation
+WO0000217,AC00069,CMP0053,Electrical,Medium,2026-04-21,,Open,TECH120,22.94,Post-flight inspection alert
+WO0000218,AC00038,CMP0014,Engine,Medium,2026-03-16,2026-03-18,Completed,TECH334,9.96,Intermittent signal failure
+WO0000219,AC00012,CMP0007,Engine,Low,2026-06-22,2026-06-22,Completed,TECH285,4.78,Scheduled preventive maintenance
+WO0000220,AC00072,CMP0025,Hydraulic,Medium,2026-02-27,2026-02-28,Completed,TECH129,16.04,Intermittent signal failure
+WO0000221,AC00076,CMP0062,Cabin,Low,2026-04-01,2026-04-01,Completed,TECH214,1.74,Post-flight inspection alert
+WO0000222,AC00018,CMP0043,Landing Gear,Medium,2026-03-30,2026-03-30,Completed,TECH123,22.4,Temperature threshold breach
+WO0000223,AC00003,CMP0012,Engine,High,2026-05-24,2026-05-26,Completed,TECH195,23.07,Scheduled preventive maintenance
+WO0000224,AC00006,CMP0013,Engine,High,2026-06-19,2026-06-23,Completed,TECH270,57.63,Component wear beyond tolerance
+WO0000225,AC00035,CMP0036,Avionics,Medium,2026-03-12,,Open,TECH341,19.21,High vibration detected
+WO0000226,AC00065,CMP0033,Avionics,Medium,2026-06-28,2026-06-30,Completed,TECH322,16.23,Post-flight inspection alert
+WO0000227,AC00064,CMP0026,Hydraulic,Medium,2026-03-09,,In Progress,TECH285,9.38,Post-flight inspection alert
+WO0000228,AC00060,CMP0055,Electrical,Medium,2026-01-24,2026-01-26,Completed,TECH212,14.68,Temperature threshold breach
+WO0000229,AC00010,CMP0018,Hydraulic,Low,2026-05-19,2026-05-20,Completed,TECH323,7.03,Intermittent signal failure
+WO0000230,AC00027,CMP0029,Avionics,Low,2026-04-04,2026-04-05,Completed,TECH339,1.16,High vibration detected
+WO0000231,AC00047,CMP0063,Cabin,Medium,2026-02-15,2026-02-16,Completed,TECH192,6.8,High vibration detected
+WO0000232,AC00018,CMP0010,Engine,Low,2026-05-01,,In Progress,TECH222,10.78,Scheduled preventive maintenance
+WO0000233,AC00063,CMP0014,Engine,Medium,2026-02-24,2026-02-26,Completed,TECH149,21.17,Routine inspection finding
+WO0000234,AC00035,CMP0019,Hydraulic,Critical,2026-02-21,,Open,TECH277,97.49,Routine inspection finding
+WO0000235,AC00074,CMP0014,Engine,High,2026-06-04,2026-06-05,Completed,TECH191,37.63,Temperature threshold breach
+WO0000236,AC00057,CMP0066,Cabin,Low,2026-01-19,,In Progress,TECH176,9.06,Post-flight inspection alert
+WO0000237,AC00011,CMP0031,Avionics,High,2026-03-11,,In Progress,TECH219,65.13,Pressure instability
+WO0000238,AC00078,CMP0024,Hydraulic,Medium,2026-06-15,,Open,TECH151,6.2,Component wear beyond tolerance
+WO0000239,AC00001,CMP0015,Engine,Medium,2026-04-20,,Open,TECH106,16.54,High vibration detected
+WO0000240,AC00010,CMP0036,Avionics,Low,2026-04-07,,In Progress,TECH141,2.88,Routine inspection finding
+WO0000241,AC00060,CMP0011,Engine,Medium,2026-05-19,,In Progress,TECH131,20.09,Intermittent signal failure
+WO0000242,AC00010,CMP0044,Landing Gear,Medium,2026-02-04,2026-02-05,Completed,TECH172,4.52,Post-flight inspection alert
+WO0000243,AC00048,CMP0021,Hydraulic,High,2026-06-13,2026-06-15,Completed,TECH183,47.33,Oil pressure deviation
+WO0000244,AC00075,CMP0017,Hydraulic,Critical,2026-05-06,2026-05-08,Completed,TECH165,67.64,Routine inspection finding
+WO0000245,AC00016,CMP0014,Engine,Medium,2026-02-03,2026-02-03,Completed,TECH200,23.93,Component wear beyond tolerance
+WO0000246,AC00044,CMP0059,Electrical,Low,2026-04-29,2026-05-01,Completed,TECH178,11.96,Oil pressure deviation
+WO0000247,AC00037,CMP0041,Landing Gear,Low,2026-05-26,2026-05-26,Completed,TECH335,10.22,Post-flight inspection alert
+WO0000248,AC00011,CMP0047,Landing Gear,Medium,2026-05-10,2026-05-12,Completed,TECH315,9.8,Temperature threshold breach
+WO0000249,AC00036,CMP0033,Avionics,Critical,2026-04-30,,In Progress,TECH128,145.51,Intermittent signal failure
+WO0000250,AC00024,CMP0025,Hydraulic,Medium,2026-04-30,,Open,TECH185,4.31,Intermittent signal failure
+WO0000251,AC00009,CMP0027,Hydraulic,Low,2026-05-21,2026-05-23,Completed,TECH253,2.28,Pressure instability
+WO0000252,AC00038,CMP0035,Avionics,Medium,2026-04-12,2026-04-12,Completed,TECH267,14.9,Pressure instability
+WO0000253,AC00002,CMP0026,Hydraulic,Critical,2026-05-30,2026-06-03,Completed,TECH346,83.36,High vibration detected
+WO0000254,AC00065,CMP0025,Hydraulic,High,2026-04-19,2026-04-22,Completed,TECH116,71.4,Intermittent signal failure
+WO0000255,AC00041,CMP0022,Hydraulic,Medium,2026-01-28,2026-01-28,Completed,TECH143,6.16,Component wear beyond tolerance
+WO0000256,AC00048,CMP0009,Engine,Low,2026-03-13,2026-03-14,Completed,TECH208,10.96,Routine inspection finding
+WO0000257,AC00056,CMP0021,Hydraulic,High,2026-05-02,2026-05-04,Completed,TECH221,58.18,Sensor anomaly correlation
+WO0000258,AC00030,CMP0002,Engine,Low,2026-02-11,2026-02-11,Completed,TECH269,8.1,Intermittent signal failure
+WO0000259,AC00066,CMP0042,Landing Gear,Low,2026-01-27,2026-01-27,Completed,TECH244,9.72,Routine inspection finding
+WO0000260,AC00026,CMP0038,Avionics,High,2026-03-30,2026-04-01,Completed,TECH200,61.23,Post-flight inspection alert
+WO0000261,AC00007,CMP0003,Engine,Low,2026-02-20,2026-02-22,Completed,TECH333,10.02,Temperature threshold breach
+WO0000262,AC00058,CMP0067,Cabin,Medium,2026-04-10,2026-04-11,Completed,TECH247,19.5,Oil pressure deviation
+WO0000263,AC00073,CMP0063,Cabin,Medium,2026-04-29,,In Progress,TECH104,20.13,Scheduled preventive maintenance
+WO0000264,AC00040,CMP0023,Hydraulic,Low,2026-01-10,,Open,TECH267,4.5,Sensor anomaly correlation
+WO0000265,AC00041,CMP0043,Landing Gear,High,2026-06-25,2026-06-28,Completed,TECH110,28.92,Intermittent signal failure
+WO0000266,AC00062,CMP0033,Avionics,High,2026-02-06,2026-02-09,Completed,TECH306,65.3,Scheduled preventive maintenance
+WO0000267,AC00078,CMP0004,Engine,Medium,2026-03-27,2026-03-28,Completed,TECH118,22.53,Sensor anomaly correlation
+WO0000268,AC00080,CMP0026,Hydraulic,Medium,2026-04-13,2026-04-13,Completed,TECH197,15.91,Routine inspection finding
+WO0000269,AC00020,CMP0067,Cabin,High,2026-04-10,2026-04-10,Completed,TECH323,16.49,Scheduled preventive maintenance
+WO0000270,AC00074,CMP0045,Landing Gear,High,2026-05-12,,In Progress,TECH258,33.96,Intermittent signal failure
+WO0000271,AC00034,CMP0013,Engine,Medium,2026-05-28,,In Progress,TECH180,21.47,High vibration detected
+WO0000272,AC00028,CMP0031,Avionics,Medium,2026-01-03,,Open,TECH341,16.39,Post-flight inspection alert
+WO0000273,AC00078,CMP0054,Electrical,Medium,2026-06-13,,Open,TECH302,14.12,Temperature threshold breach
+WO0000274,AC00025,CMP0068,Cabin,High,2026-02-04,,In Progress,TECH187,68.4,High vibration detected
+WO0000275,AC00032,CMP0043,Landing Gear,Low,2026-02-22,,In Progress,TECH263,3.1,High vibration detected
+WO0000276,AC00008,CMP0052,Electrical,Critical,2026-03-15,2026-03-20,Completed,TECH109,103.56,Routine inspection finding
+WO0000277,AC00060,CMP0014,Engine,Low,2026-02-10,2026-02-12,Completed,TECH234,7.3,Post-flight inspection alert
+WO0000278,AC00052,CMP0030,Avionics,Low,2026-06-10,2026-06-12,Completed,TECH169,8.61,High vibration detected
+WO0000279,AC00049,CMP0013,Engine,Medium,2026-05-06,2026-05-08,Completed,TECH296,22.06,Component wear beyond tolerance
+WO0000280,AC00052,CMP0049,Landing Gear,High,2026-06-24,,In Progress,TECH269,65.08,High vibration detected
+WO0000281,AC00021,CMP0027,Hydraulic,Medium,2026-01-02,,In Progress,TECH236,9.63,Post-flight inspection alert
+WO0000282,AC00080,CMP0016,Hydraulic,Low,2026-01-04,2026-01-04,Completed,TECH167,3.23,Post-flight inspection alert
+WO0000283,AC00069,CMP0001,Engine,Low,2026-01-21,,In Progress,TECH153,2.22,Pressure instability
+WO0000284,AC00017,CMP0068,Cabin,Low,2026-03-09,2026-03-11,Completed,TECH185,2.6,Pressure instability
+WO0000285,AC00078,CMP0035,Avionics,Medium,2026-03-25,2026-03-26,Completed,TECH287,10.69,Temperature threshold breach
+WO0000286,AC00036,CMP0040,Landing Gear,High,2026-01-18,2026-01-19,Completed,TECH317,14.72,Scheduled preventive maintenance
+WO0000287,AC00073,CMP0031,Avionics,High,2026-01-08,2026-01-11,Completed,TECH114,39.66,Intermittent signal failure
+WO0000288,AC00023,CMP0028,Avionics,Low,2026-03-25,2026-03-25,Completed,TECH201,2.87,Temperature threshold breach
+WO0000289,AC00061,CMP0033,Avionics,Critical,2026-03-01,,In Progress,TECH124,82.78,Sensor anomaly correlation
+WO0000290,AC00075,CMP0018,Hydraulic,Medium,2026-06-11,2026-06-12,Completed,TECH278,10.46,Routine inspection finding
+WO0000291,AC00070,CMP0035,Avionics,Low,2026-03-13,2026-03-13,Completed,TECH143,8.87,Intermittent signal failure
+WO0000292,AC00072,CMP0026,Hydraulic,Medium,2026-01-22,2026-01-24,Completed,TECH270,8.95,High vibration detected
+WO0000293,AC00055,CMP0038,Avionics,Medium,2026-03-27,2026-03-29,Completed,TECH246,21.88,Oil pressure deviation
+WO0000294,AC00055,CMP0008,Engine,Low,2026-04-17,2026-04-17,Completed,TECH264,10.75,Sensor anomaly correlation
+WO0000295,AC00045,CMP0015,Engine,Critical,2026-05-31,2026-06-08,Completed,TECH205,164.71,Component wear beyond tolerance
+WO0000296,AC00062,CMP0007,Engine,Critical,2026-06-19,2026-06-23,Completed,TECH223,114.15,Routine inspection finding
+WO0000297,AC00050,CMP0040,Landing Gear,Medium,2026-01-21,,In Progress,TECH231,17.38,Intermittent signal failure
+WO0000298,AC00071,CMP0026,Hydraulic,Low,2026-03-24,2026-03-26,Completed,TECH134,7.43,High vibration detected
+WO0000299,AC00062,CMP0034,Avionics,Critical,2026-04-11,2026-04-13,Completed,TECH105,70.48,Sensor anomaly correlation
+WO0000300,AC00002,CMP0014,Engine,Low,2026-03-25,,Open,TECH305,10.91,Post-flight inspection alert
+WO0000301,AC00056,CMP0054,Electrical,Medium,2026-01-15,2026-01-15,Completed,TECH236,16.23,Scheduled preventive maintenance
+WO0000302,AC00007,CMP0061,Cabin,High,2026-06-22,2026-06-23,Completed,TECH239,23.78,Component wear beyond tolerance
+WO0000303,AC00072,CMP0068,Cabin,Medium,2026-04-15,2026-04-16,Completed,TECH134,23.69,Post-flight inspection alert
+WO0000304,AC00075,CMP0012,Engine,Low,2026-02-12,2026-02-12,Completed,TECH306,3.93,Component wear beyond tolerance
+WO0000305,AC00030,CMP0003,Engine,Medium,2026-04-06,2026-04-07,Completed,TECH314,17.68,Routine inspection finding
+WO0000306,AC00017,CMP0067,Cabin,Medium,2026-06-18,2026-06-19,Completed,TECH186,16.9,Component wear beyond tolerance
+WO0000307,AC00077,CMP0067,Cabin,Low,2026-01-21,,In Progress,TECH124,2.74,Intermittent signal failure
+WO0000308,AC00010,CMP0061,Cabin,High,2026-01-06,2026-01-07,Completed,TECH272,33.4,Scheduled preventive maintenance
+WO0000309,AC00010,CMP0040,Landing Gear,High,2026-01-04,2026-01-05,Completed,TECH305,20.52,Scheduled preventive maintenance
+WO0000310,AC00034,CMP0023,Hydraulic,High,2026-06-11,2026-06-14,Completed,TECH322,52.49,Post-flight inspection alert
+WO0000311,AC00017,CMP0003,Engine,High,2026-03-15,2026-03-18,Completed,TECH226,65.16,Temperature threshold breach
+WO0000312,AC00025,CMP0007,Engine,Medium,2026-01-09,,In Progress,TECH344,16.17,Routine inspection finding
+WO0000313,AC00045,CMP0041,Landing Gear,High,2026-05-28,2026-05-28,Completed,TECH129,17.14,Post-flight inspection alert
+WO0000314,AC00005,CMP0050,Landing Gear,Low,2026-05-30,2026-06-01,Completed,TECH240,2.57,Pressure instability
+WO0000315,AC00043,CMP0063,Cabin,Low,2026-01-19,,In Progress,TECH151,9.28,Pressure instability
+WO0000316,AC00004,CMP0003,Engine,Medium,2026-03-17,,In Progress,TECH234,18.71,Component wear beyond tolerance
+WO0000317,AC00047,CMP0042,Landing Gear,Low,2026-01-22,2026-01-23,Completed,TECH316,3.37,High vibration detected
+WO0000318,AC00080,CMP0026,Hydraulic,Low,2026-03-20,2026-03-20,Completed,TECH139,2.06,Scheduled preventive maintenance
+WO0000319,AC00031,CMP0041,Landing Gear,High,2026-03-30,2026-04-02,Completed,TECH317,42.12,Oil pressure deviation
+WO0000320,AC00036,CMP0002,Engine,Low,2026-05-21,2026-05-21,Completed,TECH287,2.21,Routine inspection finding
+WO0000321,AC00031,CMP0037,Avionics,Medium,2026-04-21,2026-04-22,Completed,TECH265,10.8,Post-flight inspection alert
+WO0000322,AC00013,CMP0048,Landing Gear,Medium,2026-06-12,2026-06-13,Completed,TECH206,11.06,Sensor anomaly correlation
+WO0000323,AC00079,CMP0034,Avionics,Low,2026-02-22,2026-02-23,Completed,TECH157,9.58,Oil pressure deviation
+WO0000324,AC00041,CMP0068,Cabin,Medium,2026-03-24,2026-03-25,Completed,TECH239,8.34,Oil pressure deviation
+WO0000325,AC00070,CMP0051,Landing Gear,Low,2026-06-20,2026-06-21,Completed,TECH222,1.3,Scheduled preventive maintenance
+WO0000326,AC00067,CMP0034,Avionics,Medium,2026-06-22,,In Progress,TECH216,19.58,Post-flight inspection alert
+WO0000327,AC00075,CMP0034,Avionics,Low,2026-03-24,2026-03-24,Completed,TECH156,9.12,Sensor anomaly correlation
+WO0000328,AC00059,CMP0042,Landing Gear,Low,2026-05-16,,In Progress,TECH185,10.09,Component wear beyond tolerance
+WO0000329,AC00005,CMP0065,Cabin,High,2026-05-18,2026-05-22,Completed,TECH200,58.97,High vibration detected
+WO0000330,AC00020,CMP0024,Hydraulic,Medium,2026-05-02,2026-05-04,Completed,TECH254,23.98,High vibration detected
+WO0000331,AC00023,CMP0059,Electrical,High,2026-04-06,,In Progress,TECH279,22.54,Component wear beyond tolerance
+WO0000332,AC00079,CMP0033,Avionics,Low,2026-05-22,2026-05-24,Completed,TECH101,7.18,Pressure instability
+WO0000333,AC00076,CMP0029,Avionics,High,2026-06-03,,In Progress,TECH119,53.12,Routine inspection finding
+WO0000334,AC00028,CMP0014,Engine,Medium,2026-01-25,,In Progress,TECH152,9.35,Oil pressure deviation
+WO0000335,AC00033,CMP0054,Electrical,Low,2026-02-27,2026-02-27,Completed,TECH277,10.23,Component wear beyond tolerance
+WO0000336,AC00040,CMP0053,Electrical,High,2026-01-24,,In Progress,TECH182,23.45,Post-flight inspection alert
+WO0000337,AC00041,CMP0035,Avionics,Low,2026-06-29,2026-06-29,Completed,TECH320,6.39,Component wear beyond tolerance
+WO0000338,AC00026,CMP0030,Avionics,Low,2026-03-22,2026-03-24,Completed,TECH128,2.97,Routine inspection finding
+WO0000339,AC00073,CMP0010,Engine,Low,2026-02-13,2026-02-13,Completed,TECH225,3.85,Oil pressure deviation
+WO0000340,AC00052,CMP0008,Engine,Medium,2026-05-17,2026-05-18,Completed,TECH226,4.18,Routine inspection finding
+WO0000341,AC00077,CMP0052,Electrical,High,2026-02-06,2026-02-09,Completed,TECH114,30.01,Pressure instability
+WO0000342,AC00060,CMP0008,Engine,Low,2026-04-14,2026-04-16,Completed,TECH320,4.35,Sensor anomaly correlation
+WO0000343,AC00067,CMP0059,Electrical,Medium,2026-06-23,2026-06-25,Completed,TECH174,18.01,Oil pressure deviation
+WO0000344,AC00052,CMP0056,Electrical,Low,2026-06-06,2026-06-08,Completed,TECH317,7.54,High vibration detected
+WO0000345,AC00021,CMP0017,Hydraulic,High,2026-01-13,2026-01-15,Completed,TECH166,29.25,Post-flight inspection alert
+WO0000346,AC00044,CMP0010,Engine,Low,2026-04-28,2026-04-28,Completed,TECH349,3.63,Post-flight inspection alert
+WO0000347,AC00067,CMP0027,Hydraulic,Low,2026-06-10,,Open,TECH135,4.85,Sensor anomaly correlation
+WO0000348,AC00010,CMP0051,Landing Gear,Medium,2026-06-21,2026-06-21,Completed,TECH190,7.03,Sensor anomaly correlation
+WO0000349,AC00022,CMP0062,Cabin,Low,2026-06-24,2026-06-26,Completed,TECH266,10.43,Pressure instability
+WO0000350,AC00063,CMP0034,Avionics,Medium,2026-04-12,2026-04-13,Completed,TECH312,23.9,Temperature threshold breach
+WO0000351,AC00020,CMP0060,Electrical,Medium,2026-05-03,2026-05-04,Completed,TECH164,8.04,Sensor anomaly correlation
+WO0000352,AC00005,CMP0034,Avionics,Medium,2026-03-16,,In Progress,TECH291,14.74,Sensor anomaly correlation
+WO0000353,AC00053,CMP0062,Cabin,Medium,2026-04-25,2026-04-25,Completed,TECH241,13.06,Scheduled preventive maintenance
+WO0000354,AC00057,CMP0050,Landing Gear,Medium,2026-02-13,2026-02-13,Completed,TECH102,19.96,Sensor anomaly correlation
+WO0000355,AC00073,CMP0041,Landing Gear,Low,2026-02-24,2026-02-25,Completed,TECH346,9.32,Pressure instability
+WO0000356,AC00033,CMP0034,Avionics,High,2026-01-16,2026-01-19,Completed,TECH106,58.02,Sensor anomaly correlation
+WO0000357,AC00051,CMP0021,Hydraulic,High,2026-05-29,,In Progress,TECH173,34.09,Pressure instability
+WO0000358,AC00012,CMP0031,Avionics,Low,2026-02-21,2026-02-23,Completed,TECH122,10.5,Temperature threshold breach
+WO0000359,AC00063,CMP0025,Hydraulic,Low,2026-02-25,2026-02-25,Completed,TECH152,3.3,Temperature threshold breach
+WO0000360,AC00006,CMP0053,Electrical,Low,2026-04-18,2026-04-19,Completed,TECH107,9.51,High vibration detected
+WO0000361,AC00021,CMP0035,Avionics,Low,2026-03-21,2026-03-21,Completed,TECH166,3.1,Pressure instability
+WO0000362,AC00073,CMP0032,Avionics,Low,2026-02-08,2026-02-08,Completed,TECH146,11.22,Intermittent signal failure
+WO0000363,AC00005,CMP0040,Landing Gear,High,2026-01-05,,Open,TECH159,20.92,Routine inspection finding
+WO0000364,AC00005,CMP0064,Cabin,Medium,2026-05-05,2026-05-05,Completed,TECH343,14.72,Temperature threshold breach
+WO0000365,AC00009,CMP0049,Landing Gear,Critical,2026-05-30,,In Progress,TECH141,42.9,Intermittent signal failure
+WO0000366,AC00055,CMP0023,Hydraulic,Medium,2026-03-19,,In Progress,TECH124,5.8,Component wear beyond tolerance
+WO0000367,AC00016,CMP0056,Electrical,Medium,2026-04-19,2026-04-20,Completed,TECH324,5.14,Oil pressure deviation
+WO0000368,AC00014,CMP0034,Avionics,Medium,2026-05-24,,In Progress,TECH249,19.76,Temperature threshold breach
+WO0000369,AC00076,CMP0011,Engine,Medium,2026-06-25,2026-06-27,Completed,TECH293,9.69,Sensor anomaly correlation
+WO0000370,AC00050,CMP0003,Engine,High,2026-03-23,2026-03-25,Completed,TECH318,49.4,Routine inspection finding
+WO0000371,AC00047,CMP0038,Avionics,Medium,2026-03-13,,In Progress,TECH248,23.47,High vibration detected
+WO0000372,AC00065,CMP0045,Landing Gear,Low,2026-04-23,2026-04-24,Completed,TECH320,2.32,High vibration detected
+WO0000373,AC00009,CMP0061,Cabin,Medium,2026-05-29,2026-05-31,Completed,TECH292,4.83,Pressure instability
+WO0000374,AC00003,CMP0006,Engine,High,2026-03-18,2026-03-22,Completed,TECH275,61.66,High vibration detected
+WO0000375,AC00022,CMP0001,Engine,Low,2026-01-28,,In Progress,TECH303,3.28,Post-flight inspection alert
+WO0000376,AC00033,CMP0035,Avionics,High,2026-03-18,2026-03-20,Completed,TECH197,69.74,Post-flight inspection alert
+WO0000377,AC00029,CMP0062,Cabin,Low,2026-05-31,2026-06-02,Completed,TECH240,11.86,Intermittent signal failure
+WO0000378,AC00076,CMP0006,Engine,Low,2026-04-17,,Open,TECH312,7.7,Oil pressure deviation
+WO0000379,AC00028,CMP0002,Engine,Low,2026-06-29,2026-06-29,Completed,TECH201,8.21,Intermittent signal failure
+WO0000380,AC00068,CMP0043,Landing Gear,Medium,2026-01-15,2026-01-15,Completed,TECH342,22.49,Routine inspection finding
+WO0000381,AC00065,CMP0025,Hydraulic,Medium,2026-03-28,2026-03-29,Completed,TECH137,20.94,Oil pressure deviation
+WO0000382,AC00043,CMP0042,Landing Gear,High,2026-04-27,,In Progress,TECH198,34.8,Routine inspection finding
+WO0000383,AC00018,CMP0065,Cabin,Medium,2026-04-09,2026-04-09,Completed,TECH287,23.26,Pressure instability
+WO0000384,AC00034,CMP0054,Electrical,High,2026-02-04,,In Progress,TECH201,51.66,Component wear beyond tolerance
+WO0000385,AC00046,CMP0065,Cabin,High,2026-02-25,,In Progress,TECH115,66.36,Routine inspection finding
+WO0000386,AC00002,CMP0024,Hydraulic,Low,2026-01-08,,Open,TECH181,8.33,Scheduled preventive maintenance
+WO0000387,AC00043,CMP0035,Avionics,Medium,2026-03-19,2026-03-19,Completed,TECH223,12.09,Scheduled preventive maintenance
+WO0000388,AC00045,CMP0003,Engine,Medium,2026-02-07,,Open,TECH244,11.43,Post-flight inspection alert
+WO0000389,AC00049,CMP0008,Engine,High,2026-04-04,2026-04-07,Completed,TECH296,57.2,Temperature threshold breach
+WO0000390,AC00040,CMP0002,Engine,Low,2026-01-05,2026-01-06,Completed,TECH318,2.4,Pressure instability
+WO0000391,AC00075,CMP0007,Engine,Low,2026-05-05,2026-05-06,Completed,TECH199,8.46,Scheduled preventive maintenance
+WO0000392,AC00073,CMP0006,Engine,Low,2026-03-27,2026-03-28,Completed,TECH231,6.41,Oil pressure deviation
+WO0000393,AC00019,CMP0064,Cabin,Medium,2026-03-30,2026-03-30,Completed,TECH123,5.83,Post-flight inspection alert
+WO0000394,AC00020,CMP0064,Cabin,Low,2026-05-23,2026-05-24,Completed,TECH184,2.31,Routine inspection finding
+WO0000395,AC00039,CMP0019,Hydraulic,Medium,2026-06-21,2026-06-22,Completed,TECH111,9.0,Pressure instability
+WO0000396,AC00026,CMP0065,Cabin,High,2026-01-03,2026-01-05,Completed,TECH156,18.47,High vibration detected
+WO0000397,AC00071,CMP0030,Avionics,Critical,2026-03-17,2026-03-22,Completed,TECH159,123.37,Intermittent signal failure
+WO0000398,AC00080,CMP0044,Landing Gear,Medium,2026-04-14,,Open,TECH243,6.49,Component wear beyond tolerance
+WO0000399,AC00080,CMP0010,Engine,High,2026-02-04,2026-02-07,Completed,TECH103,46.1,Scheduled preventive maintenance
+WO0000400,AC00026,CMP0008,Engine,Low,2026-06-29,2026-06-30,Completed,TECH220,6.35,Oil pressure deviation
+WO0000401,AC00053,CMP0024,Hydraulic,Low,2026-05-28,,In Progress,TECH272,11.92,Scheduled preventive maintenance
+WO0000402,AC00035,CMP0063,Cabin,High,2026-02-25,2026-02-27,Completed,TECH349,45.1,Intermittent signal failure
+WO0000403,AC00028,CMP0008,Engine,Medium,2026-05-10,,In Progress,TECH103,4.67,Routine inspection finding
+WO0000404,AC00050,CMP0039,Avionics,Medium,2026-05-23,2026-05-25,Completed,TECH205,18.32,Scheduled preventive maintenance
+WO0000405,AC00069,CMP0021,Hydraulic,Medium,2026-03-12,,In Progress,TECH167,11.13,Post-flight inspection alert
+WO0000406,AC00066,CMP0030,Avionics,High,2026-02-14,,Open,TECH127,42.44,Oil pressure deviation
+WO0000407,AC00015,CMP0036,Avionics,Medium,2026-04-23,2026-04-25,Completed,TECH241,18.71,Sensor anomaly correlation
+WO0000408,AC00043,CMP0060,Electrical,Medium,2026-01-27,2026-01-27,Completed,TECH237,5.77,Component wear beyond tolerance
+WO0000409,AC00020,CMP0012,Engine,Critical,2026-04-23,2026-04-29,Completed,TECH156,96.57,Post-flight inspection alert
+WO0000410,AC00052,CMP0055,Electrical,Low,2026-06-01,2026-06-01,Completed,TECH123,4.01,Sensor anomaly correlation
+WO0000411,AC00061,CMP0044,Landing Gear,Low,2026-06-13,,Open,TECH291,11.16,Intermittent signal failure
+WO0000412,AC00005,CMP0069,Cabin,High,2026-02-02,2026-02-04,Completed,TECH303,40.16,Pressure instability
+WO0000413,AC00055,CMP0039,Avionics,High,2026-06-02,2026-06-05,Completed,TECH125,71.28,Sensor anomaly correlation
+WO0000414,AC00048,CMP0028,Avionics,High,2026-03-31,,In Progress,TECH337,67.06,Component wear beyond tolerance
+WO0000415,AC00044,CMP0050,Landing Gear,High,2026-03-17,,Open,TECH108,57.42,Temperature threshold breach
+WO0000416,AC00015,CMP0003,Engine,High,2026-05-14,2026-05-18,Completed,TECH201,69.07,Component wear beyond tolerance
+WO0000417,AC00040,CMP0053,Electrical,Low,2026-02-05,2026-02-06,Completed,TECH103,8.92,Routine inspection finding
+WO0000418,AC00037,CMP0061,Cabin,Low,2026-03-25,2026-03-26,Completed,TECH201,2.71,Temperature threshold breach
+WO0000419,AC00003,CMP0002,Engine,Medium,2026-02-13,2026-02-13,Completed,TECH106,7.25,Pressure instability
+WO0000420,AC00046,CMP0025,Hydraulic,High,2026-05-19,2026-05-21,Completed,TECH322,29.64,Pressure instability
+WO0000421,AC00030,CMP0048,Landing Gear,Low,2026-05-09,2026-05-09,Completed,TECH233,2.44,Temperature threshold breach
+WO0000422,AC00007,CMP0050,Landing Gear,Critical,2026-01-18,,In Progress,TECH252,130.43,Temperature threshold breach
+WO0000423,AC00024,CMP0053,Electrical,Low,2026-03-22,2026-03-24,Completed,TECH293,9.8,Intermittent signal failure
+WO0000424,AC00072,CMP0047,Landing Gear,Low,2026-03-29,2026-03-31,Completed,TECH124,3.64,Intermittent signal failure
+WO0000425,AC00030,CMP0035,Avionics,Medium,2026-06-06,2026-06-06,Completed,TECH168,19.64,Sensor anomaly correlation
+WO0000426,AC00073,CMP0005,Engine,Medium,2026-06-02,,Open,TECH117,22.26,Routine inspection finding
+WO0000427,AC00016,CMP0004,Engine,Critical,2026-01-15,,In Progress,TECH343,71.57,Scheduled preventive maintenance
+WO0000428,AC00038,CMP0038,Avionics,High,2026-01-16,,In Progress,TECH176,61.89,Scheduled preventive maintenance
+WO0000429,AC00026,CMP0013,Engine,Low,2026-02-23,2026-02-25,Completed,TECH125,6.05,Scheduled preventive maintenance
+WO0000430,AC00003,CMP0031,Avionics,Critical,2026-03-25,2026-03-30,Completed,TECH285,114.1,Sensor anomaly correlation
+WO0000431,AC00006,CMP0012,Engine,Critical,2026-01-15,,In Progress,TECH156,90.79,Component wear beyond tolerance
+WO0000432,AC00071,CMP0027,Hydraulic,Medium,2026-01-31,2026-01-31,Completed,TECH329,5.11,Pressure instability
+WO0000433,AC00048,CMP0057,Electrical,Medium,2026-06-08,,Open,TECH174,11.53,Pressure instability
+WO0000434,AC00026,CMP0055,Electrical,High,2026-06-18,2026-06-22,Completed,TECH326,55.1,Sensor anomaly correlation
+WO0000435,AC00073,CMP0043,Landing Gear,Medium,2026-06-03,2026-06-05,Completed,TECH336,22.94,Scheduled preventive maintenance
+WO0000436,AC00065,CMP0020,Hydraulic,Critical,2026-03-03,2026-03-04,Completed,TECH176,45.15,Routine inspection finding
+WO0000437,AC00051,CMP0047,Landing Gear,High,2026-01-03,2026-01-04,Completed,TECH223,42.46,Intermittent signal failure
+WO0000438,AC00002,CMP0067,Cabin,High,2026-03-11,2026-03-14,Completed,TECH218,47.94,Intermittent signal failure
+WO0000439,AC00009,CMP0011,Engine,High,2026-03-21,2026-03-23,Completed,TECH207,40.51,Scheduled preventive maintenance
+WO0000440,AC00068,CMP0016,Hydraulic,Medium,2026-04-04,2026-04-05,Completed,TECH208,11.65,Routine inspection finding
+WO0000441,AC00033,CMP0025,Hydraulic,Low,2026-01-10,2026-01-10,Completed,TECH291,9.29,Scheduled preventive maintenance
+WO0000442,AC00011,CMP0064,Cabin,Low,2026-05-21,2026-05-21,Completed,TECH332,8.58,Post-flight inspection alert
+WO0000443,AC00022,CMP0014,Engine,Low,2026-01-25,2026-01-26,Completed,TECH181,3.94,Component wear beyond tolerance
+WO0000444,AC00017,CMP0044,Landing Gear,High,2026-05-16,,Open,TECH130,59.27,Routine inspection finding
+WO0000445,AC00061,CMP0038,Avionics,Medium,2026-04-20,2026-04-22,Completed,TECH255,7.95,Sensor anomaly correlation
+WO0000446,AC00003,CMP0001,Engine,Low,2026-05-29,2026-05-31,Completed,TECH161,6.2,Pressure instability
+WO0000447,AC00022,CMP0067,Cabin,Low,2026-02-22,2026-02-22,Completed,TECH343,9.84,High vibration detected
+WO0000448,AC00062,CMP0065,Cabin,Medium,2026-03-31,2026-04-02,Completed,TECH242,21.04,Temperature threshold breach
+WO0000449,AC00049,CMP0046,Landing Gear,Low,2026-03-30,2026-03-30,Completed,TECH296,4.8,Intermittent signal failure
+WO0000450,AC00077,CMP0048,Landing Gear,High,2026-04-30,,In Progress,TECH211,15.32,High vibration detected
+WO0000451,AC00066,CMP0041,Landing Gear,Low,2026-04-24,,Open,TECH233,9.6,Component wear beyond tolerance
+WO0000452,AC00009,CMP0014,Engine,Low,2026-06-20,2026-06-22,Completed,TECH254,9.72,Pressure instability
+WO0000453,AC00001,CMP0054,Electrical,Low,2026-01-07,2026-01-09,Completed,TECH287,5.08,Component wear beyond tolerance
+WO0000454,AC00039,CMP0037,Avionics,Medium,2026-04-18,,In Progress,TECH212,21.93,Oil pressure deviation
+WO0000455,AC00048,CMP0050,Landing Gear,Low,2026-01-19,2026-01-20,Completed,TECH326,3.6,High vibration detected
+WO0000456,AC00021,CMP0064,Cabin,Medium,2026-04-05,2026-04-07,Completed,TECH114,18.64,Scheduled preventive maintenance
+WO0000457,AC00080,CMP0031,Avionics,Medium,2026-01-15,2026-01-17,Completed,TECH190,16.83,Intermittent signal failure
+WO0000458,AC00032,CMP0010,Engine,Low,2026-03-25,2026-03-26,Completed,TECH142,4.72,Pressure instability
+WO0000459,AC00010,CMP0042,Landing Gear,Medium,2026-03-25,2026-03-27,Completed,TECH187,18.06,Component wear beyond tolerance
+WO0000460,AC00033,CMP0034,Avionics,Low,2026-04-11,,In Progress,TECH186,11.79,Pressure instability
+WO0000461,AC00057,CMP0040,Landing Gear,High,2026-02-22,2026-02-25,Completed,TECH222,26.27,Post-flight inspection alert
+WO0000462,AC00003,CMP0028,Avionics,Low,2026-03-16,2026-03-17,Completed,TECH341,7.07,Temperature threshold breach
+WO0000463,AC00033,CMP0033,Avionics,Low,2026-04-13,2026-04-15,Completed,TECH312,10.78,Pressure instability
+WO0000464,AC00004,CMP0043,Landing Gear,High,2026-01-26,2026-01-27,Completed,TECH234,29.31,Routine inspection finding
+WO0000465,AC00070,CMP0002,Engine,Low,2026-05-10,2026-05-10,Completed,TECH294,7.61,Intermittent signal failure
+WO0000466,AC00052,CMP0053,Electrical,Medium,2026-01-22,2026-01-23,Completed,TECH207,7.62,Oil pressure deviation
+WO0000467,AC00057,CMP0046,Landing Gear,High,2026-03-04,2026-03-05,Completed,TECH306,47.72,Temperature threshold breach
+WO0000468,AC00033,CMP0034,Avionics,High,2026-05-09,2026-05-11,Completed,TECH343,12.4,Routine inspection finding
+WO0000469,AC00056,CMP0047,Landing Gear,Critical,2026-04-29,,In Progress,TECH152,152.88,Component wear beyond tolerance
+WO0000470,AC00031,CMP0005,Engine,Low,2026-05-30,,In Progress,TECH333,5.65,Sensor anomaly correlation
+WO0000471,AC00078,CMP0055,Electrical,Critical,2026-02-16,,In Progress,TECH173,166.82,Oil pressure deviation
+WO0000472,AC00072,CMP0033,Avionics,Medium,2026-02-07,2026-02-09,Completed,TECH273,13.13,Temperature threshold breach
+WO0000473,AC00010,CMP0022,Hydraulic,High,2026-06-12,2026-06-12,Completed,TECH326,14.48,Temperature threshold breach
+WO0000474,AC00044,CMP0057,Electrical,Medium,2026-05-30,2026-05-31,Completed,TECH176,21.94,Routine inspection finding
+WO0000475,AC00048,CMP0025,Hydraulic,Medium,2026-05-22,2026-05-23,Completed,TECH116,9.55,Pressure instability
+WO0000476,AC00058,CMP0032,Avionics,Low,2026-06-28,2026-06-28,Completed,TECH117,3.79,Scheduled preventive maintenance
+WO0000477,AC00052,CMP0018,Hydraulic,Medium,2026-04-28,2026-04-30,Completed,TECH209,20.34,Scheduled preventive maintenance
+WO0000478,AC00054,CMP0063,Cabin,High,2026-03-01,2026-03-02,Completed,TECH186,16.32,Oil pressure deviation
+WO0000479,AC00062,CMP0014,Engine,Low,2026-02-06,,Open,TECH224,11.66,Scheduled preventive maintenance
+WO0000480,AC00067,CMP0008,Engine,Medium,2026-03-10,,In Progress,TECH168,6.27,Component wear beyond tolerance
+WO0000481,AC00080,CMP0010,Engine,Medium,2026-05-05,2026-05-06,Completed,TECH245,5.03,Pressure instability
+WO0000482,AC00013,CMP0063,Cabin,Medium,2026-02-25,2026-02-26,Completed,TECH174,13.07,Temperature threshold breach
+WO0000483,AC00043,CMP0036,Avionics,Critical,2026-04-24,2026-04-25,Completed,TECH266,37.87,Pressure instability
+WO0000484,AC00034,CMP0047,Landing Gear,Low,2026-01-23,2026-01-25,Completed,TECH130,7.83,Scheduled preventive maintenance
+WO0000485,AC00004,CMP0034,Avionics,Critical,2026-02-06,2026-02-08,Completed,TECH111,65.73,Post-flight inspection alert
+WO0000486,AC00032,CMP0058,Electrical,Low,2026-03-15,2026-03-17,Completed,TECH256,8.34,Intermittent signal failure
+WO0000487,AC00031,CMP0040,Landing Gear,Critical,2026-03-21,2026-03-25,Completed,TECH315,65.1,Component wear beyond tolerance
+WO0000488,AC00005,CMP0024,Hydraulic,Medium,2026-03-17,2026-03-17,Completed,TECH180,19.5,Routine inspection finding
+WO0000489,AC00026,CMP0032,Avionics,Low,2026-06-15,2026-06-17,Completed,TECH265,11.04,Pressure instability
+WO0000490,AC00063,CMP0049,Landing Gear,High,2026-02-08,2026-02-12,Completed,TECH347,49.39,Post-flight inspection alert
+WO0000491,AC00025,CMP0006,Engine,Low,2026-04-12,2026-04-12,Completed,TECH135,8.49,Temperature threshold breach
+WO0000492,AC00036,CMP0029,Avionics,High,2026-04-09,2026-04-10,Completed,TECH177,14.22,Scheduled preventive maintenance
+WO0000493,AC00059,CMP0039,Avionics,Medium,2026-03-03,2026-03-03,Completed,TECH253,9.55,Scheduled preventive maintenance
+WO0000494,AC00027,CMP0027,Hydraulic,Low,2026-01-31,2026-02-02,Completed,TECH214,9.4,Routine inspection finding
+WO0000495,AC00021,CMP0011,Engine,Low,2026-01-07,2026-01-07,Completed,TECH272,9.51,Temperature threshold breach
+WO0000496,AC00016,CMP0033,Avionics,Low,2026-06-27,2026-06-29,Completed,TECH266,2.7,Scheduled preventive maintenance
+WO0000497,AC00029,CMP0029,Avionics,Low,2026-03-13,2026-03-13,Completed,TECH350,10.69,Oil pressure deviation
+WO0000498,AC00020,CMP0013,Engine,High,2026-01-20,,In Progress,TECH230,55.46,High vibration detected
+WO0000499,AC00018,CMP0030,Avionics,Low,2026-04-26,2026-04-28,Completed,TECH349,5.21,Scheduled preventive maintenance
+WO0000500,AC00032,CMP0004,Engine,Medium,2026-04-05,,Open,TECH326,16.01,Component wear beyond tolerance
+WO0000501,AC00072,CMP0005,Engine,Low,2026-03-29,2026-03-29,Completed,TECH247,4.11,Intermittent signal failure
+WO0000502,AC00068,CMP0048,Landing Gear,Medium,2026-01-21,2026-01-23,Completed,TECH117,9.83,Pressure instability
+WO0000503,AC00042,CMP0028,Avionics,Low,2026-06-07,2026-06-07,Completed,TECH333,8.07,Pressure instability
+WO0000504,AC00010,CMP0059,Electrical,Low,2026-04-14,2026-04-14,Completed,TECH247,10.27,Sensor anomaly correlation
+WO0000505,AC00053,CMP0029,Avionics,Low,2026-06-24,,In Progress,TECH293,5.14,Intermittent signal failure
+WO0000506,AC00069,CMP0022,Hydraulic,Medium,2026-01-18,2026-01-19,Completed,TECH337,20.16,Scheduled preventive maintenance
+WO0000507,AC00077,CMP0008,Engine,Medium,2026-04-01,2026-04-01,Completed,TECH154,19.45,Component wear beyond tolerance
+WO0000508,AC00042,CMP0003,Engine,Medium,2026-01-15,2026-01-17,Completed,TECH245,20.53,Scheduled preventive maintenance
+WO0000509,AC00010,CMP0010,Engine,High,2026-06-11,2026-06-13,Completed,TECH298,43.53,Oil pressure deviation
+WO0000510,AC00010,CMP0027,Hydraulic,Medium,2026-02-19,2026-02-19,Completed,TECH231,7.14,Intermittent signal failure
+WO0000511,AC00054,CMP0013,Engine,Low,2026-01-06,2026-01-07,Completed,TECH332,5.24,Sensor anomaly correlation
+WO0000512,AC00076,CMP0050,Landing Gear,Low,2026-05-08,,In Progress,TECH273,8.39,Intermittent signal failure
+WO0000513,AC00018,CMP0021,Hydraulic,Low,2026-03-03,,In Progress,TECH274,6.73,Sensor anomaly correlation
+WO0000514,AC00029,CMP0067,Cabin,High,2026-06-13,,Open,TECH163,71.61,Scheduled preventive maintenance
+WO0000515,AC00043,CMP0036,Avionics,Medium,2026-03-29,2026-03-29,Completed,TECH145,13.78,Post-flight inspection alert
+WO0000516,AC00032,CMP0014,Engine,Low,2026-02-03,,Open,TECH199,1.6,Oil pressure deviation
+WO0000517,AC00047,CMP0058,Electrical,Medium,2026-03-28,2026-03-30,Completed,TECH287,17.17,Oil pressure deviation
+WO0000518,AC00038,CMP0035,Avionics,Low,2026-03-02,2026-03-04,Completed,TECH154,5.26,High vibration detected
+WO0000519,AC00011,CMP0021,Hydraulic,High,2026-03-19,2026-03-21,Completed,TECH192,43.46,Scheduled preventive maintenance
+WO0000520,AC00003,CMP0050,Landing Gear,Medium,2026-05-26,2026-05-26,Completed,TECH234,4.71,Component wear beyond tolerance
+WO0000521,AC00038,CMP0026,Hydraulic,Low,2026-06-09,2026-06-10,Completed,TECH135,2.01,Sensor anomaly correlation
+WO0000522,AC00057,CMP0040,Landing Gear,High,2026-03-06,2026-03-06,Completed,TECH178,15.39,Scheduled preventive maintenance
+WO0000523,AC00023,CMP0007,Engine,High,2026-06-19,,Open,TECH330,29.94,Component wear beyond tolerance
+WO0000524,AC00050,CMP0031,Avionics,Medium,2026-01-24,,Open,TECH349,5.23,Intermittent signal failure
+WO0000525,AC00008,CMP0042,Landing Gear,High,2026-06-10,,Open,TECH260,43.64,High vibration detected
+WO0000526,AC00028,CMP0038,Avionics,Medium,2026-01-09,2026-01-11,Completed,TECH259,15.57,Sensor anomaly correlation
+WO0000527,AC00064,CMP0051,Landing Gear,High,2026-02-25,2026-02-26,Completed,TECH110,30.17,Pressure instability
+WO0000528,AC00077,CMP0010,Engine,Low,2026-02-11,2026-02-11,Completed,TECH322,4.43,Sensor anomaly correlation
+WO0000529,AC00024,CMP0034,Avionics,High,2026-01-19,2026-01-19,Completed,TECH201,21.85,Scheduled preventive maintenance
+WO0000530,AC00038,CMP0022,Hydraulic,Medium,2026-03-07,,In Progress,TECH238,4.6,Pressure instability
+WO0000531,AC00077,CMP0024,Hydraulic,High,2026-03-29,2026-03-29,Completed,TECH302,22.94,Scheduled preventive maintenance
+WO0000532,AC00005,CMP0062,Cabin,Low,2026-06-04,2026-06-05,Completed,TECH200,10.08,Component wear beyond tolerance
+WO0000533,AC00020,CMP0067,Cabin,Medium,2026-05-19,2026-05-20,Completed,TECH342,20.36,Temperature threshold breach
+WO0000534,AC00056,CMP0021,Hydraulic,Low,2026-03-31,2026-03-31,Completed,TECH184,9.54,Sensor anomaly correlation
+WO0000535,AC00064,CMP0034,Avionics,Medium,2026-04-03,2026-04-05,Completed,TECH256,7.21,Sensor anomaly correlation
+WO0000536,AC00072,CMP0004,Engine,High,2026-03-18,2026-03-21,Completed,TECH281,44.15,High vibration detected
+WO0000537,AC00018,CMP0035,Avionics,Low,2026-01-13,2026-01-14,Completed,TECH171,10.26,Sensor anomaly correlation
+WO0000538,AC00012,CMP0012,Engine,Medium,2026-04-23,2026-04-23,Completed,TECH311,13.44,Component wear beyond tolerance
+WO0000539,AC00056,CMP0038,Avionics,High,2026-03-22,2026-03-25,Completed,TECH109,32.16,Temperature threshold breach
+WO0000540,AC00059,CMP0019,Hydraulic,Medium,2026-05-14,2026-05-14,Completed,TECH107,23.77,Intermittent signal failure
+WO0000541,AC00029,CMP0010,Engine,Medium,2026-06-15,2026-06-16,Completed,TECH213,7.13,Pressure instability
+WO0000542,AC00077,CMP0055,Electrical,Low,2026-01-07,2026-01-08,Completed,TECH252,4.16,Intermittent signal failure
+WO0000543,AC00042,CMP0068,Cabin,Low,2026-06-04,,Open,TECH129,1.41,Temperature threshold breach
+WO0000544,AC00070,CMP0059,Electrical,Medium,2026-06-04,2026-06-06,Completed,TECH273,22.06,Intermittent signal failure
+WO0000545,AC00060,CMP0033,Avionics,Medium,2026-02-01,2026-02-01,Completed,TECH321,5.02,Intermittent signal failure
+WO0000546,AC00078,CMP0031,Avionics,Low,2026-02-09,2026-02-11,Completed,TECH337,11.69,Intermittent signal failure
+WO0000547,AC00043,CMP0004,Engine,High,2026-05-25,2026-05-28,Completed,TECH113,62.47,Post-flight inspection alert
+WO0000548,AC00001,CMP0067,Cabin,Low,2026-05-19,2026-05-21,Completed,TECH158,3.19,Intermittent signal failure
+WO0000549,AC00068,CMP0039,Avionics,High,2026-04-17,,In Progress,TECH153,29.29,Sensor anomaly correlation
+WO0000550,AC00071,CMP0059,Electrical,Medium,2026-02-15,2026-02-17,Completed,TECH278,18.3,Scheduled preventive maintenance
+WO0000551,AC00023,CMP0021,Hydraulic,Medium,2026-04-16,,Open,TECH145,22.68,Component wear beyond tolerance
+WO0000552,AC00015,CMP0036,Avionics,Low,2026-01-22,2026-01-24,Completed,TECH235,2.24,Temperature threshold breach
+WO0000553,AC00073,CMP0027,Hydraulic,Medium,2026-02-18,,In Progress,TECH266,8.12,Scheduled preventive maintenance
+WO0000554,AC00072,CMP0057,Electrical,Low,2026-03-21,,In Progress,TECH139,11.78,Routine inspection finding
+WO0000555,AC00051,CMP0069,Cabin,Critical,2026-05-06,2026-05-11,Completed,TECH172,86.42,Temperature threshold breach
+WO0000556,AC00041,CMP0010,Engine,Medium,2026-05-20,,Open,TECH311,15.48,Post-flight inspection alert
+WO0000557,AC00010,CMP0001,Engine,High,2026-06-14,2026-06-16,Completed,TECH255,31.31,Sensor anomaly correlation
+WO0000558,AC00064,CMP0038,Avionics,High,2026-04-09,2026-04-13,Completed,TECH284,66.67,Post-flight inspection alert
+WO0000559,AC00013,CMP0001,Engine,Low,2026-03-18,,In Progress,TECH308,11.7,Sensor anomaly correlation
+WO0000560,AC00013,CMP0016,Hydraulic,Low,2026-05-17,,Open,TECH313,4.93,Scheduled preventive maintenance
+WO0000561,AC00023,CMP0053,Electrical,Low,2026-01-04,,Open,TECH185,3.76,Pressure instability
+WO0000562,AC00077,CMP0016,Hydraulic,Low,2026-05-20,,Open,TECH233,4.17,Component wear beyond tolerance
+WO0000563,AC00011,CMP0021,Hydraulic,Low,2026-01-29,2026-01-30,Completed,TECH164,9.89,Temperature threshold breach
+WO0000564,AC00071,CMP0066,Cabin,High,2026-02-17,2026-02-18,Completed,TECH130,40.65,Post-flight inspection alert
+WO0000565,AC00017,CMP0008,Engine,Low,2026-05-26,2026-05-27,Completed,TECH184,10.74,Temperature threshold breach
+WO0000566,AC00034,CMP0042,Landing Gear,Low,2026-01-01,2026-01-02,Completed,TECH232,2.5,Post-flight inspection alert
+WO0000567,AC00018,CMP0041,Landing Gear,High,2026-06-01,,In Progress,TECH209,21.26,Scheduled preventive maintenance
+WO0000568,AC00068,CMP0061,Cabin,Medium,2026-04-14,,In Progress,TECH223,18.86,Pressure instability
+WO0000569,AC00021,CMP0045,Landing Gear,High,2026-04-29,2026-05-01,Completed,TECH318,58.39,Temperature threshold breach
+WO0000570,AC00013,CMP0036,Avionics,Low,2026-03-29,,Open,TECH298,5.51,Oil pressure deviation
+WO0000571,AC00049,CMP0035,Avionics,Low,2026-05-25,2026-05-25,Completed,TECH259,5.44,Post-flight inspection alert
+WO0000572,AC00017,CMP0026,Hydraulic,Medium,2026-06-20,,In Progress,TECH191,17.14,Post-flight inspection alert
+WO0000573,AC00018,CMP0044,Landing Gear,Medium,2026-01-06,2026-01-08,Completed,TECH275,23.71,High vibration detected
+WO0000574,AC00043,CMP0004,Engine,Medium,2026-05-16,2026-05-16,Completed,TECH322,20.91,Scheduled preventive maintenance
+WO0000575,AC00029,CMP0062,Cabin,High,2026-01-01,2026-01-01,Completed,TECH242,13.06,Sensor anomaly correlation
+WO0000576,AC00003,CMP0008,Engine,Low,2026-06-26,2026-06-27,Completed,TECH234,8.55,Post-flight inspection alert
+WO0000577,AC00079,CMP0026,Hydraulic,Low,2026-05-22,,In Progress,TECH232,10.03,High vibration detected
+WO0000578,AC00062,CMP0001,Engine,Medium,2026-05-15,,In Progress,TECH116,18.06,Component wear beyond tolerance
+WO0000579,AC00045,CMP0011,Engine,Low,2026-06-11,2026-06-12,Completed,TECH231,6.79,Temperature threshold breach
+WO0000580,AC00078,CMP0046,Landing Gear,Medium,2026-01-18,,In Progress,TECH313,18.23,Component wear beyond tolerance
+WO0000581,AC00078,CMP0025,Hydraulic,Medium,2026-05-14,2026-05-14,Completed,TECH264,7.94,Temperature threshold breach
+WO0000582,AC00024,CMP0069,Cabin,High,2026-03-20,,In Progress,TECH183,39.71,Component wear beyond tolerance
+WO0000583,AC00010,CMP0031,Avionics,Low,2026-05-12,2026-05-13,Completed,TECH324,3.33,Routine inspection finding
+WO0000584,AC00036,CMP0063,Cabin,Medium,2026-01-03,,Open,TECH342,14.16,Post-flight inspection alert
+WO0000585,AC00041,CMP0026,Hydraulic,High,2026-03-18,2026-03-21,Completed,TECH340,40.91,Scheduled preventive maintenance
+WO0000586,AC00079,CMP0062,Cabin,Low,2026-01-06,,In Progress,TECH240,10.41,Intermittent signal failure
+WO0000587,AC00068,CMP0058,Electrical,High,2026-01-04,2026-01-08,Completed,TECH233,68.93,High vibration detected
+WO0000588,AC00056,CMP0001,Engine,Low,2026-02-06,,In Progress,TECH106,5.97,High vibration detected
+WO0000589,AC00015,CMP0045,Landing Gear,High,2026-05-23,2026-05-26,Completed,TECH187,47.23,Routine inspection finding
+WO0000590,AC00011,CMP0007,Engine,High,2026-04-24,2026-04-24,Completed,TECH263,23.02,Post-flight inspection alert
+WO0000591,AC00073,CMP0018,Hydraulic,Medium,2026-01-16,,In Progress,TECH133,12.57,Sensor anomaly correlation
+WO0000592,AC00042,CMP0068,Cabin,High,2026-01-30,2026-01-30,Completed,TECH315,12.67,Scheduled preventive maintenance
+WO0000593,AC00012,CMP0023,Hydraulic,Medium,2026-04-06,2026-04-07,Completed,TECH110,15.88,Sensor anomaly correlation
+WO0000594,AC00034,CMP0056,Electrical,Medium,2026-06-20,2026-06-20,Completed,TECH101,21.38,Scheduled preventive maintenance
+WO0000595,AC00080,CMP0015,Engine,Low,2026-01-01,,Open,TECH286,1.42,Sensor anomaly correlation
+WO0000596,AC00014,CMP0022,Hydraulic,High,2026-04-07,2026-04-09,Completed,TECH239,45.37,Component wear beyond tolerance
+WO0000597,AC00038,CMP0043,Landing Gear,Medium,2026-04-18,2026-04-19,Completed,TECH173,17.11,Pressure instability
+WO0000598,AC00033,CMP0058,Electrical,Medium,2026-06-25,,In Progress,TECH315,9.32,Scheduled preventive maintenance
+WO0000599,AC00034,CMP0053,Electrical,High,2026-03-25,2026-03-28,Completed,TECH113,46.75,Oil pressure deviation
+WO0000600,AC00064,CMP0031,Avionics,Low,2026-01-08,2026-01-08,Completed,TECH176,9.11,Component wear beyond tolerance
+WO0000601,AC00031,CMP0013,Engine,Low,2026-04-04,,In Progress,TECH170,10.14,Routine inspection finding
+WO0000602,AC00080,CMP0003,Engine,Low,2026-05-07,2026-05-07,Completed,TECH349,10.43,Component wear beyond tolerance
+WO0000603,AC00035,CMP0009,Engine,Low,2026-05-30,,In Progress,TECH146,1.05,Component wear beyond tolerance
+WO0000604,AC00072,CMP0006,Engine,Medium,2026-05-24,,In Progress,TECH283,12.39,Temperature threshold breach
+WO0000605,AC00080,CMP0030,Avionics,High,2026-03-03,2026-03-05,Completed,TECH232,14.48,Pressure instability
+WO0000606,AC00031,CMP0012,Engine,High,2026-03-11,,In Progress,TECH112,62.44,Component wear beyond tolerance
+WO0000607,AC00029,CMP0039,Avionics,Critical,2026-05-12,,In Progress,TECH334,144.42,Sensor anomaly correlation
+WO0000608,AC00055,CMP0033,Avionics,Low,2026-03-22,2026-03-23,Completed,TECH115,2.94,Post-flight inspection alert
+WO0000609,AC00060,CMP0064,Cabin,Medium,2026-06-27,,In Progress,TECH306,23.63,Scheduled preventive maintenance
+WO0000610,AC00031,CMP0031,Avionics,Low,2026-04-05,,Open,TECH285,7.73,High vibration detected
+WO0000611,AC00025,CMP0055,Electrical,Medium,2026-06-26,2026-06-26,Completed,TECH172,4.38,Oil pressure deviation
+WO0000612,AC00070,CMP0005,Engine,Low,2026-02-02,,In Progress,TECH345,1.06,Intermittent signal failure
+WO0000613,AC00051,CMP0018,Hydraulic,Medium,2026-04-20,,Open,TECH119,5.87,High vibration detected
+WO0000614,AC00014,CMP0060,Electrical,Low,2026-01-24,2026-01-25,Completed,TECH126,9.74,Sensor anomaly correlation
+WO0000615,AC00030,CMP0016,Hydraulic,Medium,2026-03-07,2026-03-08,Completed,TECH243,19.3,Pressure instability
+WO0000616,AC00070,CMP0023,Hydraulic,Medium,2026-04-28,,Open,TECH240,19.93,High vibration detected
+WO0000617,AC00078,CMP0002,Engine,High,2026-01-11,,Open,TECH289,51.48,Pressure instability
+WO0000618,AC00041,CMP0043,Landing Gear,High,2026-05-29,,Open,TECH317,24.78,Pressure instability
+WO0000619,AC00060,CMP0008,Engine,Low,2026-02-10,2026-02-12,Completed,TECH251,6.37,Component wear beyond tolerance
+WO0000620,AC00059,CMP0036,Avionics,Low,2026-05-22,2026-05-22,Completed,TECH201,4.39,Pressure instability
+WO0000621,AC00060,CMP0052,Electrical,Medium,2026-04-25,2026-04-26,Completed,TECH127,7.66,Oil pressure deviation
+WO0000622,AC00020,CMP0042,Landing Gear,High,2026-04-03,2026-04-06,Completed,TECH345,54.76,Oil pressure deviation
+WO0000623,AC00042,CMP0061,Cabin,High,2026-03-31,,In Progress,TECH184,60.78,Scheduled preventive maintenance
+WO0000624,AC00061,CMP0061,Cabin,Medium,2026-05-06,,In Progress,TECH126,19.79,Oil pressure deviation
+WO0000625,AC00010,CMP0034,Avionics,Low,2026-04-13,,Open,TECH223,6.07,Oil pressure deviation
+WO0000626,AC00071,CMP0061,Cabin,Medium,2026-01-03,2026-01-05,Completed,TECH126,16.38,Oil pressure deviation
+WO0000627,AC00027,CMP0026,Hydraulic,Medium,2026-01-05,2026-01-05,Completed,TECH117,15.95,Intermittent signal failure
+WO0000628,AC00063,CMP0033,Avionics,High,2026-04-26,,In Progress,TECH343,49.2,Scheduled preventive maintenance
+WO0000629,AC00067,CMP0002,Engine,Medium,2026-06-08,2026-06-09,Completed,TECH347,4.31,Post-flight inspection alert
+WO0000630,AC00015,CMP0067,Cabin,Medium,2026-04-21,2026-04-21,Completed,TECH220,5.82,Sensor anomaly correlation
+WO0000631,AC00019,CMP0038,Avionics,Low,2026-05-03,,Open,TECH284,2.9,Component wear beyond tolerance
+WO0000632,AC00036,CMP0048,Landing Gear,High,2026-04-04,,Open,TECH116,35.76,Pressure instability
+WO0000633,AC00049,CMP0037,Avionics,High,2026-06-09,2026-06-12,Completed,TECH290,34.13,Routine inspection finding
+WO0000634,AC00048,CMP0024,Hydraulic,High,2026-03-12,2026-03-13,Completed,TECH171,38.8,High vibration detected
+WO0000635,AC00052,CMP0065,Cabin,Low,2026-06-14,2026-06-15,Completed,TECH195,1.63,High vibration detected
+WO0000636,AC00011,CMP0067,Cabin,Low,2026-01-07,2026-01-07,Completed,TECH311,1.34,Temperature threshold breach
+WO0000637,AC00076,CMP0065,Cabin,Medium,2026-04-09,2026-04-10,Completed,TECH249,18.61,Intermittent signal failure
+WO0000638,AC00013,CMP0027,Hydraulic,Medium,2026-05-24,2026-05-24,Completed,TECH274,11.72,Post-flight inspection alert
+WO0000639,AC00012,CMP0038,Avionics,Medium,2026-01-28,2026-01-29,Completed,TECH264,10.7,Oil pressure deviation
+WO0000640,AC00070,CMP0054,Electrical,Medium,2026-03-29,2026-03-29,Completed,TECH310,6.81,Sensor anomaly correlation
+WO0000641,AC00024,CMP0056,Electrical,Medium,2026-05-11,2026-05-11,Completed,TECH106,8.25,Scheduled preventive maintenance
+WO0000642,AC00032,CMP0007,Engine,High,2026-02-14,,Open,TECH295,55.45,High vibration detected
+WO0000643,AC00020,CMP0018,Hydraulic,Low,2026-06-26,2026-06-28,Completed,TECH218,5.94,Pressure instability
+WO0000644,AC00023,CMP0046,Landing Gear,Low,2026-04-20,,In Progress,TECH123,9.2,Intermittent signal failure
+WO0000645,AC00056,CMP0066,Cabin,High,2026-04-28,2026-04-29,Completed,TECH111,16.89,Post-flight inspection alert
+WO0000646,AC00036,CMP0036,Avionics,Medium,2026-02-25,2026-02-27,Completed,TECH299,6.57,Oil pressure deviation
+WO0000647,AC00062,CMP0035,Avionics,High,2026-01-18,2026-01-19,Completed,TECH311,36.81,Routine inspection finding
+WO0000648,AC00053,CMP0019,Hydraulic,Critical,2026-01-16,2026-01-22,Completed,TECH281,105.95,Pressure instability
+WO0000649,AC00052,CMP0026,Hydraulic,Low,2026-06-06,2026-06-08,Completed,TECH342,1.71,Routine inspection finding
+WO0000650,AC00002,CMP0012,Engine,Low,2026-06-26,2026-06-26,Completed,TECH283,3.16,Pressure instability
+WO0000651,AC00066,CMP0038,Avionics,Low,2026-02-03,2026-02-05,Completed,TECH299,8.15,Component wear beyond tolerance
+WO0000652,AC00042,CMP0008,Engine,Medium,2026-05-13,2026-05-13,Completed,TECH339,12.69,Component wear beyond tolerance
+WO0000653,AC00022,CMP0038,Avionics,Low,2026-02-26,2026-02-27,Completed,TECH210,8.25,Post-flight inspection alert
+WO0000654,AC00068,CMP0037,Avionics,Low,2026-06-03,2026-06-03,Completed,TECH182,10.49,Post-flight inspection alert
+WO0000655,AC00024,CMP0032,Avionics,Low,2026-05-02,,Open,TECH246,5.37,High vibration detected
+WO0000656,AC00049,CMP0041,Landing Gear,Medium,2026-02-13,2026-02-14,Completed,TECH270,16.43,Pressure instability
+WO0000657,AC00059,CMP0003,Engine,Medium,2026-06-12,2026-06-12,Completed,TECH341,21.53,Routine inspection finding
+WO0000658,AC00019,CMP0016,Hydraulic,Critical,2026-01-05,2026-01-09,Completed,TECH130,98.42,Oil pressure deviation
+WO0000659,AC00040,CMP0014,Engine,Low,2026-05-24,,Open,TECH239,4.48,Pressure instability
+WO0000660,AC00079,CMP0059,Electrical,Medium,2026-03-31,,In Progress,TECH143,10.62,High vibration detected
+WO0000661,AC00022,CMP0066,Cabin,High,2026-01-06,2026-01-08,Completed,TECH217,59.41,High vibration detected
+WO0000662,AC00074,CMP0037,Avionics,Medium,2026-06-14,,In Progress,TECH284,10.92,Oil pressure deviation
+WO0000663,AC00040,CMP0013,Engine,Medium,2026-04-14,2026-04-15,Completed,TECH153,8.62,Sensor anomaly correlation
+WO0000664,AC00039,CMP0065,Cabin,Critical,2026-02-16,2026-02-21,Completed,TECH245,115.51,Intermittent signal failure
+WO0000665,AC00014,CMP0037,Avionics,Low,2026-04-19,,In Progress,TECH316,3.37,High vibration detected
+WO0000666,AC00026,CMP0024,Hydraulic,Low,2026-02-27,2026-02-28,Completed,TECH130,3.22,Intermittent signal failure
+WO0000667,AC00045,CMP0002,Engine,Low,2026-02-05,2026-02-07,Completed,TECH267,1.06,Intermittent signal failure
+WO0000668,AC00070,CMP0035,Avionics,Medium,2026-05-02,2026-05-02,Completed,TECH321,17.45,Sensor anomaly correlation
+WO0000669,AC00011,CMP0008,Engine,Low,2026-05-22,,In Progress,TECH127,10.51,Sensor anomaly correlation
+WO0000670,AC00004,CMP0060,Electrical,Low,2026-06-27,2026-06-27,Completed,TECH113,6.39,Sensor anomaly correlation
+WO0000671,AC00020,CMP0001,Engine,Critical,2026-05-03,2026-05-06,Completed,TECH272,45.89,Temperature threshold breach
+WO0000672,AC00064,CMP0019,Hydraulic,Medium,2026-02-05,2026-02-07,Completed,TECH137,19.06,Component wear beyond tolerance
+WO0000673,AC00019,CMP0023,Hydraulic,Medium,2026-01-16,2026-01-18,Completed,TECH207,14.82,Post-flight inspection alert
+WO0000674,AC00018,CMP0068,Cabin,Low,2026-03-31,2026-04-02,Completed,TECH323,10.42,Temperature threshold breach
+WO0000675,AC00034,CMP0023,Hydraulic,Medium,2026-02-25,2026-02-26,Completed,TECH241,12.65,Post-flight inspection alert
+WO0000676,AC00013,CMP0055,Electrical,Medium,2026-03-20,2026-03-20,Completed,TECH230,13.82,Oil pressure deviation
+WO0000677,AC00027,CMP0061,Cabin,Low,2026-05-15,2026-05-17,Completed,TECH252,7.55,Scheduled preventive maintenance
+WO0000678,AC00030,CMP0030,Avionics,Critical,2026-01-03,,Open,TECH202,61.24,Intermittent signal failure
+WO0000679,AC00080,CMP0046,Landing Gear,High,2026-01-24,2026-01-27,Completed,TECH141,50.88,Component wear beyond tolerance
+WO0000680,AC00048,CMP0026,Hydraulic,Medium,2026-05-14,2026-05-16,Completed,TECH268,17.04,Component wear beyond tolerance
+WO0000681,AC00055,CMP0055,Electrical,Critical,2026-04-07,,In Progress,TECH134,79.68,Intermittent signal failure
+WO0000682,AC00006,CMP0047,Landing Gear,High,2026-01-02,2026-01-04,Completed,TECH104,42.11,Post-flight inspection alert
+WO0000683,AC00043,CMP0044,Landing Gear,Critical,2026-05-19,2026-05-24,Completed,TECH330,129.95,Oil pressure deviation
+WO0000684,AC00026,CMP0054,Electrical,Medium,2026-02-15,2026-02-15,Completed,TECH268,4.96,Scheduled preventive maintenance
+WO0000685,AC00057,CMP0040,Landing Gear,Low,2026-05-31,2026-05-31,Completed,TECH168,11.97,Routine inspection finding
+WO0000686,AC00005,CMP0037,Avionics,Medium,2026-03-17,2026-03-19,Completed,TECH109,13.75,Component wear beyond tolerance
+WO0000687,AC00072,CMP0003,Engine,High,2026-04-01,,In Progress,TECH267,50.92,Oil pressure deviation
+WO0000688,AC00016,CMP0062,Cabin,Low,2026-04-27,,In Progress,TECH223,10.21,Component wear beyond tolerance
+WO0000689,AC00011,CMP0007,Engine,Low,2026-05-08,2026-05-09,Completed,TECH221,4.35,Post-flight inspection alert
+WO0000690,AC00040,CMP0035,Avionics,Low,2026-01-19,,In Progress,TECH162,9.14,Component wear beyond tolerance
+WO0000691,AC00079,CMP0008,Engine,Low,2026-01-20,2026-01-20,Completed,TECH218,8.62,Intermittent signal failure
+WO0000692,AC00030,CMP0065,Cabin,Medium,2026-01-28,2026-01-30,Completed,TECH238,7.21,Oil pressure deviation
+WO0000693,AC00063,CMP0027,Hydraulic,Medium,2026-01-19,2026-01-19,Completed,TECH153,9.53,Routine inspection finding
+WO0000694,AC00040,CMP0023,Hydraulic,Low,2026-03-23,,Open,TECH244,11.29,Sensor anomaly correlation
+WO0000695,AC00023,CMP0050,Landing Gear,Medium,2026-06-09,,Open,TECH230,7.37,Temperature threshold breach
+WO0000696,AC00076,CMP0028,Avionics,Medium,2026-06-15,2026-06-17,Completed,TECH216,16.83,Sensor anomaly correlation
+WO0000697,AC00065,CMP0010,Engine,Medium,2026-02-25,2026-02-27,Completed,TECH229,9.7,Scheduled preventive maintenance
+WO0000698,AC00018,CMP0066,Cabin,Medium,2026-05-28,,In Progress,TECH263,13.35,Routine inspection finding
+WO0000699,AC00048,CMP0061,Cabin,Medium,2026-06-10,,In Progress,TECH187,14.24,Sensor anomaly correlation
+WO0000700,AC00039,CMP0044,Landing Gear,Medium,2026-02-17,,In Progress,TECH147,18.65,Sensor anomaly correlation
+WO0000701,AC00022,CMP0001,Engine,Medium,2026-03-28,2026-03-28,Completed,TECH273,20.96,Pressure instability
+WO0000702,AC00043,CMP0008,Engine,High,2026-06-19,2026-06-22,Completed,TECH297,62.2,Sensor anomaly correlation
+WO0000703,AC00013,CMP0016,Hydraulic,Critical,2026-01-15,,In Progress,TECH185,127.72,Component wear beyond tolerance
+WO0000704,AC00058,CMP0003,Engine,High,2026-04-02,,In Progress,TECH263,15.31,Temperature threshold breach
+WO0000705,AC00023,CMP0046,Landing Gear,Medium,2026-01-17,,Open,TECH209,14.22,Scheduled preventive maintenance
+WO0000706,AC00058,CMP0045,Landing Gear,High,2026-05-17,2026-05-19,Completed,TECH259,58.14,Routine inspection finding
+WO0000707,AC00007,CMP0014,Engine,High,2026-02-27,2026-03-02,Completed,TECH304,54.16,Temperature threshold breach
+WO0000708,AC00039,CMP0048,Landing Gear,Medium,2026-06-20,2026-06-21,Completed,TECH243,11.71,Temperature threshold breach
+WO0000709,AC00003,CMP0054,Electrical,Low,2026-05-22,2026-05-24,Completed,TECH300,2.75,Temperature threshold breach
+WO0000710,AC00040,CMP0033,Avionics,Low,2026-06-12,2026-06-13,Completed,TECH320,9.81,Intermittent signal failure
+WO0000711,AC00024,CMP0022,Hydraulic,Critical,2026-02-05,2026-02-12,Completed,TECH130,137.89,Temperature threshold breach
+WO0000712,AC00073,CMP0034,Avionics,Low,2026-01-05,2026-01-06,Completed,TECH267,1.42,Oil pressure deviation
+WO0000713,AC00080,CMP0057,Electrical,Medium,2026-05-03,,In Progress,TECH338,23.61,Temperature threshold breach
+WO0000714,AC00075,CMP0014,Engine,Medium,2026-02-20,2026-02-21,Completed,TECH348,5.25,Scheduled preventive maintenance
+WO0000715,AC00015,CMP0023,Hydraulic,High,2026-05-11,2026-05-13,Completed,TECH107,53.05,Oil pressure deviation
+WO0000716,AC00073,CMP0041,Landing Gear,Critical,2026-02-04,,In Progress,TECH154,58.76,High vibration detected
+WO0000717,AC00037,CMP0030,Avionics,Low,2026-02-25,,Open,TECH294,10.34,Intermittent signal failure
+WO0000718,AC00019,CMP0050,Landing Gear,Low,2026-01-14,,Open,TECH300,8.66,Intermittent signal failure
+WO0000719,AC00057,CMP0020,Hydraulic,High,2026-04-10,2026-04-12,Completed,TECH129,26.63,Oil pressure deviation
+WO0000720,AC00036,CMP0039,Avionics,Critical,2026-02-16,2026-02-22,Completed,TECH102,113.18,Post-flight inspection alert
+WO0000721,AC00035,CMP0014,Engine,Low,2026-02-08,2026-02-08,Completed,TECH119,9.25,Post-flight inspection alert
+WO0000722,AC00021,CMP0048,Landing Gear,Medium,2026-01-12,2026-01-14,Completed,TECH116,14.79,Sensor anomaly correlation
+WO0000723,AC00052,CMP0011,Engine,High,2026-06-02,2026-06-04,Completed,TECH230,59.77,Routine inspection finding
+WO0000724,AC00078,CMP0014,Engine,Low,2026-01-09,2026-01-09,Completed,TECH229,8.58,Routine inspection finding
+WO0000725,AC00034,CMP0036,Avionics,Low,2026-04-10,,In Progress,TECH110,3.21,Scheduled preventive maintenance
+WO0000726,AC00079,CMP0019,Hydraulic,Low,2026-03-08,,In Progress,TECH232,6.6,Temperature threshold breach
+WO0000727,AC00020,CMP0021,Hydraulic,Low,2026-02-18,,In Progress,TECH266,9.4,Temperature threshold breach
+WO0000728,AC00013,CMP0009,Engine,High,2026-05-11,2026-05-13,Completed,TECH137,58.42,Intermittent signal failure
+WO0000729,AC00068,CMP0069,Cabin,Medium,2026-04-09,,In Progress,TECH248,17.26,Temperature threshold breach
+WO0000730,AC00043,CMP0064,Cabin,Low,2026-05-13,2026-05-13,Completed,TECH202,8.28,Routine inspection finding
+WO0000731,AC00028,CMP0064,Cabin,Low,2026-02-19,2026-02-19,Completed,TECH133,2.49,High vibration detected
+WO0000732,AC00044,CMP0020,Hydraulic,Low,2026-03-28,2026-03-30,Completed,TECH309,8.53,Oil pressure deviation
+WO0000733,AC00034,CMP0018,Hydraulic,High,2026-04-08,2026-04-12,Completed,TECH283,68.74,Pressure instability
+WO0000734,AC00070,CMP0069,Cabin,High,2026-05-04,2026-05-07,Completed,TECH103,66.88,Component wear beyond tolerance
+WO0000735,AC00049,CMP0045,Landing Gear,High,2026-06-27,,Open,TECH184,22.18,Component wear beyond tolerance
+WO0000736,AC00054,CMP0051,Landing Gear,Low,2026-02-02,2026-02-04,Completed,TECH169,10.0,Scheduled preventive maintenance
+WO0000737,AC00031,CMP0032,Avionics,Low,2026-01-05,,In Progress,TECH167,7.23,Intermittent signal failure
+WO0000738,AC00022,CMP0008,Engine,Low,2026-05-31,,Open,TECH350,10.68,Sensor anomaly correlation
+WO0000739,AC00024,CMP0007,Engine,Low,2026-02-17,,In Progress,TECH216,9.39,Pressure instability
+WO0000740,AC00055,CMP0056,Electrical,Low,2026-06-01,2026-06-03,Completed,TECH131,4.02,Temperature threshold breach
+WO0000741,AC00041,CMP0040,Landing Gear,High,2026-05-01,2026-05-03,Completed,TECH184,12.96,High vibration detected
+WO0000742,AC00075,CMP0061,Cabin,Low,2026-04-17,2026-04-19,Completed,TECH283,4.86,Scheduled preventive maintenance
+WO0000743,AC00018,CMP0043,Landing Gear,Medium,2026-03-15,2026-03-17,Completed,TECH129,4.33,Sensor anomaly correlation
+WO0000744,AC00025,CMP0059,Electrical,Medium,2026-01-12,,Open,TECH150,17.58,Sensor anomaly correlation
+WO0000745,AC00057,CMP0006,Engine,Medium,2026-04-05,2026-04-05,Completed,TECH170,7.71,Intermittent signal failure
+WO0000746,AC00053,CMP0032,Avionics,Low,2026-01-30,2026-01-31,Completed,TECH330,10.12,Routine inspection finding
+WO0000747,AC00001,CMP0044,Landing Gear,High,2026-05-17,,Open,TECH347,24.45,Scheduled preventive maintenance
+WO0000748,AC00008,CMP0017,Hydraulic,Low,2026-05-15,,Open,TECH179,1.47,High vibration detected
+WO0000749,AC00006,CMP0037,Avionics,Low,2026-04-06,2026-04-08,Completed,TECH239,7.06,Intermittent signal failure
+WO0000750,AC00002,CMP0021,Hydraulic,Low,2026-05-29,,Open,TECH316,8.29,Scheduled preventive maintenance
+WO0000751,AC00004,CMP0005,Engine,Medium,2026-06-16,2026-06-18,Completed,TECH177,8.92,Oil pressure deviation
+WO0000752,AC00022,CMP0039,Avionics,Low,2026-03-21,,Open,TECH247,10.16,Temperature threshold breach
+WO0000753,AC00062,CMP0028,Avionics,Medium,2026-05-19,,In Progress,TECH209,11.42,High vibration detected
+WO0000754,AC00049,CMP0037,Avionics,High,2026-04-19,2026-04-22,Completed,TECH274,47.26,High vibration detected
+WO0000755,AC00020,CMP0041,Landing Gear,Low,2026-06-18,2026-06-18,Completed,TECH164,3.91,Temperature threshold breach
+WO0000756,AC00076,CMP0036,Avionics,Low,2026-01-18,2026-01-19,Completed,TECH247,11.21,Routine inspection finding
+WO0000757,AC00065,CMP0037,Avionics,Medium,2026-01-01,2026-01-02,Completed,TECH119,14.62,Pressure instability
+WO0000758,AC00029,CMP0024,Hydraulic,Medium,2026-06-13,2026-06-13,Completed,TECH192,8.02,High vibration detected
+WO0000759,AC00015,CMP0028,Avionics,High,2026-06-25,2026-06-27,Completed,TECH192,35.21,Pressure instability
+WO0000760,AC00054,CMP0003,Engine,High,2026-03-21,2026-03-22,Completed,TECH206,30.27,Component wear beyond tolerance
+WO0000761,AC00073,CMP0004,Engine,Low,2026-06-21,2026-06-22,Completed,TECH159,2.81,Oil pressure deviation
+WO0000762,AC00003,CMP0063,Cabin,High,2026-06-18,,Open,TECH340,64.27,High vibration detected
+WO0000763,AC00016,CMP0038,Avionics,Medium,2026-06-15,2026-06-15,Completed,TECH270,13.63,Scheduled preventive maintenance
+WO0000764,AC00045,CMP0004,Engine,Medium,2026-03-25,,In Progress,TECH222,9.44,Pressure instability
+WO0000765,AC00019,CMP0067,Cabin,High,2026-03-01,2026-03-03,Completed,TECH228,54.06,Pressure instability
+WO0000766,AC00008,CMP0018,Hydraulic,Low,2026-04-25,,In Progress,TECH306,7.41,Scheduled preventive maintenance
+WO0000767,AC00008,CMP0068,Cabin,Medium,2026-05-22,,In Progress,TECH214,10.08,Pressure instability
+WO0000768,AC00002,CMP0002,Engine,Critical,2026-02-02,2026-02-06,Completed,TECH212,65.61,Post-flight inspection alert
+WO0000769,AC00017,CMP0011,Engine,Medium,2026-05-29,2026-05-29,Completed,TECH174,10.21,Sensor anomaly correlation
+WO0000770,AC00004,CMP0042,Landing Gear,High,2026-04-25,2026-04-26,Completed,TECH257,47.8,Routine inspection finding
+WO0000771,AC00031,CMP0021,Hydraulic,Low,2026-06-29,2026-06-30,Completed,TECH295,3.4,Component wear beyond tolerance
+WO0000772,AC00076,CMP0056,Electrical,Medium,2026-03-01,2026-03-03,Completed,TECH224,23.23,Intermittent signal failure
+WO0000773,AC00050,CMP0012,Engine,Low,2026-06-27,2026-06-29,Completed,TECH125,10.86,Component wear beyond tolerance
+WO0000774,AC00006,CMP0050,Landing Gear,Medium,2026-02-07,2026-02-09,Completed,TECH325,20.91,Scheduled preventive maintenance
+WO0000775,AC00073,CMP0047,Landing Gear,Low,2026-05-04,2026-05-05,Completed,TECH285,7.85,Intermittent signal failure
+WO0000776,AC00036,CMP0034,Avionics,Low,2026-04-02,,In Progress,TECH179,7.62,Routine inspection finding
+WO0000777,AC00052,CMP0060,Electrical,Low,2026-02-10,2026-02-10,Completed,TECH339,7.28,Oil pressure deviation
+WO0000778,AC00020,CMP0055,Electrical,High,2026-01-12,2026-01-13,Completed,TECH105,46.2,Scheduled preventive maintenance
+WO0000779,AC00038,CMP0002,Engine,High,2026-01-23,2026-01-23,Completed,TECH117,12.31,Sensor anomaly correlation
+WO0000780,AC00023,CMP0024,Hydraulic,Low,2026-04-04,2026-04-05,Completed,TECH157,8.55,High vibration detected
+WO0000781,AC00037,CMP0004,Engine,High,2026-03-21,,Open,TECH168,63.17,Post-flight inspection alert
+WO0000782,AC00008,CMP0049,Landing Gear,Medium,2026-01-05,2026-01-06,Completed,TECH321,14.71,Sensor anomaly correlation
+WO0000783,AC00027,CMP0019,Hydraulic,Medium,2026-02-16,,Open,TECH209,13.77,Component wear beyond tolerance
+WO0000784,AC00050,CMP0003,Engine,Low,2026-04-25,,In Progress,TECH246,6.17,Component wear beyond tolerance
+WO0000785,AC00026,CMP0040,Landing Gear,High,2026-03-13,2026-03-15,Completed,TECH236,20.54,Scheduled preventive maintenance
+WO0000786,AC00074,CMP0028,Avionics,Low,2026-01-18,2026-01-20,Completed,TECH133,7.3,High vibration detected
+WO0000787,AC00020,CMP0060,Electrical,High,2026-02-01,,In Progress,TECH106,61.65,Intermittent signal failure
+WO0000788,AC00063,CMP0015,Engine,High,2026-05-27,2026-05-31,Completed,TECH171,63.09,Oil pressure deviation
+WO0000789,AC00023,CMP0028,Avionics,Low,2026-03-03,,In Progress,TECH173,7.63,Oil pressure deviation
+WO0000790,AC00042,CMP0065,Cabin,Low,2026-05-30,2026-05-30,Completed,TECH246,9.46,Post-flight inspection alert
+WO0000791,AC00022,CMP0038,Avionics,Medium,2026-06-22,2026-06-24,Completed,TECH109,16.22,Component wear beyond tolerance
+WO0000792,AC00021,CMP0030,Avionics,Medium,2026-06-24,,In Progress,TECH140,23.87,Pressure instability
+WO0000793,AC00016,CMP0048,Landing Gear,High,2026-01-28,2026-01-30,Completed,TECH303,26.12,Scheduled preventive maintenance
+WO0000794,AC00005,CMP0012,Engine,Low,2026-06-15,2026-06-15,Completed,TECH323,1.06,Post-flight inspection alert
+WO0000795,AC00065,CMP0066,Cabin,Critical,2026-02-07,2026-02-13,Completed,TECH208,118.16,Scheduled preventive maintenance
+WO0000796,AC00046,CMP0010,Engine,Medium,2026-04-22,2026-04-23,Completed,TECH312,16.96,Oil pressure deviation
+WO0000797,AC00073,CMP0019,Hydraulic,Low,2026-02-18,2026-02-19,Completed,TECH279,9.02,Oil pressure deviation
+WO0000798,AC00075,CMP0029,Avionics,Low,2026-03-27,2026-03-29,Completed,TECH239,10.51,Component wear beyond tolerance
+WO0000799,AC00001,CMP0051,Landing Gear,Critical,2026-02-11,2026-02-16,Completed,TECH315,128.73,Oil pressure deviation
+WO0000800,AC00053,CMP0008,Engine,Low,2026-06-20,2026-06-21,Completed,TECH121,6.54,Temperature threshold breach
+WO0000801,AC00033,CMP0001,Engine,Low,2026-05-16,2026-05-16,Completed,TECH146,2.96,High vibration detected
+WO0000802,AC00058,CMP0020,Hydraulic,Critical,2026-01-26,2026-02-03,Completed,TECH343,158.74,Post-flight inspection alert
+WO0000803,AC00059,CMP0065,Cabin,High,2026-05-12,2026-05-14,Completed,TECH128,32.61,Intermittent signal failure
+WO0000804,AC00021,CMP0065,Cabin,High,2026-03-25,,Open,TECH203,38.03,Sensor anomaly correlation
+WO0000805,AC00061,CMP0050,Landing Gear,Low,2026-01-09,2026-01-11,Completed,TECH171,7.87,Routine inspection finding
+WO0000806,AC00030,CMP0064,Cabin,Medium,2026-02-18,2026-02-18,Completed,TECH139,20.3,Oil pressure deviation
+WO0000807,AC00032,CMP0055,Electrical,Low,2026-05-06,,Open,TECH285,2.75,Oil pressure deviation
+WO0000808,AC00004,CMP0066,Cabin,Low,2026-03-16,,Open,TECH203,3.5,Temperature threshold breach
+WO0000809,AC00069,CMP0060,Electrical,High,2026-01-27,,In Progress,TECH279,30.79,Routine inspection finding
+WO0000810,AC00031,CMP0058,Electrical,High,2026-01-15,,In Progress,TECH174,62.83,Pressure instability
+WO0000811,AC00048,CMP0054,Electrical,Low,2026-02-09,2026-02-09,Completed,TECH194,9.33,Intermittent signal failure
+WO0000812,AC00005,CMP0003,Engine,High,2026-04-15,2026-04-16,Completed,TECH242,16.91,Intermittent signal failure
+WO0000813,AC00019,CMP0021,Hydraulic,Low,2026-03-12,,In Progress,TECH145,10.87,High vibration detected
+WO0000814,AC00027,CMP0049,Landing Gear,Low,2026-04-27,2026-04-27,Completed,TECH288,3.29,Oil pressure deviation
+WO0000815,AC00024,CMP0061,Cabin,Medium,2026-06-04,2026-06-04,Completed,TECH228,14.0,Component wear beyond tolerance
+WO0000816,AC00034,CMP0045,Landing Gear,Medium,2026-01-20,2026-01-21,Completed,TECH306,15.04,Temperature threshold breach
+WO0000817,AC00068,CMP0026,Hydraulic,Medium,2026-03-31,2026-04-02,Completed,TECH212,11.94,Post-flight inspection alert
+WO0000818,AC00048,CMP0012,Engine,Medium,2026-01-30,,In Progress,TECH207,10.87,Scheduled preventive maintenance
+WO0000819,AC00065,CMP0015,Engine,High,2026-02-28,2026-03-01,Completed,TECH109,44.6,Component wear beyond tolerance
+WO0000820,AC00058,CMP0043,Landing Gear,Medium,2026-06-12,2026-06-14,Completed,TECH142,8.64,Sensor anomaly correlation
+WO0000821,AC00043,CMP0037,Avionics,Medium,2026-01-27,,In Progress,TECH235,18.64,Routine inspection finding
+WO0000822,AC00057,CMP0066,Cabin,Low,2026-03-01,2026-03-03,Completed,TECH189,11.07,Oil pressure deviation
+WO0000823,AC00050,CMP0057,Electrical,Medium,2026-02-06,2026-02-08,Completed,TECH277,5.33,Scheduled preventive maintenance
+WO0000824,AC00010,CMP0036,Avionics,Medium,2026-02-08,2026-02-09,Completed,TECH121,4.51,Post-flight inspection alert
+WO0000825,AC00005,CMP0006,Engine,Low,2026-03-20,,In Progress,TECH245,11.69,Intermittent signal failure
+WO0000826,AC00021,CMP0063,Cabin,Medium,2026-02-26,2026-02-27,Completed,TECH248,22.43,Scheduled preventive maintenance
+WO0000827,AC00062,CMP0038,Avionics,Critical,2026-05-31,,In Progress,TECH283,134.07,Routine inspection finding
+WO0000828,AC00069,CMP0065,Cabin,Low,2026-04-14,2026-04-15,Completed,TECH341,11.76,High vibration detected
+WO0000829,AC00061,CMP0020,Hydraulic,Medium,2026-06-13,,In Progress,TECH276,16.02,Temperature threshold breach
+WO0000830,AC00028,CMP0002,Engine,Medium,2026-02-12,2026-02-12,Completed,TECH135,23.45,High vibration detected
+WO0000831,AC00053,CMP0052,Electrical,Low,2026-06-26,2026-06-26,Completed,TECH256,8.1,Sensor anomaly correlation
+WO0000832,AC00045,CMP0046,Landing Gear,Low,2026-03-31,2026-04-02,Completed,TECH208,3.69,Sensor anomaly correlation
+WO0000833,AC00014,CMP0067,Cabin,Medium,2026-01-20,2026-01-21,Completed,TECH167,7.37,Post-flight inspection alert
+WO0000834,AC00017,CMP0062,Cabin,Medium,2026-04-08,,Open,TECH164,17.62,Sensor anomaly correlation
+WO0000835,AC00037,CMP0041,Landing Gear,Low,2026-02-22,2026-02-23,Completed,TECH278,2.04,Sensor anomaly correlation
+WO0000836,AC00012,CMP0054,Electrical,Medium,2026-02-19,,Open,TECH245,16.57,Intermittent signal failure
+WO0000837,AC00038,CMP0063,Cabin,High,2026-01-24,2026-01-25,Completed,TECH241,24.19,Temperature threshold breach
+WO0000838,AC00009,CMP0019,Hydraulic,Low,2026-06-24,,Open,TECH174,3.28,Component wear beyond tolerance
+WO0000839,AC00028,CMP0060,Electrical,Medium,2026-06-06,,Open,TECH268,23.42,Oil pressure deviation
+WO0000840,AC00037,CMP0048,Landing Gear,High,2026-05-23,,In Progress,TECH345,46.47,Pressure instability
+WO0000841,AC00079,CMP0014,Engine,Low,2026-03-02,2026-03-02,Completed,TECH173,11.28,Scheduled preventive maintenance
+WO0000842,AC00046,CMP0051,Landing Gear,Low,2026-06-27,2026-06-27,Completed,TECH210,1.0,Intermittent signal failure
+WO0000843,AC00004,CMP0060,Electrical,Low,2026-03-22,,Open,TECH203,10.94,Oil pressure deviation
+WO0000844,AC00072,CMP0012,Engine,Low,2026-04-27,2026-04-29,Completed,TECH191,9.81,Sensor anomaly correlation
+WO0000845,AC00057,CMP0019,Hydraulic,Low,2026-02-23,2026-02-25,Completed,TECH157,5.48,Routine inspection finding
+WO0000846,AC00057,CMP0032,Avionics,High,2026-05-29,,Open,TECH270,47.31,Pressure instability
+WO0000847,AC00045,CMP0069,Cabin,Low,2026-05-20,2026-05-20,Completed,TECH136,2.08,Pressure instability
+WO0000848,AC00046,CMP0036,Avionics,High,2026-02-28,2026-03-01,Completed,TECH132,29.04,Post-flight inspection alert
+WO0000849,AC00076,CMP0066,Cabin,Low,2026-04-02,2026-04-04,Completed,TECH194,5.3,Pressure instability
+WO0000850,AC00047,CMP0008,Engine,Medium,2026-06-23,2026-06-25,Completed,TECH298,8.12,Intermittent signal failure
+WO0000851,AC00034,CMP0036,Avionics,Medium,2026-05-23,2026-05-23,Completed,TECH233,15.51,Sensor anomaly correlation
+WO0000852,AC00017,CMP0036,Avionics,High,2026-02-04,2026-02-06,Completed,TECH123,40.65,Temperature threshold breach
+WO0000853,AC00047,CMP0058,Electrical,Medium,2026-01-28,2026-01-29,Completed,TECH333,22.25,Pressure instability
+WO0000854,AC00023,CMP0059,Electrical,Low,2026-02-15,2026-02-17,Completed,TECH294,1.87,Temperature threshold breach
+WO0000855,AC00068,CMP0030,Avionics,Low,2026-05-27,2026-05-27,Completed,TECH270,7.64,Post-flight inspection alert
+WO0000856,AC00012,CMP0064,Cabin,Critical,2026-06-05,2026-06-10,Completed,TECH176,103.58,Intermittent signal failure
+WO0000857,AC00036,CMP0019,Hydraulic,Medium,2026-06-21,2026-06-22,Completed,TECH152,22.48,Temperature threshold breach
+WO0000858,AC00031,CMP0020,Hydraulic,High,2026-02-06,2026-02-06,Completed,TECH187,17.99,Temperature threshold breach
+WO0000859,AC00044,CMP0067,Cabin,Medium,2026-02-23,2026-02-25,Completed,TECH306,16.81,Post-flight inspection alert
+WO0000860,AC00027,CMP0009,Engine,Medium,2026-06-27,2026-06-29,Completed,TECH301,5.06,Oil pressure deviation
+WO0000861,AC00031,CMP0028,Avionics,Medium,2026-03-20,,Open,TECH223,7.6,Component wear beyond tolerance
+WO0000862,AC00009,CMP0054,Electrical,Medium,2026-03-23,,Open,TECH175,7.85,High vibration detected
+WO0000863,AC00033,CMP0037,Avionics,High,2026-06-01,2026-06-03,Completed,TECH334,45.06,Temperature threshold breach
+WO0000864,AC00079,CMP0011,Engine,Low,2026-01-25,2026-01-26,Completed,TECH137,3.89,Temperature threshold breach
+WO0000865,AC00022,CMP0012,Engine,Low,2026-02-10,2026-02-10,Completed,TECH314,8.0,Pressure instability
+WO0000866,AC00009,CMP0046,Landing Gear,Medium,2026-01-02,,In Progress,TECH261,8.45,Temperature threshold breach
+WO0000867,AC00020,CMP0049,Landing Gear,Medium,2026-01-10,2026-01-12,Completed,TECH146,12.1,Pressure instability
+WO0000868,AC00052,CMP0061,Cabin,Critical,2026-05-14,2026-05-19,Completed,TECH220,113.99,Post-flight inspection alert
+WO0000869,AC00015,CMP0007,Engine,Low,2026-02-11,2026-02-13,Completed,TECH342,1.69,Component wear beyond tolerance
+WO0000870,AC00027,CMP0002,Engine,Medium,2026-03-08,2026-03-10,Completed,TECH274,12.84,Oil pressure deviation
+WO0000871,AC00022,CMP0053,Electrical,Critical,2026-01-29,2026-02-03,Completed,TECH149,131.29,Component wear beyond tolerance
+WO0000872,AC00059,CMP0028,Avionics,Low,2026-01-08,2026-01-10,Completed,TECH274,10.94,Oil pressure deviation
+WO0000873,AC00062,CMP0060,Electrical,High,2026-05-31,,In Progress,TECH177,27.98,Temperature threshold breach
+WO0000874,AC00072,CMP0064,Cabin,High,2026-04-22,2026-04-26,Completed,TECH316,50.97,Routine inspection finding
+WO0000875,AC00005,CMP0033,Avionics,Medium,2026-05-17,,In Progress,TECH116,21.62,Scheduled preventive maintenance
+WO0000876,AC00046,CMP0047,Landing Gear,Critical,2026-03-29,,In Progress,TECH123,43.44,Temperature threshold breach
+WO0000877,AC00052,CMP0011,Engine,Critical,2026-05-20,2026-05-22,Completed,TECH175,51.83,Oil pressure deviation
+WO0000878,AC00028,CMP0045,Landing Gear,Medium,2026-05-26,2026-05-28,Completed,TECH325,13.3,Component wear beyond tolerance
+WO0000879,AC00071,CMP0033,Avionics,High,2026-02-01,,In Progress,TECH245,13.72,Scheduled preventive maintenance
+WO0000880,AC00014,CMP0028,Avionics,High,2026-01-07,2026-01-09,Completed,TECH123,54.96,Routine inspection finding
+WO0000881,AC00013,CMP0064,Cabin,Critical,2026-06-15,2026-06-22,Completed,TECH318,146.35,Post-flight inspection alert
+WO0000882,AC00012,CMP0061,Cabin,Medium,2026-01-06,2026-01-06,Completed,TECH199,7.27,Scheduled preventive maintenance
+WO0000883,AC00043,CMP0047,Landing Gear,High,2026-03-16,2026-03-19,Completed,TECH344,43.54,Sensor anomaly correlation
+WO0000884,AC00066,CMP0041,Landing Gear,Low,2026-06-28,,Open,TECH102,5.01,Scheduled preventive maintenance
+WO0000885,AC00043,CMP0018,Hydraulic,Medium,2026-01-18,2026-01-20,Completed,TECH229,20.15,Sensor anomaly correlation
+WO0000886,AC00036,CMP0049,Landing Gear,Medium,2026-02-17,2026-02-19,Completed,TECH120,14.22,Routine inspection finding
+WO0000887,AC00066,CMP0020,Hydraulic,High,2026-06-04,2026-06-05,Completed,TECH229,31.19,Intermittent signal failure
+WO0000888,AC00004,CMP0066,Cabin,Low,2026-02-14,2026-02-14,Completed,TECH184,2.83,Temperature threshold breach
+WO0000889,AC00054,CMP0012,Engine,Low,2026-04-03,2026-04-03,Completed,TECH136,7.28,Routine inspection finding
+WO0000890,AC00050,CMP0038,Avionics,Low,2026-01-16,2026-01-17,Completed,TECH137,8.43,Pressure instability
+WO0000891,AC00039,CMP0037,Avionics,High,2026-02-12,2026-02-15,Completed,TECH215,29.41,Pressure instability
+WO0000892,AC00009,CMP0057,Electrical,High,2026-05-03,2026-05-07,Completed,TECH305,54.69,Sensor anomaly correlation
+WO0000893,AC00063,CMP0063,Cabin,Medium,2026-04-16,2026-04-16,Completed,TECH212,6.33,Pressure instability
+WO0000894,AC00055,CMP0022,Hydraulic,Low,2026-06-04,,Open,TECH325,8.99,Component wear beyond tolerance
+WO0000895,AC00046,CMP0058,Electrical,Medium,2026-06-09,2026-06-11,Completed,TECH180,18.52,Component wear beyond tolerance
+WO0000896,AC00055,CMP0021,Hydraulic,Low,2026-06-15,2026-06-17,Completed,TECH194,7.79,Intermittent signal failure
+WO0000897,AC00038,CMP0059,Electrical,Medium,2026-01-07,2026-01-07,Completed,TECH244,21.91,Post-flight inspection alert
+WO0000898,AC00075,CMP0011,Engine,Low,2026-06-16,2026-06-18,Completed,TECH222,7.26,Temperature threshold breach
+WO0000899,AC00078,CMP0041,Landing Gear,High,2026-03-12,2026-03-15,Completed,TECH228,35.16,Pressure instability
+WO0000900,AC00012,CMP0058,Electrical,Medium,2026-04-17,,In Progress,TECH211,23.31,Scheduled preventive maintenance
+WO0000901,AC00046,CMP0051,Landing Gear,High,2026-04-08,2026-04-10,Completed,TECH255,53.38,Pressure instability
+WO0000902,AC00022,CMP0036,Avionics,Low,2026-05-25,,In Progress,TECH323,9.61,Oil pressure deviation
+WO0000903,AC00055,CMP0001,Engine,Medium,2026-04-12,2026-04-12,Completed,TECH261,13.43,Routine inspection finding
+WO0000904,AC00048,CMP0046,Landing Gear,Low,2026-01-02,2026-01-04,Completed,TECH139,8.48,High vibration detected
+WO0000905,AC00055,CMP0053,Electrical,Critical,2026-03-16,2026-03-23,Completed,TECH253,141.29,Post-flight inspection alert
+WO0000906,AC00011,CMP0031,Avionics,Low,2026-06-24,2026-06-25,Completed,TECH202,5.54,Component wear beyond tolerance
+WO0000907,AC00064,CMP0065,Cabin,Medium,2026-05-11,2026-05-11,Completed,TECH216,13.66,Sensor anomaly correlation
+WO0000908,AC00079,CMP0032,Avionics,Low,2026-06-29,,In Progress,TECH222,10.27,High vibration detected
+WO0000909,AC00030,CMP0033,Avionics,Critical,2026-02-20,2026-02-28,Completed,TECH229,144.66,Scheduled preventive maintenance
+WO0000910,AC00077,CMP0036,Avionics,Medium,2026-06-16,2026-06-16,Completed,TECH118,9.84,Scheduled preventive maintenance
+WO0000911,AC00040,CMP0030,Avionics,Critical,2026-02-25,,In Progress,TECH322,153.03,Scheduled preventive maintenance
+WO0000912,AC00027,CMP0014,Engine,Low,2026-04-07,,Open,TECH110,5.07,Routine inspection finding
+WO0000913,AC00030,CMP0039,Avionics,Low,2026-03-28,2026-03-29,Completed,TECH350,6.09,Routine inspection finding
+WO0000914,AC00080,CMP0050,Landing Gear,Low,2026-04-14,2026-04-14,Completed,TECH280,7.04,Intermittent signal failure
+WO0000915,AC00003,CMP0045,Landing Gear,High,2026-03-16,,In Progress,TECH318,27.33,Scheduled preventive maintenance
+WO0000916,AC00020,CMP0015,Engine,Medium,2026-03-04,2026-03-06,Completed,TECH116,16.55,Intermittent signal failure
+WO0000917,AC00041,CMP0010,Engine,Medium,2026-06-25,,In Progress,TECH216,19.47,Routine inspection finding
+WO0000918,AC00014,CMP0036,Avionics,Low,2026-04-21,2026-04-21,Completed,TECH196,7.17,Post-flight inspection alert
+WO0000919,AC00029,CMP0038,Avionics,Low,2026-04-14,2026-04-16,Completed,TECH348,8.12,Scheduled preventive maintenance
+WO0000920,AC00054,CMP0046,Landing Gear,High,2026-04-27,2026-04-29,Completed,TECH312,46.83,Pressure instability
+WO0000921,AC00015,CMP0001,Engine,Low,2026-02-22,2026-02-24,Completed,TECH183,8.45,Routine inspection finding
+WO0000922,AC00015,CMP0063,Cabin,Low,2026-03-21,2026-03-23,Completed,TECH125,4.96,Oil pressure deviation
+WO0000923,AC00023,CMP0009,Engine,Medium,2026-02-01,2026-02-02,Completed,TECH335,23.67,Routine inspection finding
+WO0000924,AC00024,CMP0007,Engine,Low,2026-05-29,2026-05-29,Completed,TECH269,5.3,Intermittent signal failure
+WO0000925,AC00014,CMP0044,Landing Gear,Low,2026-06-06,2026-06-06,Completed,TECH219,11.19,Oil pressure deviation
+WO0000926,AC00045,CMP0017,Hydraulic,Critical,2026-01-31,2026-02-06,Completed,TECH101,125.79,Routine inspection finding
+WO0000927,AC00001,CMP0037,Avionics,Medium,2026-04-10,2026-04-11,Completed,TECH342,14.1,Sensor anomaly correlation
+WO0000928,AC00067,CMP0039,Avionics,Medium,2026-04-22,2026-04-22,Completed,TECH333,13.56,Post-flight inspection alert
+WO0000929,AC00020,CMP0054,Electrical,High,2026-06-29,2026-07-02,Completed,TECH280,24.07,Temperature threshold breach
+WO0000930,AC00061,CMP0018,Hydraulic,Medium,2026-06-11,2026-06-11,Completed,TECH311,8.71,High vibration detected
+WO0000931,AC00040,CMP0020,Hydraulic,Medium,2026-01-26,,In Progress,TECH162,19.57,Component wear beyond tolerance
+WO0000932,AC00023,CMP0006,Engine,High,2026-03-07,,Open,TECH322,47.65,Routine inspection finding
+WO0000933,AC00027,CMP0065,Cabin,Low,2026-06-19,2026-06-20,Completed,TECH343,4.15,Pressure instability
+WO0000934,AC00020,CMP0052,Electrical,Critical,2026-06-12,,In Progress,TECH122,59.8,Intermittent signal failure
+WO0000935,AC00057,CMP0015,Engine,Low,2026-04-14,2026-04-15,Completed,TECH242,1.81,High vibration detected
+WO0000936,AC00019,CMP0047,Landing Gear,Critical,2026-06-22,,Open,TECH156,71.12,High vibration detected
+WO0000937,AC00059,CMP0051,Landing Gear,High,2026-06-03,2026-06-04,Completed,TECH181,29.33,Component wear beyond tolerance
+WO0000938,AC00037,CMP0036,Avionics,Critical,2026-06-10,2026-06-16,Completed,TECH252,116.46,High vibration detected
+WO0000939,AC00036,CMP0027,Hydraulic,Low,2026-01-08,2026-01-10,Completed,TECH216,4.64,Pressure instability
+WO0000940,AC00023,CMP0003,Engine,Low,2026-04-14,2026-04-15,Completed,TECH175,6.65,Scheduled preventive maintenance
+WO0000941,AC00030,CMP0012,Engine,High,2026-02-06,2026-02-10,Completed,TECH104,63.67,Pressure instability
+WO0000942,AC00017,CMP0003,Engine,Critical,2026-01-10,2026-01-17,Completed,TECH251,131.65,Component wear beyond tolerance
+WO0000943,AC00073,CMP0005,Engine,Medium,2026-02-25,2026-02-27,Completed,TECH103,23.62,Component wear beyond tolerance
+WO0000944,AC00055,CMP0006,Engine,Medium,2026-05-08,2026-05-09,Completed,TECH174,6.03,Pressure instability
+WO0000945,AC00027,CMP0055,Electrical,Low,2026-02-04,2026-02-05,Completed,TECH121,1.88,Component wear beyond tolerance
+WO0000946,AC00011,CMP0063,Cabin,Low,2026-02-19,,In Progress,TECH173,5.01,Sensor anomaly correlation
+WO0000947,AC00035,CMP0064,Cabin,High,2026-01-19,,Open,TECH110,54.48,Component wear beyond tolerance
+WO0000948,AC00052,CMP0019,Hydraulic,Medium,2026-03-27,2026-03-27,Completed,TECH214,19.71,Routine inspection finding
+WO0000949,AC00074,CMP0012,Engine,High,2026-01-23,2026-01-25,Completed,TECH175,60.33,Scheduled preventive maintenance
+WO0000950,AC00022,CMP0066,Cabin,Medium,2026-01-30,,Open,TECH198,12.07,Intermittent signal failure
+WO0000951,AC00064,CMP0043,Landing Gear,Medium,2026-06-03,2026-06-03,Completed,TECH252,5.11,Intermittent signal failure
+WO0000952,AC00053,CMP0051,Landing Gear,Low,2026-05-08,2026-05-10,Completed,TECH305,8.69,Routine inspection finding
+WO0000953,AC00053,CMP0053,Electrical,Medium,2026-06-18,,In Progress,TECH343,5.09,Sensor anomaly correlation
+WO0000954,AC00038,CMP0063,Cabin,Low,2026-03-13,2026-03-15,Completed,TECH267,4.34,Pressure instability
+WO0000955,AC00033,CMP0054,Electrical,Medium,2026-02-09,2026-02-10,Completed,TECH263,4.2,Scheduled preventive maintenance
+WO0000956,AC00045,CMP0068,Cabin,Medium,2026-01-09,2026-01-11,Completed,TECH256,15.81,Intermittent signal failure
+WO0000957,AC00073,CMP0038,Avionics,Medium,2026-01-19,2026-01-21,Completed,TECH338,18.37,High vibration detected
+WO0000958,AC00046,CMP0066,Cabin,Medium,2026-02-20,,Open,TECH243,21.78,Sensor anomaly correlation
+WO0000959,AC00065,CMP0063,Cabin,Medium,2026-02-13,,Open,TECH293,10.29,Intermittent signal failure
+WO0000960,AC00045,CMP0065,Cabin,High,2026-04-25,,Open,TECH123,65.23,Routine inspection finding
+WO0000961,AC00069,CMP0009,Engine,Low,2026-04-03,,In Progress,TECH243,11.64,Oil pressure deviation
+WO0000962,AC00001,CMP0069,Cabin,Low,2026-03-12,2026-03-13,Completed,TECH147,3.52,Scheduled preventive maintenance
+WO0000963,AC00035,CMP0035,Avionics,Critical,2026-06-01,2026-06-07,Completed,TECH209,135.28,Pressure instability
+WO0000964,AC00049,CMP0004,Engine,Medium,2026-06-04,2026-06-04,Completed,TECH297,23.83,Post-flight inspection alert
+WO0000965,AC00031,CMP0034,Avionics,Critical,2026-05-31,2026-06-08,Completed,TECH211,157.29,Intermittent signal failure
+WO0000966,AC00060,CMP0008,Engine,High,2026-04-03,2026-04-06,Completed,TECH349,32.87,Pressure instability
+WO0000967,AC00052,CMP0040,Landing Gear,High,2026-02-10,2026-02-14,Completed,TECH256,56.56,Component wear beyond tolerance
+WO0000968,AC00078,CMP0065,Cabin,Medium,2026-01-08,,In Progress,TECH121,13.39,Sensor anomaly correlation
+WO0000969,AC00041,CMP0062,Cabin,Low,2026-02-03,,Open,TECH134,7.47,Oil pressure deviation
+WO0000970,AC00064,CMP0025,Hydraulic,Medium,2026-02-23,2026-02-23,Completed,TECH278,11.53,Oil pressure deviation
+WO0000971,AC00007,CMP0027,Hydraulic,Low,2026-06-17,2026-06-19,Completed,TECH304,2.43,Pressure instability
+WO0000972,AC00055,CMP0016,Hydraulic,Medium,2026-03-02,2026-03-02,Completed,TECH262,7.56,Sensor anomaly correlation
+WO0000973,AC00042,CMP0021,Hydraulic,Medium,2026-04-11,,In Progress,TECH188,18.26,Component wear beyond tolerance
+WO0000974,AC00064,CMP0065,Cabin,High,2026-04-06,,Open,TECH153,65.73,Sensor anomaly correlation
+WO0000975,AC00052,CMP0008,Engine,Medium,2026-01-13,2026-01-14,Completed,TECH128,18.05,High vibration detected
+WO0000976,AC00010,CMP0048,Landing Gear,Medium,2026-06-18,,Open,TECH163,5.46,Intermittent signal failure
+WO0000977,AC00001,CMP0019,Hydraulic,Critical,2026-03-30,2026-04-03,Completed,TECH286,74.74,High vibration detected
+WO0000978,AC00028,CMP0031,Avionics,Medium,2026-04-23,,Open,TECH179,5.14,Pressure instability
+WO0000979,AC00049,CMP0059,Electrical,High,2026-04-06,,Open,TECH277,22.55,Component wear beyond tolerance
+WO0000980,AC00028,CMP0060,Electrical,Critical,2026-06-23,2026-07-01,Completed,TECH135,165.49,Temperature threshold breach
+WO0000981,AC00032,CMP0002,Engine,Medium,2026-03-12,2026-03-13,Completed,TECH220,18.22,Intermittent signal failure
+WO0000982,AC00048,CMP0033,Avionics,Low,2026-04-23,2026-04-24,Completed,TECH183,2.68,Temperature threshold breach
+WO0000983,AC00044,CMP0028,Avionics,Low,2026-02-13,2026-02-13,Completed,TECH278,4.54,Sensor anomaly correlation
+WO0000984,AC00022,CMP0067,Cabin,Low,2026-05-25,,Open,TECH347,9.54,Sensor anomaly correlation
+WO0000985,AC00028,CMP0004,Engine,Low,2026-02-17,,In Progress,TECH263,4.23,Oil pressure deviation
+WO0000986,AC00071,CMP0030,Avionics,Low,2026-05-05,,In Progress,TECH333,3.02,Component wear beyond tolerance
+WO0000987,AC00069,CMP0061,Cabin,Low,2026-06-07,,Open,TECH200,8.47,Scheduled preventive maintenance
+WO0000988,AC00068,CMP0031,Avionics,Medium,2026-02-08,2026-02-08,Completed,TECH205,17.56,Post-flight inspection alert
+WO0000989,AC00061,CMP0058,Electrical,Medium,2026-02-11,2026-02-12,Completed,TECH124,11.81,High vibration detected
+WO0000990,AC00017,CMP0062,Cabin,Medium,2026-01-18,2026-01-19,Completed,TECH270,9.39,Intermittent signal failure
+WO0000991,AC00001,CMP0034,Avionics,High,2026-03-13,2026-03-16,Completed,TECH270,25.49,Routine inspection finding
+WO0000992,AC00020,CMP0040,Landing Gear,Medium,2026-01-30,2026-01-31,Completed,TECH343,8.91,Routine inspection finding
+WO0000993,AC00055,CMP0018,Hydraulic,Low,2026-03-07,,Open,TECH203,9.71,Component wear beyond tolerance
+WO0000994,AC00038,CMP0008,Engine,Low,2026-04-15,2026-04-16,Completed,TECH315,2.08,High vibration detected
+WO0000995,AC00035,CMP0054,Electrical,Medium,2026-04-11,,In Progress,TECH163,6.81,Routine inspection finding
+WO0000996,AC00069,CMP0029,Avionics,High,2026-06-25,2026-06-28,Completed,TECH225,26.83,Scheduled preventive maintenance
+WO0000997,AC00006,CMP0045,Landing Gear,Low,2026-06-07,,Open,TECH255,10.05,Temperature threshold breach
+WO0000998,AC00052,CMP0028,Avionics,Medium,2026-04-16,2026-04-16,Completed,TECH349,16.58,Temperature threshold breach
+WO0000999,AC00072,CMP0054,Electrical,Medium,2026-06-05,2026-06-06,Completed,TECH130,18.53,Routine inspection finding
+WO0001000,AC00019,CMP0063,Cabin,Critical,2026-01-04,2026-01-09,Completed,TECH234,137.16,Temperature threshold breach
+WO0001001,AC00016,CMP0037,Avionics,Low,2026-03-14,2026-03-16,Completed,TECH300,8.19,Component wear beyond tolerance
+WO0001002,AC00031,CMP0035,Avionics,Critical,2026-01-14,,In Progress,TECH226,83.08,Sensor anomaly correlation
+WO0001003,AC00050,CMP0018,Hydraulic,Medium,2026-03-18,2026-03-18,Completed,TECH295,22.77,Intermittent signal failure
+WO0001004,AC00068,CMP0044,Landing Gear,High,2026-04-26,2026-04-28,Completed,TECH134,71.52,High vibration detected
+WO0001005,AC00065,CMP0031,Avionics,Medium,2026-05-22,2026-05-23,Completed,TECH123,7.54,Sensor anomaly correlation
+WO0001006,AC00042,CMP0008,Engine,Low,2026-03-13,2026-03-15,Completed,TECH293,2.04,Component wear beyond tolerance
+WO0001007,AC00055,CMP0051,Landing Gear,Low,2026-02-11,2026-02-11,Completed,TECH205,2.31,Oil pressure deviation
+WO0001008,AC00032,CMP0034,Avionics,Medium,2026-06-22,2026-06-22,Completed,TECH293,5.04,Post-flight inspection alert
+WO0001009,AC00001,CMP0005,Engine,Low,2026-01-15,2026-01-17,Completed,TECH342,2.52,Post-flight inspection alert
+WO0001010,AC00061,CMP0039,Avionics,Low,2026-02-16,,In Progress,TECH328,9.63,Scheduled preventive maintenance
+WO0001011,AC00080,CMP0067,Cabin,Low,2026-06-18,,In Progress,TECH160,1.65,Oil pressure deviation
+WO0001012,AC00062,CMP0049,Landing Gear,Medium,2026-01-29,2026-01-30,Completed,TECH317,4.08,Scheduled preventive maintenance
+WO0001013,AC00030,CMP0027,Hydraulic,Low,2026-05-10,2026-05-10,Completed,TECH259,10.34,Sensor anomaly correlation
+WO0001014,AC00054,CMP0043,Landing Gear,Medium,2026-06-13,2026-06-14,Completed,TECH214,22.1,Oil pressure deviation
+WO0001015,AC00009,CMP0017,Hydraulic,Low,2026-01-25,,Open,TECH101,8.54,High vibration detected
+WO0001016,AC00006,CMP0057,Electrical,Low,2026-05-30,,In Progress,TECH186,8.88,Pressure instability
+WO0001017,AC00043,CMP0009,Engine,High,2026-06-01,2026-06-05,Completed,TECH292,51.3,Oil pressure deviation
+WO0001018,AC00002,CMP0064,Cabin,Low,2026-01-29,2026-01-31,Completed,TECH212,3.44,High vibration detected
+WO0001019,AC00071,CMP0028,Avionics,Medium,2026-01-12,2026-01-13,Completed,TECH317,8.44,High vibration detected
+WO0001020,AC00051,CMP0028,Avionics,Low,2026-02-19,2026-02-21,Completed,TECH150,3.62,High vibration detected
+WO0001021,AC00041,CMP0002,Engine,High,2026-04-19,,In Progress,TECH215,71.15,Component wear beyond tolerance
+WO0001022,AC00075,CMP0067,Cabin,High,2026-02-05,,Open,TECH177,13.79,Temperature threshold breach
+WO0001023,AC00042,CMP0018,Hydraulic,Medium,2026-06-19,2026-06-19,Completed,TECH228,7.61,Routine inspection finding
+WO0001024,AC00058,CMP0050,Landing Gear,Low,2026-04-02,2026-04-02,Completed,TECH241,6.17,Temperature threshold breach
+WO0001025,AC00064,CMP0023,Hydraulic,Medium,2026-03-09,2026-03-10,Completed,TECH338,8.98,High vibration detected
+WO0001026,AC00030,CMP0043,Landing Gear,High,2026-03-20,2026-03-22,Completed,TECH238,35.48,Oil pressure deviation
+WO0001027,AC00036,CMP0023,Hydraulic,Medium,2026-05-31,,Open,TECH158,8.99,Routine inspection finding
+WO0001028,AC00040,CMP0003,Engine,Low,2026-01-22,,In Progress,TECH148,3.19,Oil pressure deviation
+WO0001029,AC00031,CMP0062,Cabin,High,2026-03-23,,Open,TECH194,49.47,Scheduled preventive maintenance
+WO0001030,AC00049,CMP0028,Avionics,Low,2026-05-09,2026-05-11,Completed,TECH286,3.92,Intermittent signal failure
+WO0001031,AC00034,CMP0046,Landing Gear,Critical,2026-04-04,,Open,TECH185,166.77,Post-flight inspection alert
+WO0001032,AC00012,CMP0016,Hydraulic,Low,2026-04-08,2026-04-09,Completed,TECH315,6.52,Component wear beyond tolerance
+WO0001033,AC00003,CMP0022,Hydraulic,Low,2026-03-04,2026-03-04,Completed,TECH237,7.1,Pressure instability
+WO0001034,AC00015,CMP0005,Engine,Medium,2026-04-29,2026-04-29,Completed,TECH160,20.73,Component wear beyond tolerance
+WO0001035,AC00072,CMP0066,Cabin,High,2026-02-08,2026-02-09,Completed,TECH209,41.5,Component wear beyond tolerance
+WO0001036,AC00067,CMP0035,Avionics,Medium,2026-05-06,2026-05-06,Completed,TECH157,21.36,Intermittent signal failure
+WO0001037,AC00009,CMP0065,Cabin,High,2026-06-23,,In Progress,TECH144,32.68,Sensor anomaly correlation
+WO0001038,AC00039,CMP0060,Electrical,Medium,2026-02-09,2026-02-11,Completed,TECH263,10.46,Post-flight inspection alert
+WO0001039,AC00034,CMP0052,Electrical,Low,2026-04-17,,Open,TECH142,6.94,Post-flight inspection alert
+WO0001040,AC00026,CMP0034,Avionics,Low,2026-05-30,,Open,TECH154,8.36,Scheduled preventive maintenance
+WO0001041,AC00047,CMP0002,Engine,Low,2026-05-23,2026-05-23,Completed,TECH122,10.91,Scheduled preventive maintenance
+WO0001042,AC00030,CMP0035,Avionics,Low,2026-01-13,2026-01-13,Completed,TECH340,11.08,Intermittent signal failure
+WO0001043,AC00078,CMP0047,Landing Gear,Medium,2026-04-12,,In Progress,TECH253,12.44,Component wear beyond tolerance
+WO0001044,AC00005,CMP0018,Hydraulic,Low,2026-06-19,2026-06-21,Completed,TECH349,11.43,Intermittent signal failure
+WO0001045,AC00071,CMP0018,Hydraulic,Medium,2026-02-27,2026-02-27,Completed,TECH155,9.65,Post-flight inspection alert
+WO0001046,AC00049,CMP0011,Engine,High,2026-05-30,2026-06-02,Completed,TECH115,53.06,Sensor anomaly correlation
+WO0001047,AC00037,CMP0049,Landing Gear,High,2026-03-13,,In Progress,TECH144,60.93,Scheduled preventive maintenance
+WO0001048,AC00026,CMP0039,Avionics,Low,2026-05-25,2026-05-25,Completed,TECH282,8.86,Component wear beyond tolerance
+WO0001049,AC00038,CMP0031,Avionics,Low,2026-05-18,,In Progress,TECH348,11.03,Routine inspection finding
+WO0001050,AC00039,CMP0042,Landing Gear,Low,2026-01-15,,Open,TECH136,11.87,Oil pressure deviation
+WO0001051,AC00055,CMP0043,Landing Gear,High,2026-04-20,2026-04-21,Completed,TECH127,17.43,Post-flight inspection alert
+WO0001052,AC00031,CMP0057,Electrical,Medium,2026-05-08,2026-05-10,Completed,TECH231,16.65,Scheduled preventive maintenance
+WO0001053,AC00069,CMP0055,Electrical,Medium,2026-02-13,,Open,TECH308,22.73,Scheduled preventive maintenance
+WO0001054,AC00049,CMP0065,Cabin,Medium,2026-05-08,2026-05-08,Completed,TECH132,18.4,Intermittent signal failure
+WO0001055,AC00047,CMP0016,Hydraulic,Critical,2026-01-18,2026-01-22,Completed,TECH340,99.96,Temperature threshold breach
+WO0001056,AC00060,CMP0063,Cabin,Low,2026-06-28,2026-06-30,Completed,TECH280,10.37,Routine inspection finding
+WO0001057,AC00078,CMP0008,Engine,Low,2026-02-19,,In Progress,TECH317,2.71,Routine inspection finding
+WO0001058,AC00030,CMP0059,Electrical,Medium,2026-01-13,,In Progress,TECH224,6.64,Oil pressure deviation
+WO0001059,AC00023,CMP0051,Landing Gear,Medium,2026-02-15,,In Progress,TECH198,21.6,Component wear beyond tolerance
+WO0001060,AC00022,CMP0008,Engine,Medium,2026-05-26,,Open,TECH113,5.08,Oil pressure deviation
+WO0001061,AC00068,CMP0012,Engine,High,2026-04-17,2026-04-18,Completed,TECH226,19.31,Oil pressure deviation
+WO0001062,AC00028,CMP0056,Electrical,Medium,2026-04-21,2026-04-22,Completed,TECH275,17.88,Intermittent signal failure
+WO0001063,AC00001,CMP0030,Avionics,Critical,2026-05-17,2026-05-22,Completed,TECH298,97.24,High vibration detected
+WO0001064,AC00050,CMP0069,Cabin,High,2026-02-15,2026-02-19,Completed,TECH126,60.57,Pressure instability
+WO0001065,AC00014,CMP0052,Electrical,Medium,2026-03-11,2026-03-12,Completed,TECH174,21.16,Sensor anomaly correlation
+WO0001066,AC00075,CMP0049,Landing Gear,Medium,2026-05-01,,Open,TECH233,20.15,Sensor anomaly correlation
+WO0001067,AC00036,CMP0045,Landing Gear,Medium,2026-04-11,2026-04-13,Completed,TECH249,10.63,Intermittent signal failure
+WO0001068,AC00040,CMP0053,Electrical,Low,2026-03-09,2026-03-09,Completed,TECH321,2.06,Post-flight inspection alert
+WO0001069,AC00056,CMP0011,Engine,Low,2026-06-01,2026-06-02,Completed,TECH310,4.11,Component wear beyond tolerance
+WO0001070,AC00065,CMP0020,Hydraulic,Medium,2026-04-09,,Open,TECH233,13.5,Pressure instability
+WO0001071,AC00079,CMP0053,Electrical,High,2026-06-27,2026-06-30,Completed,TECH152,25.64,Oil pressure deviation
+WO0001072,AC00061,CMP0062,Cabin,Low,2026-06-14,,In Progress,TECH179,6.01,Oil pressure deviation
+WO0001073,AC00059,CMP0022,Hydraulic,Low,2026-01-27,2026-01-28,Completed,TECH280,10.1,Scheduled preventive maintenance
+WO0001074,AC00048,CMP0012,Engine,High,2026-03-15,2026-03-16,Completed,TECH271,45.15,Scheduled preventive maintenance
+WO0001075,AC00009,CMP0047,Landing Gear,Low,2026-02-28,2026-03-02,Completed,TECH130,3.35,Sensor anomaly correlation
+WO0001076,AC00041,CMP0018,Hydraulic,Low,2026-04-26,2026-04-26,Completed,TECH164,9.4,Routine inspection finding
+WO0001077,AC00057,CMP0063,Cabin,Medium,2026-05-13,,Open,TECH295,14.73,Pressure instability
+WO0001078,AC00048,CMP0066,Cabin,Medium,2026-06-28,,Open,TECH224,5.03,Intermittent signal failure
+WO0001079,AC00036,CMP0005,Engine,High,2026-03-07,2026-03-10,Completed,TECH163,25.88,Scheduled preventive maintenance
+WO0001080,AC00014,CMP0043,Landing Gear,Critical,2026-04-02,2026-04-05,Completed,TECH212,87.09,Sensor anomaly correlation
+WO0001081,AC00036,CMP0049,Landing Gear,High,2026-06-04,2026-06-06,Completed,TECH137,25.72,High vibration detected
+WO0001082,AC00066,CMP0056,Electrical,Low,2026-02-26,2026-02-27,Completed,TECH337,8.11,Sensor anomaly correlation
+WO0001083,AC00062,CMP0027,Hydraulic,Medium,2026-04-08,2026-04-08,Completed,TECH308,23.83,High vibration detected
+WO0001084,AC00001,CMP0051,Landing Gear,Medium,2026-02-19,2026-02-20,Completed,TECH184,21.44,High vibration detected
+WO0001085,AC00052,CMP0031,Avionics,Low,2026-04-24,,In Progress,TECH267,10.5,Post-flight inspection alert
+WO0001086,AC00002,CMP0066,Cabin,High,2026-03-06,2026-03-08,Completed,TECH301,41.6,Pressure instability
+WO0001087,AC00028,CMP0036,Avionics,High,2026-01-24,,In Progress,TECH213,66.09,Scheduled preventive maintenance
+WO0001088,AC00055,CMP0058,Electrical,Medium,2026-03-13,2026-03-15,Completed,TECH222,9.21,Sensor anomaly correlation
+WO0001089,AC00079,CMP0002,Engine,Medium,2026-01-02,,In Progress,TECH131,20.5,Oil pressure deviation
+WO0001090,AC00037,CMP0056,Electrical,Low,2026-05-26,2026-05-26,Completed,TECH189,1.71,Post-flight inspection alert
+WO0001091,AC00062,CMP0053,Electrical,Medium,2026-01-24,2026-01-24,Completed,TECH309,14.72,Pressure instability
+WO0001092,AC00013,CMP0008,Engine,Medium,2026-04-10,2026-04-10,Completed,TECH277,5.22,Temperature threshold breach
+WO0001093,AC00016,CMP0030,Avionics,Low,2026-05-12,,Open,TECH344,3.31,Scheduled preventive maintenance
+WO0001094,AC00042,CMP0003,Engine,Low,2026-04-13,2026-04-14,Completed,TECH198,10.62,Scheduled preventive maintenance
+WO0001095,AC00072,CMP0036,Avionics,High,2026-06-16,2026-06-18,Completed,TECH347,32.78,Post-flight inspection alert
+WO0001096,AC00017,CMP0002,Engine,High,2026-03-05,,Open,TECH273,25.79,Scheduled preventive maintenance
+WO0001097,AC00051,CMP0018,Hydraulic,Medium,2026-04-04,2026-04-05,Completed,TECH306,10.08,Intermittent signal failure
+WO0001098,AC00042,CMP0064,Cabin,Low,2026-06-17,2026-06-19,Completed,TECH161,10.35,Routine inspection finding
+WO0001099,AC00064,CMP0038,Avionics,Low,2026-06-25,,In Progress,TECH157,8.98,Routine inspection finding
+WO0001100,AC00020,CMP0061,Cabin,Medium,2026-01-06,2026-01-07,Completed,TECH213,23.05,Component wear beyond tolerance
+WO0001101,AC00024,CMP0039,Avionics,Medium,2026-06-24,2026-06-25,Completed,TECH113,14.12,Intermittent signal failure
+WO0001102,AC00001,CMP0041,Landing Gear,Critical,2026-04-30,2026-05-05,Completed,TECH328,83.77,Sensor anomaly correlation
+WO0001103,AC00066,CMP0004,Engine,Low,2026-04-23,,In Progress,TECH172,2.8,Sensor anomaly correlation
+WO0001104,AC00061,CMP0042,Landing Gear,Low,2026-03-08,2026-03-10,Completed,TECH287,11.81,High vibration detected
+WO0001105,AC00040,CMP0005,Engine,Medium,2026-05-06,2026-05-07,Completed,TECH152,15.02,Pressure instability
+WO0001106,AC00033,CMP0054,Electrical,Medium,2026-01-04,2026-01-06,Completed,TECH287,16.26,Component wear beyond tolerance
+WO0001107,AC00057,CMP0012,Engine,Low,2026-06-09,2026-06-11,Completed,TECH285,6.84,Temperature threshold breach
+WO0001108,AC00015,CMP0004,Engine,High,2026-03-12,2026-03-14,Completed,TECH329,38.42,Routine inspection finding
+WO0001109,AC00019,CMP0019,Hydraulic,Medium,2026-01-20,,In Progress,TECH106,19.46,Intermittent signal failure
+WO0001110,AC00061,CMP0019,Hydraulic,High,2026-04-01,2026-04-02,Completed,TECH151,22.18,Routine inspection finding
+WO0001111,AC00072,CMP0018,Hydraulic,Medium,2026-06-09,2026-06-10,Completed,TECH237,19.85,Temperature threshold breach
+WO0001112,AC00075,CMP0058,Electrical,Low,2026-05-23,,Open,TECH225,5.78,High vibration detected
+WO0001113,AC00066,CMP0039,Avionics,Low,2026-03-15,2026-03-15,Completed,TECH316,10.95,Routine inspection finding
+WO0001114,AC00004,CMP0025,Hydraulic,Low,2026-03-23,2026-03-23,Completed,TECH205,9.77,High vibration detected
+WO0001115,AC00053,CMP0039,Avionics,Low,2026-01-12,,Open,TECH158,1.34,Post-flight inspection alert
+WO0001116,AC00057,CMP0068,Cabin,Critical,2026-02-01,2026-02-04,Completed,TECH248,78.17,Component wear beyond tolerance
+WO0001117,AC00004,CMP0023,Hydraulic,Low,2026-04-20,2026-04-21,Completed,TECH335,7.59,Sensor anomaly correlation
+WO0001118,AC00071,CMP0006,Engine,High,2026-03-04,2026-03-05,Completed,TECH272,27.41,Oil pressure deviation
+WO0001119,AC00056,CMP0053,Electrical,Low,2026-04-16,2026-04-16,Completed,TECH122,1.84,Temperature threshold breach
+WO0001120,AC00062,CMP0011,Engine,Low,2026-03-19,2026-03-21,Completed,TECH127,4.2,Temperature threshold breach
+WO0001121,AC00008,CMP0055,Electrical,Medium,2026-03-08,,In Progress,TECH215,12.11,Oil pressure deviation
+WO0001122,AC00020,CMP0026,Hydraulic,Medium,2026-03-14,,Open,TECH294,14.15,High vibration detected
+WO0001123,AC00013,CMP0008,Engine,Low,2026-02-26,2026-02-26,Completed,TECH314,5.65,Routine inspection finding
+WO0001124,AC00005,CMP0016,Hydraulic,Medium,2026-06-09,2026-06-09,Completed,TECH144,21.33,Routine inspection finding
+WO0001125,AC00020,CMP0048,Landing Gear,Medium,2026-02-08,,In Progress,TECH130,14.29,High vibration detected
+WO0001126,AC00070,CMP0008,Engine,Medium,2026-06-11,,Open,TECH107,14.75,Sensor anomaly correlation
+WO0001127,AC00074,CMP0066,Cabin,Low,2026-01-02,2026-01-04,Completed,TECH116,10.96,Sensor anomaly correlation
+WO0001128,AC00019,CMP0020,Hydraulic,High,2026-03-25,2026-03-27,Completed,TECH167,44.53,Temperature threshold breach
+WO0001129,AC00039,CMP0051,Landing Gear,Medium,2026-01-07,2026-01-09,Completed,TECH292,4.13,Routine inspection finding
+WO0001130,AC00016,CMP0025,Hydraulic,Low,2026-06-06,2026-06-08,Completed,TECH151,6.98,Routine inspection finding
+WO0001131,AC00024,CMP0054,Electrical,Critical,2026-04-15,,In Progress,TECH102,157.36,Routine inspection finding
+WO0001132,AC00015,CMP0040,Landing Gear,Low,2026-04-07,2026-04-08,Completed,TECH130,1.14,Pressure instability
+WO0001133,AC00013,CMP0053,Electrical,High,2026-06-15,2026-06-19,Completed,TECH192,62.86,Sensor anomaly correlation
+WO0001134,AC00040,CMP0009,Engine,Low,2026-03-09,2026-03-09,Completed,TECH151,2.58,Oil pressure deviation
+WO0001135,AC00066,CMP0011,Engine,Critical,2026-04-10,,In Progress,TECH140,149.2,Sensor anomaly correlation
+WO0001136,AC00022,CMP0064,Cabin,Medium,2026-04-12,2026-04-14,Completed,TECH199,12.34,Pressure instability
+WO0001137,AC00060,CMP0049,Landing Gear,Low,2026-04-10,2026-04-10,Completed,TECH346,6.54,Temperature threshold breach
+WO0001138,AC00034,CMP0031,Avionics,Low,2026-04-23,2026-04-25,Completed,TECH312,4.34,Temperature threshold breach
+WO0001139,AC00064,CMP0051,Landing Gear,High,2026-05-13,2026-05-15,Completed,TECH124,70.33,Oil pressure deviation
+WO0001140,AC00048,CMP0003,Engine,Low,2026-01-08,2026-01-08,Completed,TECH122,6.18,Post-flight inspection alert
+WO0001141,AC00051,CMP0056,Electrical,Low,2026-02-25,2026-02-27,Completed,TECH266,8.62,Pressure instability
+WO0001142,AC00067,CMP0025,Hydraulic,High,2026-04-14,2026-04-16,Completed,TECH132,71.7,Component wear beyond tolerance
+WO0001143,AC00064,CMP0067,Cabin,Medium,2026-03-14,2026-03-16,Completed,TECH104,19.38,Pressure instability
+WO0001144,AC00024,CMP0045,Landing Gear,Low,2026-04-29,,In Progress,TECH306,9.41,Intermittent signal failure
+WO0001145,AC00076,CMP0055,Electrical,Medium,2026-05-07,2026-05-09,Completed,TECH255,23.93,Pressure instability
+WO0001146,AC00068,CMP0060,Electrical,Medium,2026-06-16,2026-06-16,Completed,TECH212,11.3,Intermittent signal failure
+WO0001147,AC00064,CMP0055,Electrical,Medium,2026-01-28,2026-01-29,Completed,TECH184,22.66,Sensor anomaly correlation
+WO0001148,AC00009,CMP0031,Avionics,Medium,2026-05-02,2026-05-02,Completed,TECH104,13.11,Temperature threshold breach
+WO0001149,AC00007,CMP0016,Hydraulic,High,2026-01-21,,Open,TECH312,70.28,Component wear beyond tolerance
+WO0001150,AC00040,CMP0041,Landing Gear,Low,2026-02-06,2026-02-08,Completed,TECH182,4.12,Intermittent signal failure
+WO0001151,AC00030,CMP0032,Avionics,Low,2026-02-10,2026-02-11,Completed,TECH321,10.73,Sensor anomaly correlation
+WO0001152,AC00014,CMP0011,Engine,Low,2026-05-12,2026-05-14,Completed,TECH199,1.75,High vibration detected
+WO0001153,AC00002,CMP0036,Avionics,Medium,2026-02-23,2026-02-25,Completed,TECH128,13.21,Pressure instability
+WO0001154,AC00029,CMP0038,Avionics,Low,2026-05-24,,In Progress,TECH112,10.08,High vibration detected
+WO0001155,AC00080,CMP0025,Hydraulic,Medium,2026-02-09,2026-02-09,Completed,TECH204,10.87,High vibration detected
+WO0001156,AC00007,CMP0036,Avionics,Low,2026-03-13,2026-03-14,Completed,TECH203,7.63,High vibration detected
+WO0001157,AC00016,CMP0019,Hydraulic,Low,2026-04-17,2026-04-18,Completed,TECH228,8.74,Intermittent signal failure
+WO0001158,AC00069,CMP0026,Hydraulic,Critical,2026-06-21,2026-06-27,Completed,TECH106,138.78,Post-flight inspection alert
+WO0001159,AC00075,CMP0026,Hydraulic,Medium,2026-03-18,2026-03-19,Completed,TECH339,10.27,Intermittent signal failure
+WO0001160,AC00010,CMP0024,Hydraulic,Low,2026-05-08,,Open,TECH319,10.76,Routine inspection finding
+WO0001161,AC00071,CMP0017,Hydraulic,Medium,2026-02-04,2026-02-04,Completed,TECH250,22.31,Scheduled preventive maintenance
+WO0001162,AC00077,CMP0040,Landing Gear,High,2026-04-11,2026-04-15,Completed,TECH107,66.16,High vibration detected
+WO0001163,AC00040,CMP0060,Electrical,Medium,2026-01-25,2026-01-27,Completed,TECH117,18.28,Intermittent signal failure
+WO0001164,AC00054,CMP0021,Hydraulic,Low,2026-01-17,2026-01-19,Completed,TECH254,2.05,Temperature threshold breach
+WO0001165,AC00079,CMP0049,Landing Gear,High,2026-03-11,2026-03-14,Completed,TECH310,24.78,Sensor anomaly correlation
+WO0001166,AC00056,CMP0036,Avionics,High,2026-02-28,2026-03-02,Completed,TECH181,50.26,Temperature threshold breach
+WO0001167,AC00038,CMP0060,Electrical,Low,2026-02-26,2026-02-26,Completed,TECH252,5.22,Routine inspection finding
+WO0001168,AC00001,CMP0052,Electrical,Critical,2026-01-26,2026-01-31,Completed,TECH185,131.64,Routine inspection finding
+WO0001169,AC00015,CMP0058,Electrical,High,2026-06-13,2026-06-15,Completed,TECH201,25.76,Pressure instability
+WO0001170,AC00036,CMP0060,Electrical,Low,2026-02-20,2026-02-21,Completed,TECH311,10.92,Sensor anomaly correlation
+WO0001171,AC00047,CMP0038,Avionics,Low,2026-06-25,2026-06-27,Completed,TECH209,6.35,Oil pressure deviation
+WO0001172,AC00044,CMP0050,Landing Gear,Low,2026-02-05,2026-02-05,Completed,TECH157,11.51,Post-flight inspection alert
+WO0001173,AC00076,CMP0039,Avionics,Medium,2026-05-07,2026-05-07,Completed,TECH288,12.02,Routine inspection finding
+WO0001174,AC00006,CMP0051,Landing Gear,Medium,2026-06-03,,In Progress,TECH308,6.32,Oil pressure deviation
+WO0001175,AC00054,CMP0007,Engine,High,2026-05-09,,Open,TECH120,54.35,Temperature threshold breach
+WO0001176,AC00026,CMP0057,Electrical,Low,2026-05-23,2026-05-24,Completed,TECH341,8.28,Oil pressure deviation
+WO0001177,AC00007,CMP0015,Engine,High,2026-04-13,,Open,TECH167,45.41,Temperature threshold breach
+WO0001178,AC00039,CMP0024,Hydraulic,Medium,2026-03-27,2026-03-27,Completed,TECH154,9.39,Oil pressure deviation
+WO0001179,AC00031,CMP0052,Electrical,Low,2026-04-12,,In Progress,TECH196,6.67,High vibration detected
+WO0001180,AC00015,CMP0010,Engine,Low,2026-01-20,2026-01-20,Completed,TECH188,1.55,High vibration detected
+WO0001181,AC00044,CMP0062,Cabin,Low,2026-04-24,,In Progress,TECH265,5.19,High vibration detected
+WO0001182,AC00025,CMP0048,Landing Gear,High,2026-01-13,2026-01-14,Completed,TECH172,28.97,Post-flight inspection alert
+WO0001183,AC00024,CMP0027,Hydraulic,Low,2026-03-04,2026-03-05,Completed,TECH133,5.22,Scheduled preventive maintenance
+WO0001184,AC00010,CMP0036,Avionics,High,2026-04-25,,In Progress,TECH308,41.44,Intermittent signal failure
+WO0001185,AC00030,CMP0016,Hydraulic,Low,2026-06-01,,Open,TECH224,7.38,Routine inspection finding
+WO0001186,AC00056,CMP0051,Landing Gear,Medium,2026-01-25,2026-01-26,Completed,TECH126,15.13,High vibration detected
+WO0001187,AC00033,CMP0034,Avionics,Critical,2026-04-21,2026-04-28,Completed,TECH166,138.39,Routine inspection finding
+WO0001188,AC00047,CMP0064,Cabin,Low,2026-02-28,2026-03-01,Completed,TECH231,8.09,Pressure instability
+WO0001189,AC00046,CMP0036,Avionics,High,2026-05-12,2026-05-15,Completed,TECH290,47.41,Temperature threshold breach
+WO0001190,AC00043,CMP0015,Engine,Low,2026-04-09,2026-04-10,Completed,TECH322,4.11,High vibration detected
+WO0001191,AC00037,CMP0053,Electrical,Medium,2026-06-29,2026-06-30,Completed,TECH250,12.03,Oil pressure deviation
+WO0001192,AC00039,CMP0024,Hydraulic,Critical,2026-06-12,,Open,TECH131,162.62,Sensor anomaly correlation
+WO0001193,AC00016,CMP0015,Engine,Low,2026-06-04,,Open,TECH158,3.18,Intermittent signal failure
+WO0001194,AC00026,CMP0045,Landing Gear,Medium,2026-05-04,,In Progress,TECH191,21.22,Sensor anomaly correlation
+WO0001195,AC00049,CMP0016,Hydraulic,Medium,2026-01-12,2026-01-14,Completed,TECH347,10.41,High vibration detected
+WO0001196,AC00012,CMP0044,Landing Gear,High,2026-03-25,2026-03-27,Completed,TECH248,44.42,Oil pressure deviation
+WO0001197,AC00054,CMP0020,Hydraulic,High,2026-06-22,,In Progress,TECH117,70.93,High vibration detected
+WO0001198,AC00003,CMP0038,Avionics,Medium,2026-04-21,2026-04-23,Completed,TECH271,4.66,Component wear beyond tolerance
+WO0001199,AC00067,CMP0053,Electrical,Low,2026-04-20,2026-04-21,Completed,TECH338,9.27,Intermittent signal failure
+WO0001200,AC00074,CMP0035,Avionics,Low,2026-03-20,,Open,TECH224,9.43,Component wear beyond tolerance

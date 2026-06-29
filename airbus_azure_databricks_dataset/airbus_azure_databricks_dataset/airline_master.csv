@@ -1,0 +1,13 @@
+airline_id,airline_name,airline_region,iata_code,active_flag
+AL001,AeroNova India,India,AN,Y
+AL002,SkyBridge Airways,Middle East,SB,Y
+AL003,IndigoSky Connect,Southeast Asia,IS,Y
+AL004,EuroJet Regional,Europe,EJ,Y
+AL005,Desert Falcon Air,India,DF,Y
+AL006,Pacific Wings,Southeast Asia,PW,Y
+AL007,Northern Star Aviation,Southeast Asia,NS,N
+AL008,MetroAir Express,Middle East,MA,Y
+AL009,GlobalLink Airlines,India,GL,N
+AL010,BlueHorizon Air,Middle East,BH,Y
+AL011,Capital Air Shuttle,Southeast Asia,CA,Y
+AL012,Summit Airways,Europe,SA,Y
