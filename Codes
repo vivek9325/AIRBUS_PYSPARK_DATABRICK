@@ -62,6 +62,29 @@ ranked_df.show()
 
 ========================================================================
 
+null_check_df = df.select([count(when(col(c).isNull(),c)).alias(c) for c in df.columns])
 
+null_check_df.show()
+
+duplicate_emp_df = (
+    df.groupBy("empId")
+    .agg(count("*").alias("duplicate_count"))
+    .filter(col("duplicate_count") > 1)
+)
+
+duplicate_emp_df.show()
+
+
+invalid_salary_df = df.filter(col("salary")<=0)
+
+invalid_salary_df.show()
+
+
+clean_df = (df.dropDuplicates(["empId"]).filter(col("empId").isNotNull()). filter(col("salary")>0))
+
+clean_df.show()
+
+
+===================================================================================================
 
 
