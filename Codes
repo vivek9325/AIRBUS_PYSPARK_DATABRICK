@@ -32,3 +32,11 @@ dept_count_df = (
 dept_count_df.show()
 
 =============================================
+
+
+from pyspark.sql.functions import avg, min, max, sum, round
+
+dept_salary_df = df.groupBy("department").agg(count("*").alias("employee_count"), min("salary").alias("min_salary"), max("salary").alias("max_salary)"), round(avg("salary"),2).alias("avg_salary"), sum("salary").alias("total_salary")).orderBy(col("total_salary").desc())
+
+dept_salary_df.show()
+
