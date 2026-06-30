@@ -96,52 +96,52 @@ print("Checkpoint Path:", CHK)
 -------------------------------------------------------------------------
 
 from pyspark.sql import Window, functions as F
-
+ 
 raw = spark.table(f"{CATALOG}.{SCHEMA}.bronze_flights")
-
+ 
 typed = (
-
     raw
-    .withColumn("sched_dep_ts", F.expr("try_to_timestamp(sched_dep_utc)"))
+    .withColumn("sched_dep_ts",  F.expr("try_to_timestamp(sched_dep_utc)"))
     .withColumn("actual_dep_ts", F.expr("try_to_timestamp(actual_dep_utc)"))
-    .withColumn("sched_arr_ts", F.expr("try_to_timestamp(sched_arr_utc)"))
+    .withColumn("sched_arr_ts",  F.expr("try_to_timestamp(sched_arr_utc)"))
     .withColumn("actual_arr_ts", F.expr("try_to_timestamp(actual_arr_utc)"))
 
-     .withColumn("dep_delay_min", F.expr("try_cast(dep_delay_min as int)"))
-     .withColumn("arr_delay_min", F.expr("try_cast(arr_delay_min as int)"))
-     .withColumn("cancelled", F.expr("try_cast(cancelled as int)"))
-     .withColumn("passengers", F.expr("try_cast(passengers as int)"))
-     .withColumn("block_min", F.expr("try_cast(block_min as int)"))
-     .withColumn("tail_number", F.trim(F.col("tail_number)")))
+    .withColumn("dep_delay_min", F.expr("try_cast(dep_delay_min as int)"))
+    .withColumn("arr_delay_min", F.expr("try_cast(arr_delay_min as int)"))
+    .withColumn("cancelled",     F.expr("try_cast(cancelled as int)"))
+    .withColumn("passengers",    F.expr("try_cast(passengers as int)"))
+    .withColumn("block_min",     F.expr("try_cast(block_min as int)"))
 
-flagged = (typed
-           
-           .withColumn("dq_bad_ts", F.col("sched_dep_ts").isNull() & F.col("sched_dep_utc").isNotNull())
-           .withColumn("dq_null_tail",(F.col("tail_number").isNull() | F.col("tail_number")=="" ))
-           .withColumn("dq_neg_delay", F.col("dep_delay_min")<0))
-
-bad = "dq_bad_ts OR dq_null_tail OR dq_neg_delay"
-quarantine = flagged.filter(bad)
-clean = flagged.filter(F"NOT ({bad})")
-
-w = Windows.partitionBy("flight_id").orderBy(F.col("_ingest_ts").desc())
-deduped = (clean.withColumn("rn", F.row_number().over(w))
-           .filter("rn=1").drop("rn"))
-
-
-
-aircraft = (spark.table(f"{CATALOG}.{SCHEMA}.bronze_aircraft")
-            .select("tail_number", "aircraft_type", "engine_type", F.col("seats").cast("int").alias("seats"), "base_station"))
-
-routes = (spark.table(f"{CATALOG}.{SCHEMA}.bronze_routes")
-            .select(F.col("route_id").cast("int").alias("route_id"), F.col("distance_nm").cast("int").alias("distance_nm"), F.col("scheduled_block_min").cast("int").alias("sched_block_min")))
-
-
-delaymap = (spark.table(f"{CATALOG}.{SCHEMA}.bronze_delay_codes")
-            .select("delay_code", "category", "controllable_flay")
-
-
+    .withColumn("tail_number", F.trim(F.col("tail_number")))
 )
+ 
+# rule-based DQ flags (flag, don't silently drop)
+flagged = (typed
+  .withColumn("dq_bad_ts",    F.col("sched_dep_ts").isNull() & F.col("sched_dep_utc").isNotNull())
+  .withColumn("dq_null_tail", (F.col("tail_number").isNull()) | (F.col("tail_number") == ""))
+  .withColumn("dq_neg_delay", F.col("dep_delay_min") < 0))
+ 
+bad  = "dq_bad_ts OR dq_null_tail OR dq_neg_delay"
+quarantine = flagged.filter(bad)
+clean      = flagged.filter(f"NOT ({bad})")
+ 
+# de-duplicate: keep the latest ingest per flight_id
+w = Window.partitionBy("flight_id").orderBy(F.col("_ingest_ts").desc())
+deduped = (clean.withColumn("rn", F.row_number().over(w))
+                .filter("rn = 1").drop("rn"))
+# conform & enrich via broadcast joins (all reference tables are tiny)
+aircraft = (spark.table(f"{CATALOG}.{SCHEMA}.bronze_aircraft")
+            .select("tail_number","aircraft_type","engine_type",
+                    F.col("seats").cast("int").alias("seats"),"base_station"))
+routes   = (spark.table(f"{CATALOG}.{SCHEMA}.bronze_routes")
+            .select(F.col("route_id").cast("int").alias("route_id"),
+                    F.col("distance_nm").cast("int").alias("distance_nm"),
+                    F.col("scheduled_block_min").cast("int").alias("sched_block_min")))
+delaymap = (spark.table(f"{CATALOG}.{SCHEMA}.bronze_delay_codes")
+            .select("delay_code","category","controllable_flag"))
+
+                         
+
                   
 
 
