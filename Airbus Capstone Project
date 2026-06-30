@@ -20,7 +20,7 @@ from pyspark.sql import functions as F
 def ingest_csv(rel_path, table, multi=False):
     df = (spark.read
           .option("header", True)
-          .option("inferSchema", False)          # bronze keeps raw strings
+          .option("inferSchema", False)
           .csv(f"{LANDING}/{rel_path}")
           .withColumn("_ingest_ts",   F.current_timestamp())
           .withColumn("_source_file", F.col("_metadata.file_path")))
@@ -29,4 +29,16 @@ def ingest_csv(rel_path, table, multi=False):
        .saveAsTable(f"{CATALOG}.{SCHEMA}.{table}"))
     print(f"{table:28s} rows = {spark.table(f'{CATALOG}.{SCHEMA}.{table}').count():>6}")
     return df
+
+    ingest_csv("aircraft.csv", "bronze_aircraft")
+    ingest_csv("airports.csv", "bronze_airports")
+    ingest_csv("routes.csv", "bronze_routes")
+    ingest_csv("delay_codes.csv", "bronze_delay_codes")
+    ingest_csv("fuel_uplift.csv", "bronze_fuel_uplift")
+    ingest_csv("maintenance_workorders.csv", "bronze_maintenance_workorders")
+    ingest_csv("failure_events.csv", "bronze_failure_events")
+    ingest_csv("flights/", "bronze_flights",multi=True)
+
+    
+    
 
