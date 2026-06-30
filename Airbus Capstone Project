@@ -129,6 +129,18 @@ deduped = (clean.withColumn("rn", F.row_number().over(w))
            .filter("rn=1").drop("rn"))
 
 
+
+aircraft = (spark.table(f"{CATALOG}.{SCHEMA}.bronze_aircraft")
+            .select("tail_number", "aircraft_type", "engine_type", F.col("seats").cast("int").alias("seats"), "base_station"))
+
+routes = (spark.table(f"{CATALOG}.{SCHEMA}.bronze_routes")
+            .select(F.col("route_id").cast("int").alias("route_id"), F.col("distance_nm").cast("int").alias("distance_nm"), F.col("scheduled_block_min").cast("int").alias("sched_block_min")))
+
+
+delaymap = (spark.table(f"{CATALOG}.{SCHEMA}.bronze_delay_codes")
+            .select("delay_code", "category", "controllable_flay")
+
+
 )
                   
 
