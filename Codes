@@ -1,0 +1,96 @@
+Day - 1
+
+df = spark.read.csv("/Volumes/rps_demo/default/airbus_demo/employees.csv", header=True, inferSchema=True)
+
+df.printSchema()
+df.count()
+df.columns
+df.show()
+
+=========================================================
+
+df = spark.read.csv("/Volumes/rps_demo/default/airbus_demo/employees.csv", header=True, inferSchema=True)
+
+df.printSchema()
+df.count()
+df.columns
+df.show()
+
+========================================================
+
+high_salary_df = df.filter(col("salary") > 3000)
+
+high_salary_df.show()
+
+from pyspark.sql.functions import count
+
+dept_count_df = (
+    df.groupBy("department")
+    .agg(count("*").alias("employee_count"))
+)
+
+dept_count_df.show()
+
+=============================================
+
+
+from pyspark.sql.functions import avg, min, max, sum, round
+
+dept_salary_df = df.groupBy("department").agg(count("*").alias("employee_count"), min("salary").alias("min_salary"), max("salary").alias("max_salary)"), round(avg("salary"),2).alias("avg_salary"), sum("salary").alias("total_salary")).orderBy(col("total_salary").desc())
+
+dept_salary_df.show()
+
+=======================================================
+
+
+from pyspark.sql.functions import when
+salary_band_df = (df.withColumn("salary_band", when(col("salary")>=5000, "High").when(col("salary")>=3000, "Medium").otherwise("Low")))
+
+salary_band_df.show()
+
+
+=======================================================
+
+from pyspark.sql.window import Window
+from pyspark.sql.functions import rank, desc
+
+dept_window = Window.partitionBy("department").orderBy(desc("salary"))
+
+ranked_df = (df.withColumn("salary_rank", rank().over(dept_window)))
+
+ranked_df.show()
+
+========================================================================
+
+null_check_df = df.select([count(when(col(c).isNull(),c)).alias(c) for c in df.columns])
+
+null_check_df.show()
+
+duplicate_emp_df = (
+    df.groupBy("empId")
+    .agg(count("*").alias("duplicate_count"))
+    .filter(col("duplicate_count") > 1)
+)
+
+duplicate_emp_df.show()
+
+
+invalid_salary_df = df.filter(col("salary")<=0)
+
+invalid_salary_df.show()
+
+
+clean_df = (df.dropDuplicates(["empId"]).filter(col("empId").isNotNull()). filter(col("salary")>0))
+
+clean_df.show()
+
+
+===================================================================================================
+
+clean_df.write \
+    .format("delta") \
+    .mode("overwrite") \
+    .saveAsTable("rps_demo.default.employee_silver")
+
+
+===================================================================================================
