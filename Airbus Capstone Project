@@ -39,6 +39,23 @@ ingest_csv("maintenance_workorders.csv",  "bronze_workorders")
 ingest_csv("failure_events.csv",          "bronze_failures")
 ingest_csv("flights/",                    "bronze_flights", multi=True) 
 
-    
+-----------------------------------------------------------------------------------------------------------------------
+
+from pyspark.sql.types import (StructType, StructField, StringType, IntegarType, DoubleType)
+
+senor_schema = StructType([StructField("reading_id", StringType()),
+                           StructField("tail_number", StringType()),
+                           StructField("engine_position", IntegarType()),
+                           StructField("ts_utc", StringType()),
+                           StructField("flight_id", StringType()),
+                           StructField("egt_c", DoubleType()),
+                           StructField("n1_pct", DoubleType()),
+                           StructField("n2_pct", DoubleType()),   
+                           StructField("oil_temp_c", DoubleType()),   
+                           StructField("oil_pressure_psi", DoubleType()),   
+                           StructField("vib_ips", DoubleType()),  
+                           StructField("fuel_flow_pph", DoubleType()),                       
+                           
+                           ])
     
 
