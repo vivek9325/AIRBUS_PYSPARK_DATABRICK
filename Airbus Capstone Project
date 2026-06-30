@@ -75,6 +75,49 @@ stream = (spark.readStream.format("cloudFiles")
 
 print("rows:", spark.table(f"{CATALOG}.{SCHEMA}.bronze_engine_telemetry").count())   
           
+============================================================================================================================================================================
+
+Silver Layer ---
+
+----------------------------------------------------------------
+CATALOG = "vk_capstone_project"
+SCHEMA = "vk_lakehouse"
+VOLUME = "vk_landing"
+
+spark.sql(f"CREATE SCHEMA IF NOT EXISTS `{CATALOG}`.`{SCHEMA}`")
+spark.sql(f"CREATE VOLUME IF NOT EXISTS `{CATALOG}`.`{SCHEMA}`.`{VOLUME}`")
+
+LANDING = f"/Volumes/{CATALOG}/{SCHEMA}/{VOLUME}"
+CHK = f"/Volumes/{CATALOG}/{SCHEMA}/{VOLUME}/_chk"
+
+print("Landing Path:", LANDING)
+print("Checkpoint Path:", CHK)
+
+-------------------------------------------------------------------------
+
+from pyspark.sql import Window, functions as F
+
+raw = spark.table(f"{CATALOG}.{SCHEMA}.bronze_flights")
+
+typed = (
+
+    raw
+    .withColumn("sched_dep_ts", F.expr("try_to_timestamp(sched_dep_utc)"))
+    .withColumn("actual_dep_ts", F.expr("try_to_timestamp(actual_dep_utc)"))
+    .withColumn("sched_arr_ts", F.expr("try_to_timestamp(sched_arr_utc)"))
+    .withColumn("actual_arr_ts", F.expr("try_to_timestamp(actual_arr_utc)"))
+
+     .withColumn("dep_delay_min", F.expr("try_cast(dep_delay_min as int)"))
+     .withColumn("arr_delay_min", F.expr("try_cast(arr_delay_min as int)"))
+     .withColumn("cancelled", F.expr("try_cast(cancelled as int)"))
+     .withColumn("passengers", F.expr("try_cast(passengers as int)"))
+     .withColumn("block_min", F.expr("try_cast(block_min as int)"))
+     .withColumn("tail_number", F.trim(F.col("tail_number)")))
+
+
+)
+                  
+
 
     
 
