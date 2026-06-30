@@ -114,6 +114,16 @@ typed = (
      .withColumn("block_min", F.expr("try_cast(block_min as int)"))
      .withColumn("tail_number", F.trim(F.col("tail_number)")))
 
+flagged = (typed
+           
+           .withColumn("dq_bad_ts", F.col("sched_dep_ts").isNull() & F.col("sched_dep_utc").isNotNull())
+           .withColumn("dq_null_tail",(F.col("tail_number").isNull() | F.col("tail_number")=="" ))
+           .withColumn("dq_neg_delay", F.col("dep_delay_min")<0))
+
+bad = "dq_bad_ts OR dq_null_tail OR dq_neg_delay"
+quarantine = flagged.filter(bad)
+clean = flagged.filter(F"NOT ({bad})")
+
 
 )
                   
