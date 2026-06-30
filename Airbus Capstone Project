@@ -124,6 +124,10 @@ bad = "dq_bad_ts OR dq_null_tail OR dq_neg_delay"
 quarantine = flagged.filter(bad)
 clean = flagged.filter(F"NOT ({bad})")
 
+w = Windows.partitionBy("flight_id").orderBy(F.col("_ingest_ts").desc())
+deduped = (clean.withColumn("rn", F.row_number().over(w))
+           .filter("rn=1").drop("rn"))
+
 
 )
                   
