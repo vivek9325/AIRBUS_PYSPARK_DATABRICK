@@ -30,14 +30,14 @@ def ingest_csv(rel_path, table, multi=False):
     print(f"{table:28s} rows = {spark.table(f'{CATALOG}.{SCHEMA}.{table}').count():>6}")
     return df
 
-    ingest_csv("aircraft.csv", "bronze_aircraft")
-    ingest_csv("airports.csv", "bronze_airports")
-    ingest_csv("routes.csv", "bronze_routes")
-    ingest_csv("delay_codes.csv", "bronze_delay_codes")
-    ingest_csv("fuel_uplift.csv", "bronze_fuel_uplift")
-    ingest_csv("maintenance_workorders.csv", "bronze_maintenance_workorders")
-    ingest_csv("failure_events.csv", "bronze_failure_events")
-    ingest_csv("flights/", "bronze_flights",multi=True)
+ingest_csv("aircraft.csv",                "bronze_aircraft")
+ingest_csv("airports.csv",                "bronze_airports")
+ingest_csv("routes.csv",                  "bronze_routes")
+ingest_csv("delay_codes.csv",             "bronze_delay_codes")
+ingest_csv("fuel_uplift.csv",             "bronze_fuel_uplift")
+ingest_csv("maintenance_workorders.csv",  "bronze_workorders")
+ingest_csv("failure_events.csv",          "bronze_failures")
+ingest_csv("flights/",                    "bronze_flights", multi=True) 
 
     
     
