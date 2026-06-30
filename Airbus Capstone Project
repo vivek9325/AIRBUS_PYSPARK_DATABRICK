@@ -12,3 +12,21 @@ CHK = f"/Volumes/{CATALOG}/{SCHEMA}/{VOLUME}/_chk"
 
 print("Landing Path:", LANDING)
 print("Checkpoint Path:", CHK)
+
+-------------------------------------------------------------------------------------
+
+from pyspark.sql import functions as F
+ 
+def ingest_csv(rel_path, table, multi=False):
+    df = (spark.read
+          .option("header", True)
+          .option("inferSchema", False)          # bronze keeps raw strings
+          .csv(f"{LANDING}/{rel_path}")
+          .withColumn("_ingest_ts",   F.current_timestamp())
+          .withColumn("_source_file", F.col("_metadata.file_path")))
+    (df.write.format("delta").mode("overwrite")
+       .option("overwriteSchema", "true")
+       .saveAsTable(f"{CATALOG}.{SCHEMA}.{table}"))
+    print(f"{table:28s} rows = {spark.table(f'{CATALOG}.{SCHEMA}.{table}').count():>6}")
+    return df
+
