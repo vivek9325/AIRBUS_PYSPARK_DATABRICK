@@ -41,11 +41,11 @@ ingest_csv("flights/",                    "bronze_flights", multi=True)
 
 -----------------------------------------------------------------------------------------------------------------------
 
-from pyspark.sql.types import (StructType, StructField, StringType, IntegarType, DoubleType)
+from pyspark.sql.types import (StructType, StructField, StringType, IntegerType, DoubleType)
 
-senor_schema = StructType([StructField("reading_id", StringType()),
+sensor_schema = StructType([StructField("reading_id", StringType()),
                            StructField("tail_number", StringType()),
-                           StructField("engine_position", IntegarType()),
+                           StructField("engine_position", IntegerType()),
                            StructField("ts_utc", StringType()),
                            StructField("flight_id", StringType()),
                            StructField("egt_c", DoubleType()),
@@ -57,5 +57,24 @@ senor_schema = StructType([StructField("reading_id", StringType()),
                            StructField("fuel_flow_pph", DoubleType()),                       
                            
                            ])
+
+stream = (spark.readStream.format("cloudFiles")
+          .option("cloudFiles.format", "json")
+          .option("cloudFiles.schemaLocation", f"{CHK}/sensors_schema")
+          .schema(sensor_schema)
+          .load(f"{LANDING}/sensors/")
+          .withColumn("_ingest_ts", F.current_timestamp())
+          .withColumn("_source_file", F.col("_metadata.file_path")))
+       
+(stream.writeStream
+   .format("delta")
+   .option("checkpointLocation", f"{CHK}/bronze_sensors")
+   .trigger(availableNow=True)        # process what's here, then stop
+   .toTable(f"{CATALOG}.{SCHEMA}.bronze_engine_telemetry")
+   .awaitTermination())
+
+print("rows:", spark.table(f"{CATALOG}.{SCHEMA}.bronze_engine_telemetry").count())   
+          
+
     
 
