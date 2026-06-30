@@ -1,0 +1,25 @@
+{
+  "generated_utc": "2026-06-29T13:53:46Z",
+  "seed": 42,
+  "days": 30,
+  "counts": {
+    "aircraft": 40,
+    "airports": 12,
+    "routes": 120,
+    "delay_codes": 10,
+    "flight_files": 30,
+    "sensor_files": 30,
+    "fuel_uplift_rows": 3350,
+    "workorders": 220,
+    "failure_events": 32
+  },
+  "known_data_quality_issues": [
+    "duplicate flight_id rows (same key, repeated)",
+    "blank tail_number values",
+    "tail_number 'VT-ZZ00' not present in aircraft.csv (referential break)",
+    "malformed sched_dep_utc timestamp ('2025/13/01 99:61')",
+    "negative dep_delay_min values",
+    "blank delay_code on on-time flights (expected, not an error)",
+    "engine exceedances: high egt_c / vib_ips, low oil_pressure_psi"
+  ]
+}

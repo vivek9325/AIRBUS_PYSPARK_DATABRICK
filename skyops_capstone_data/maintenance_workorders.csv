@@ -1,0 +1,221 @@
+wo_id,tail_number,opened_date,closed_date,ata_chapter,description,mel_category,status,labor_hours,parts_cost_usd
+WO50000,VT-BH82,2025-05-13,,27,Flight Controls inspection / rectification,B,DEFERRED,13.2,16919.91
+WO50001,VT-BH82,2025-05-16,,79,Engine Oil inspection / rectification,,OPEN,2.1,17663.63
+WO50002,VT-YB24,2025-04-20,2025-04-29,21,Air Conditioning inspection / rectification,,CLOSED,9.0,14108.51
+WO50003,VT-UF78,2025-05-06,2025-05-13,49,APU inspection / rectification,A,CLOSED,7.8,1244.17
+WO50004,VT-DJ65,2025-04-24,2025-04-29,72,Engine inspection / rectification,,CLOSED,17.7,8173.37
+WO50005,VT-OQ42,2025-04-27,2025-04-29,34,Navigation inspection / rectification,,CLOSED,9.2,6431.0
+WO50006,VT-WJ61,2025-03-27,,21,Air Conditioning inspection / rectification,A,DEFERRED,20.3,371.2
+WO50007,VT-HI60,2025-05-30,,72,Engine inspection / rectification,B,DEFERRED,19.8,14933.73
+WO50008,VT-NH67,2025-05-09,,28,Fuel inspection / rectification,C,OPEN,7.3,11304.15
+WO50009,VT-SR39,2025-04-15,,28,Fuel inspection / rectification,B,DEFERRED,18.2,7776.88
+WO50010,VT-XK17,2025-04-09,,73,Engine Fuel inspection / rectification,,DEFERRED,16.0,7969.05
+WO50011,VT-AX45,2025-05-06,2025-05-09,71,Power Plant inspection / rectification,B,CLOSED,0.7,16900.18
+WO50012,VT-EV70,2025-05-15,2025-05-16,72,Engine inspection / rectification,D,CLOSED,6.8,12373.93
+WO50013,VT-AX45,2025-03-23,2025-03-25,32,Landing Gear inspection / rectification,,CLOSED,3.1,1339.06
+WO50014,VT-WC15,2025-04-01,,28,Fuel inspection / rectification,,DEFERRED,5.4,4428.75
+WO50015,VT-SR28,2025-05-03,,49,APU inspection / rectification,,DEFERRED,22.5,3271.7
+WO50016,VT-XE40,2025-05-11,,79,Engine Oil inspection / rectification,,OPEN,5.0,7187.46
+WO50017,VT-WC15,2025-04-02,2025-04-07,73,Engine Fuel inspection / rectification,,CLOSED,13.8,1192.17
+WO50018,VT-CU64,2025-05-06,2025-05-08,73,Engine Fuel inspection / rectification,A,CLOSED,19.2,4713.4
+WO50019,VT-CQ40,2025-04-02,2025-04-07,72,Engine inspection / rectification,,CLOSED,8.0,16729.82
+WO50020,VT-OT82,2025-04-29,2025-05-07,79,Engine Oil inspection / rectification,A,CLOSED,19.2,8050.18
+WO50021,VT-WC15,2025-03-26,,27,Flight Controls inspection / rectification,,OPEN,14.5,1339.08
+WO50022,VT-XE40,2025-05-23,2025-05-30,29,Hydraulic Power inspection / rectification,C,CLOSED,9.0,12728.67
+WO50023,VT-WC15,2025-03-24,2025-03-27,27,Flight Controls inspection / rectification,C,CLOSED,4.5,8611.49
+WO50024,VT-HL46,2025-05-24,,34,Navigation inspection / rectification,,DEFERRED,20.1,3117.68
+WO50025,VT-DB93,2025-04-11,,32,Landing Gear inspection / rectification,C,OPEN,15.4,4480.82
+WO50026,VT-DJ65,2025-04-14,2025-04-15,32,Landing Gear inspection / rectification,C,CLOSED,18.2,4176.5
+WO50027,VT-VU92,2025-04-21,,71,Power Plant inspection / rectification,A,OPEN,10.2,10695.06
+WO50028,VT-EV70,2025-03-29,2025-04-06,73,Engine Fuel inspection / rectification,D,CLOSED,5.1,11660.02
+WO50029,VT-WJ61,2025-04-28,,49,APU inspection / rectification,B,DEFERRED,3.0,4408.1
+WO50030,VT-HL46,2025-05-14,,34,Navigation inspection / rectification,D,DEFERRED,3.3,4388.33
+WO50031,VT-DB93,2025-04-19,,24,Electrical Power inspection / rectification,,OPEN,1.3,15493.31
+WO50032,VT-PH70,2025-05-23,2025-05-23,73,Engine Fuel inspection / rectification,A,CLOSED,13.5,7657.04
+WO50033,VT-PG61,2025-05-05,2025-05-11,24,Electrical Power inspection / rectification,D,CLOSED,10.6,1619.61
+WO50034,VT-DJ65,2025-05-17,2025-05-22,49,APU inspection / rectification,,CLOSED,11.7,2441.73
+WO50035,VT-RO27,2025-03-22,,32,Landing Gear inspection / rectification,,OPEN,10.3,17316.95
+WO50036,VT-JN99,2025-04-16,,32,Landing Gear inspection / rectification,D,OPEN,11.8,12958.09
+WO50037,VT-SR28,2025-03-25,2025-03-29,29,Hydraulic Power inspection / rectification,,CLOSED,10.1,11315.42
+WO50038,VT-EI46,2025-05-07,,29,Hydraulic Power inspection / rectification,C,DEFERRED,8.2,2246.45
+WO50039,VT-HI60,2025-04-30,,79,Engine Oil inspection / rectification,C,OPEN,22.9,4307.27
+WO50040,VT-UL30,2025-05-09,2025-05-09,32,Landing Gear inspection / rectification,C,CLOSED,5.3,1181.15
+WO50041,VT-WC15,2025-04-01,2025-04-05,73,Engine Fuel inspection / rectification,,CLOSED,19.3,5915.51
+WO50042,VT-LG97,2025-04-19,2025-04-27,21,Air Conditioning inspection / rectification,,CLOSED,23.8,11303.52
+WO50043,VT-OQ42,2025-05-04,2025-05-11,27,Flight Controls inspection / rectification,B,CLOSED,10.6,3741.81
+WO50044,VT-NH67,2025-03-22,2025-03-26,79,Engine Oil inspection / rectification,A,CLOSED,23.6,12075.49
+WO50045,VT-QD90,2025-04-25,2025-04-30,32,Landing Gear inspection / rectification,D,CLOSED,17.5,1715.84
+WO50046,VT-XE40,2025-03-28,2025-04-02,27,Flight Controls inspection / rectification,A,CLOSED,10.0,12490.6
+WO50047,VT-PH70,2025-04-18,2025-04-21,27,Flight Controls inspection / rectification,C,CLOSED,22.5,3727.41
+WO50048,VT-AT51,2025-04-26,2025-05-04,49,APU inspection / rectification,C,CLOSED,24.0,16303.84
+WO50049,VT-DB93,2025-05-14,2025-05-23,28,Fuel inspection / rectification,D,CLOSED,0.9,1538.17
+WO50050,VT-RO27,2025-05-13,2025-05-17,49,APU inspection / rectification,D,CLOSED,18.5,8256.87
+WO50051,VT-XK17,2025-05-19,2025-05-25,28,Fuel inspection / rectification,B,CLOSED,16.8,7949.17
+WO50052,VT-SR28,2025-05-21,2025-05-23,32,Landing Gear inspection / rectification,A,CLOSED,20.8,13700.44
+WO50053,VT-AV80,2025-04-09,2025-04-17,71,Power Plant inspection / rectification,C,CLOSED,23.5,1249.27
+WO50054,VT-OT82,2025-04-27,2025-04-28,72,Engine inspection / rectification,,CLOSED,6.3,9627.2
+WO50055,VT-HL46,2025-05-29,,71,Power Plant inspection / rectification,D,DEFERRED,12.1,9246.04
+WO50056,VT-AT51,2025-05-27,2025-05-27,73,Engine Fuel inspection / rectification,A,CLOSED,4.7,11035.86
+WO50057,VT-HI60,2025-05-21,2025-05-26,29,Hydraulic Power inspection / rectification,D,CLOSED,5.5,17450.18
+WO50058,VT-TB89,2025-04-13,2025-04-13,71,Power Plant inspection / rectification,A,CLOSED,10.6,16908.49
+WO50059,VT-WC15,2025-05-06,,49,APU inspection / rectification,,DEFERRED,11.1,15400.58
+WO50060,VT-CF18,2025-04-09,2025-04-16,72,Engine inspection / rectification,C,CLOSED,13.6,10717.91
+WO50061,VT-VK17,2025-04-07,,72,Engine inspection / rectification,,OPEN,9.7,14375.41
+WO50062,VT-CQ40,2025-04-07,2025-04-09,49,APU inspection / rectification,B,CLOSED,3.8,843.14
+WO50063,VT-JN99,2025-05-20,2025-05-28,32,Landing Gear inspection / rectification,C,CLOSED,1.6,15703.54
+WO50064,VT-XE40,2025-04-06,2025-04-07,49,APU inspection / rectification,D,CLOSED,9.0,11442.03
+WO50065,VT-NB13,2025-05-18,2025-05-27,28,Fuel inspection / rectification,,CLOSED,21.0,5183.62
+WO50066,VT-NH67,2025-04-22,,34,Navigation inspection / rectification,D,OPEN,23.6,12830.59
+WO50067,VT-NH67,2025-05-14,2025-05-17,49,APU inspection / rectification,C,CLOSED,5.9,12176.72
+WO50068,VT-RI84,2025-03-28,2025-03-28,27,Flight Controls inspection / rectification,B,CLOSED,13.3,1113.47
+WO50069,VT-TB89,2025-04-17,2025-04-19,24,Electrical Power inspection / rectification,,CLOSED,20.9,17259.19
+WO50070,VT-HI60,2025-04-08,2025-04-09,21,Air Conditioning inspection / rectification,D,CLOSED,11.8,16062.21
+WO50071,VT-WJ61,2025-05-17,,29,Hydraulic Power inspection / rectification,,OPEN,4.4,17993.33
+WO50072,VT-PG61,2025-05-30,,72,Engine inspection / rectification,,DEFERRED,20.2,2867.95
+WO50073,VT-RI84,2025-03-24,,73,Engine Fuel inspection / rectification,,OPEN,7.4,12273.88
+WO50074,VT-OT82,2025-03-26,2025-03-26,71,Power Plant inspection / rectification,D,CLOSED,1.0,5587.02
+WO50075,VT-VU92,2025-04-07,,21,Air Conditioning inspection / rectification,,OPEN,3.5,9031.96
+WO50076,VT-AT51,2025-05-10,,72,Engine inspection / rectification,D,DEFERRED,11.0,16622.85
+WO50077,VT-AV80,2025-03-30,,28,Fuel inspection / rectification,B,DEFERRED,5.9,7102.1
+WO50078,VT-NB13,2025-05-14,,72,Engine inspection / rectification,B,OPEN,1.6,1120.96
+WO50079,VT-LG97,2025-03-24,2025-04-01,34,Navigation inspection / rectification,,CLOSED,1.1,3090.08
+WO50080,VT-OQ42,2025-04-01,2025-04-08,29,Hydraulic Power inspection / rectification,D,CLOSED,3.2,7863.25
+WO50081,VT-CQ40,2025-04-26,2025-04-26,34,Navigation inspection / rectification,B,CLOSED,19.4,17994.29
+WO50082,VT-CU64,2025-04-30,2025-05-01,34,Navigation inspection / rectification,,CLOSED,20.5,8820.54
+WO50083,VT-XE40,2025-03-30,2025-04-01,28,Fuel inspection / rectification,A,CLOSED,7.5,2015.68
+WO50084,VT-EV70,2025-05-04,,27,Flight Controls inspection / rectification,D,DEFERRED,19.6,11855.25
+WO50085,VT-WJ61,2025-04-12,,24,Electrical Power inspection / rectification,B,OPEN,9.8,3885.41
+WO50086,VT-NB13,2025-04-04,2025-04-09,72,Engine inspection / rectification,A,CLOSED,22.0,11332.0
+WO50087,VT-NH67,2025-05-01,,71,Power Plant inspection / rectification,,DEFERRED,7.3,17790.76
+WO50088,VT-EV70,2025-04-21,2025-04-26,29,Hydraulic Power inspection / rectification,D,CLOSED,21.1,13381.45
+WO50089,VT-JN99,2025-05-02,2025-05-06,29,Hydraulic Power inspection / rectification,C,CLOSED,17.5,9794.4
+WO50090,VT-RO27,2025-04-08,2025-04-12,79,Engine Oil inspection / rectification,,CLOSED,21.8,9224.61
+WO50091,VT-WK37,2025-04-26,,73,Engine Fuel inspection / rectification,,OPEN,1.9,11027.82
+WO50092,VT-WK37,2025-04-16,,21,Air Conditioning inspection / rectification,D,OPEN,5.4,14993.77
+WO50093,VT-UF78,2025-04-18,2025-04-21,32,Landing Gear inspection / rectification,A,CLOSED,10.5,4346.46
+WO50094,VT-RI84,2025-05-09,,79,Engine Oil inspection / rectification,C,DEFERRED,5.3,3538.06
+WO50095,VT-DJ65,2025-04-28,2025-05-03,49,APU inspection / rectification,C,CLOSED,16.8,6967.96
+WO50096,VT-UL30,2025-03-29,,71,Power Plant inspection / rectification,A,DEFERRED,23.8,4102.12
+WO50097,VT-LG97,2025-05-27,2025-06-04,27,Flight Controls inspection / rectification,D,CLOSED,1.5,6001.52
+WO50098,VT-NB13,2025-05-24,2025-05-31,28,Fuel inspection / rectification,C,CLOSED,16.7,3742.09
+WO50099,VT-EV70,2025-05-18,,29,Hydraulic Power inspection / rectification,D,OPEN,7.0,17590.83
+WO50100,VT-VU92,2025-05-25,,73,Engine Fuel inspection / rectification,D,DEFERRED,9.3,3683.74
+WO50101,VT-PG61,2025-04-02,2025-04-10,71,Power Plant inspection / rectification,,CLOSED,12.6,9840.46
+WO50102,VT-WK37,2025-04-13,2025-04-18,27,Flight Controls inspection / rectification,,CLOSED,17.8,12757.19
+WO50103,VT-RD58,2025-05-06,2025-05-08,71,Power Plant inspection / rectification,,CLOSED,17.1,2295.53
+WO50104,VT-CQ40,2025-04-09,2025-04-13,71,Power Plant inspection / rectification,,CLOSED,21.6,89.49
+WO50105,VT-AV80,2025-03-26,,28,Fuel inspection / rectification,D,DEFERRED,19.6,7594.04
+WO50106,VT-AT51,2025-04-29,,29,Hydraulic Power inspection / rectification,D,DEFERRED,7.6,7540.42
+WO50107,VT-UL30,2025-03-28,,73,Engine Fuel inspection / rectification,B,DEFERRED,18.0,14048.83
+WO50108,VT-DJ65,2025-04-25,2025-05-02,72,Engine inspection / rectification,C,CLOSED,13.4,2580.0
+WO50109,VT-VU92,2025-04-12,,24,Electrical Power inspection / rectification,A,OPEN,23.7,5486.39
+WO50110,VT-HL46,2025-04-25,2025-04-28,71,Power Plant inspection / rectification,D,CLOSED,5.3,3821.51
+WO50111,VT-AT51,2025-05-03,,72,Engine inspection / rectification,,DEFERRED,9.8,16608.31
+WO50112,VT-SR39,2025-03-25,2025-04-02,28,Fuel inspection / rectification,B,CLOSED,13.1,6038.33
+WO50113,VT-RO27,2025-05-06,2025-05-13,71,Power Plant inspection / rectification,A,CLOSED,15.6,4352.52
+WO50114,VT-JN99,2025-04-09,2025-04-10,27,Flight Controls inspection / rectification,,CLOSED,20.6,10903.34
+WO50115,VT-YB24,2025-05-16,2025-05-17,49,APU inspection / rectification,A,CLOSED,13.1,8865.81
+WO50116,VT-TB89,2025-04-19,,32,Landing Gear inspection / rectification,C,DEFERRED,22.2,2209.66
+WO50117,VT-PG61,2025-04-18,2025-04-19,24,Electrical Power inspection / rectification,,CLOSED,11.9,2676.41
+WO50118,VT-AV80,2025-03-29,2025-04-07,29,Hydraulic Power inspection / rectification,B,CLOSED,11.6,14819.65
+WO50119,VT-DB93,2025-05-02,2025-05-10,34,Navigation inspection / rectification,A,CLOSED,15.7,3802.28
+WO50120,VT-HL46,2025-05-16,2025-05-19,71,Power Plant inspection / rectification,,CLOSED,14.3,12728.16
+WO50121,VT-SR28,2025-04-05,,32,Landing Gear inspection / rectification,,OPEN,0.9,6979.14
+WO50122,VT-JN99,2025-05-10,2025-05-19,32,Landing Gear inspection / rectification,D,CLOSED,15.5,1710.12
+WO50123,VT-NB13,2025-05-15,2025-05-15,79,Engine Oil inspection / rectification,,CLOSED,14.8,17415.81
+WO50124,VT-HI60,2025-05-12,2025-05-15,72,Engine inspection / rectification,B,CLOSED,5.2,17233.6
+WO50125,VT-WK37,2025-04-26,,21,Air Conditioning inspection / rectification,,DEFERRED,13.5,11194.25
+WO50126,VT-VU92,2025-03-23,,71,Power Plant inspection / rectification,A,OPEN,7.9,15954.14
+WO50127,VT-NB13,2025-03-29,2025-04-07,27,Flight Controls inspection / rectification,A,CLOSED,19.0,5370.37
+WO50128,VT-JN99,2025-03-22,2025-03-22,73,Engine Fuel inspection / rectification,D,CLOSED,7.2,12358.72
+WO50129,VT-YB24,2025-05-12,,72,Engine inspection / rectification,A,OPEN,12.1,10795.55
+WO50130,VT-AT51,2025-05-07,,32,Landing Gear inspection / rectification,C,DEFERRED,3.8,6374.9
+WO50131,VT-WJ61,2025-04-17,,71,Power Plant inspection / rectification,C,OPEN,11.6,1595.64
+WO50132,VT-RW64,2025-04-27,,49,APU inspection / rectification,D,DEFERRED,14.1,7796.51
+WO50133,VT-BH82,2025-04-02,2025-04-06,49,APU inspection / rectification,B,CLOSED,3.3,12458.19
+WO50134,VT-XE40,2025-05-23,,29,Hydraulic Power inspection / rectification,D,DEFERRED,17.0,8008.99
+WO50135,VT-HI60,2025-04-24,2025-04-25,28,Fuel inspection / rectification,,CLOSED,8.5,16921.66
+WO50136,VT-EV70,2025-05-28,,79,Engine Oil inspection / rectification,,OPEN,15.1,13291.39
+WO50137,VT-TB89,2025-05-29,,79,Engine Oil inspection / rectification,,DEFERRED,17.1,16391.76
+WO50138,VT-QD90,2025-04-24,,73,Engine Fuel inspection / rectification,B,DEFERRED,1.8,7285.43
+WO50139,VT-VU92,2025-03-24,2025-04-01,28,Fuel inspection / rectification,C,CLOSED,19.5,2588.14
+WO50140,VT-YK23,2025-05-12,2025-05-14,24,Electrical Power inspection / rectification,C,CLOSED,14.0,16391.21
+WO50141,VT-RW64,2025-04-25,2025-04-28,28,Fuel inspection / rectification,,CLOSED,13.2,6189.36
+WO50142,VT-TB89,2025-05-14,,71,Power Plant inspection / rectification,A,OPEN,9.7,5982.6
+WO50143,VT-OQ42,2025-03-30,2025-04-07,34,Navigation inspection / rectification,A,CLOSED,8.9,14633.63
+WO50144,VT-HL46,2025-04-20,2025-04-27,79,Engine Oil inspection / rectification,A,CLOSED,14.0,1658.39
+WO50145,VT-AV80,2025-04-05,2025-04-13,32,Landing Gear inspection / rectification,C,CLOSED,22.1,6486.67
+WO50146,VT-EV70,2025-04-26,2025-04-27,21,Air Conditioning inspection / rectification,,CLOSED,5.9,5605.62
+WO50147,VT-YK23,2025-04-03,,28,Fuel inspection / rectification,C,DEFERRED,15.1,2138.97
+WO50148,VT-CQ40,2025-05-23,2025-05-30,29,Hydraulic Power inspection / rectification,C,CLOSED,18.2,6866.54
+WO50149,VT-XE40,2025-04-02,,73,Engine Fuel inspection / rectification,,OPEN,7.2,6712.57
+WO50150,VT-BH82,2025-05-15,2025-05-24,72,Engine inspection / rectification,A,CLOSED,9.7,332.07
+WO50151,VT-AV80,2025-04-09,,32,Landing Gear inspection / rectification,,OPEN,16.5,12127.72
+WO50152,VT-EI46,2025-05-19,,29,Hydraulic Power inspection / rectification,B,DEFERRED,7.9,11422.83
+WO50153,VT-AX45,2025-04-01,2025-04-03,72,Engine inspection / rectification,C,CLOSED,10.8,16413.4
+WO50154,VT-EV70,2025-05-19,2025-05-27,49,APU inspection / rectification,,CLOSED,20.6,2834.17
+WO50155,VT-AV80,2025-05-28,2025-06-05,34,Navigation inspection / rectification,D,CLOSED,1.2,3563.72
+WO50156,VT-RO27,2025-05-30,,28,Fuel inspection / rectification,,DEFERRED,13.1,15859.11
+WO50157,VT-BH82,2025-05-24,2025-05-30,21,Air Conditioning inspection / rectification,,CLOSED,21.1,1277.58
+WO50158,VT-CU64,2025-05-17,2025-05-17,21,Air Conditioning inspection / rectification,,CLOSED,2.7,7678.42
+WO50159,VT-BH82,2025-05-19,,79,Engine Oil inspection / rectification,,DEFERRED,13.9,6851.61
+WO50160,VT-RO27,2025-05-01,,73,Engine Fuel inspection / rectification,B,DEFERRED,17.3,2711.92
+WO50161,VT-JN99,2025-04-24,2025-05-02,32,Landing Gear inspection / rectification,,CLOSED,19.7,286.37
+WO50162,VT-EV70,2025-04-05,,32,Landing Gear inspection / rectification,C,OPEN,16.3,2631.43
+WO50163,VT-YK23,2025-04-21,,49,APU inspection / rectification,A,OPEN,18.5,7399.72
+WO50164,VT-PH70,2025-04-08,2025-04-08,32,Landing Gear inspection / rectification,,CLOSED,2.0,264.09
+WO50165,VT-UF78,2025-05-28,,73,Engine Fuel inspection / rectification,,OPEN,2.9,6363.54
+WO50166,VT-WJ61,2025-04-27,2025-04-28,34,Navigation inspection / rectification,A,CLOSED,7.0,11018.17
+WO50167,VT-AX45,2025-05-12,2025-05-18,29,Hydraulic Power inspection / rectification,,CLOSED,15.4,16240.24
+WO50168,VT-RD58,2025-05-02,2025-05-04,24,Electrical Power inspection / rectification,,CLOSED,15.1,1270.78
+WO50169,VT-QD90,2025-05-03,,29,Hydraulic Power inspection / rectification,B,DEFERRED,14.3,12920.8
+WO50170,VT-RO27,2025-05-02,,49,APU inspection / rectification,A,OPEN,6.7,7817.76
+WO50171,VT-XK17,2025-05-21,2025-05-30,29,Hydraulic Power inspection / rectification,,CLOSED,15.6,15993.3
+WO50172,VT-AT51,2025-05-07,,72,Engine inspection / rectification,,OPEN,3.9,4851.86
+WO50173,VT-PH70,2025-03-25,2025-03-29,34,Navigation inspection / rectification,A,CLOSED,21.8,15980.26
+WO50174,VT-VU92,2025-04-21,2025-04-29,29,Hydraulic Power inspection / rectification,A,CLOSED,10.8,10149.84
+WO50175,VT-CF18,2025-04-16,2025-04-20,73,Engine Fuel inspection / rectification,,CLOSED,22.4,8799.23
+WO50176,VT-VU92,2025-03-26,,72,Engine inspection / rectification,B,DEFERRED,22.4,13358.61
+WO50177,VT-CQ40,2025-04-18,2025-04-22,32,Landing Gear inspection / rectification,B,CLOSED,2.8,9828.06
+WO50178,VT-UF78,2025-04-14,2025-04-22,28,Fuel inspection / rectification,A,CLOSED,13.6,2766.76
+WO50179,VT-TB89,2025-04-05,,21,Air Conditioning inspection / rectification,A,DEFERRED,3.8,1631.74
+WO50180,VT-VU92,2025-05-26,2025-06-01,73,Engine Fuel inspection / rectification,C,CLOSED,0.5,14698.56
+WO50181,VT-HL46,2025-05-05,2025-05-07,34,Navigation inspection / rectification,B,CLOSED,14.2,15272.21
+WO50182,VT-UL30,2025-04-04,,34,Navigation inspection / rectification,C,OPEN,8.8,799.35
+WO50183,VT-RW64,2025-05-19,2025-05-23,29,Hydraulic Power inspection / rectification,D,CLOSED,7.9,5198.66
+WO50184,VT-OQ42,2025-04-24,2025-04-26,79,Engine Oil inspection / rectification,,CLOSED,13.4,411.78
+WO50185,VT-NB13,2025-05-23,2025-05-29,73,Engine Fuel inspection / rectification,D,CLOSED,23.2,8111.45
+WO50186,VT-XK17,2025-03-28,,34,Navigation inspection / rectification,,OPEN,0.6,8126.1
+WO50187,VT-BH82,2025-03-22,2025-03-28,29,Hydraulic Power inspection / rectification,D,CLOSED,9.8,13922.33
+WO50188,VT-CQ40,2025-05-24,2025-05-29,24,Electrical Power inspection / rectification,,CLOSED,17.2,12821.64
+WO50189,VT-PH70,2025-04-04,2025-04-06,28,Fuel inspection / rectification,,CLOSED,3.3,3017.0
+WO50190,VT-NB13,2025-04-05,2025-04-13,21,Air Conditioning inspection / rectification,A,CLOSED,7.9,9379.71
+WO50191,VT-XK17,2025-04-27,2025-04-29,73,Engine Fuel inspection / rectification,C,CLOSED,9.7,15971.08
+WO50192,VT-CU64,2025-04-20,2025-04-23,21,Air Conditioning inspection / rectification,A,CLOSED,4.7,4133.73
+WO50193,VT-JN99,2025-04-24,,24,Electrical Power inspection / rectification,A,OPEN,17.8,17822.38
+WO50194,VT-HL46,2025-05-03,,73,Engine Fuel inspection / rectification,,DEFERRED,20.7,1847.91
+WO50195,VT-VK17,2025-03-31,2025-04-06,28,Fuel inspection / rectification,,CLOSED,2.4,10608.05
+WO50196,VT-DJ65,2025-03-29,2025-04-01,73,Engine Fuel inspection / rectification,C,CLOSED,12.4,1088.64
+WO50197,VT-AX45,2025-05-12,,32,Landing Gear inspection / rectification,D,DEFERRED,14.6,6078.31
+WO50198,VT-OT82,2025-04-16,2025-04-22,72,Engine inspection / rectification,C,CLOSED,3.5,15302.05
+WO50199,VT-WJ61,2025-05-02,,27,Flight Controls inspection / rectification,B,OPEN,18.6,16526.7
+WO50200,VT-PG61,2025-05-19,2025-05-26,79,Engine Oil inspection / rectification,B,CLOSED,7.0,15700.32
+WO50201,VT-AX45,2025-04-15,2025-04-20,27,Flight Controls inspection / rectification,,CLOSED,17.5,10353.46
+WO50202,VT-BH82,2025-05-25,2025-05-27,72,Engine inspection / rectification,A,CLOSED,14.3,3058.62
+WO50203,VT-OQ42,2025-04-18,2025-04-26,24,Electrical Power inspection / rectification,B,CLOSED,3.3,4296.77
+WO50204,VT-CU64,2025-05-26,2025-06-03,34,Navigation inspection / rectification,A,CLOSED,5.8,10983.59
+WO50205,VT-OQ42,2025-04-20,,79,Engine Oil inspection / rectification,B,OPEN,5.3,8533.98
+WO50206,VT-VK17,2025-04-10,,32,Landing Gear inspection / rectification,,OPEN,12.7,16428.92
+WO50207,VT-HL46,2025-03-22,2025-03-25,28,Fuel inspection / rectification,A,CLOSED,9.0,16034.53
+WO50208,VT-HI60,2025-04-21,2025-04-29,29,Hydraulic Power inspection / rectification,,CLOSED,15.3,12066.01
+WO50209,VT-AX45,2025-05-13,2025-05-13,27,Flight Controls inspection / rectification,,CLOSED,14.5,16425.26
+WO50210,VT-CU64,2025-04-09,2025-04-12,71,Power Plant inspection / rectification,,CLOSED,3.4,8305.04
+WO50211,VT-UL30,2025-05-03,2025-05-03,29,Hydraulic Power inspection / rectification,D,CLOSED,6.3,13285.87
+WO50212,VT-RI84,2025-04-16,2025-04-16,27,Flight Controls inspection / rectification,,CLOSED,4.6,10035.41
+WO50213,VT-UF78,2025-05-16,2025-05-21,21,Air Conditioning inspection / rectification,D,CLOSED,23.3,6002.31
+WO50214,VT-UF78,2025-05-05,2025-05-11,71,Power Plant inspection / rectification,,CLOSED,8.9,1316.9
+WO50215,VT-RI84,2025-05-30,2025-06-06,32,Landing Gear inspection / rectification,B,CLOSED,15.1,5733.07
+WO50216,VT-NH67,2025-04-19,,73,Engine Fuel inspection / rectification,D,OPEN,11.4,7339.05
+WO50217,VT-DJ65,2025-05-22,2025-05-27,29,Hydraulic Power inspection / rectification,,CLOSED,3.4,5508.62
+WO50218,VT-RW64,2025-05-25,,32,Landing Gear inspection / rectification,D,OPEN,3.2,4345.21
+WO50219,VT-SR28,2025-04-20,,73,Engine Fuel inspection / rectification,A,OPEN,21.0,16384.27

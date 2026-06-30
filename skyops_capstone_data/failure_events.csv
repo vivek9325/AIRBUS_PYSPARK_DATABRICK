@@ -1,0 +1,33 @@
+tail_number,event_date,ata_chapter,event_type,description
+VT-XE40,2025-05-01,72,Unscheduled Removal,Engine - in-service finding
+VT-DB93,2025-05-01,73,Unscheduled Removal,Engine Fuel - in-service finding
+VT-AT51,2025-05-01,72,Unscheduled Removal,Engine - in-service finding
+VT-UF78,2025-05-03,71,Unscheduled Removal,Power Plant - in-service finding
+VT-OT82,2025-05-04,79,Unscheduled Removal,Engine Oil - in-service finding
+VT-UF78,2025-05-04,79,Unscheduled Removal,Engine Oil - in-service finding
+VT-WK37,2025-05-05,71,Unscheduled Removal,Power Plant - in-service finding
+VT-VU92,2025-05-07,72,Unscheduled Removal,Engine - in-service finding
+VT-AX45,2025-05-08,71,Unscheduled Removal,Power Plant - in-service finding
+VT-DJ65,2025-05-09,79,Unscheduled Removal,Engine Oil - in-service finding
+VT-CU64,2025-05-09,73,Unscheduled Removal,Engine Fuel - in-service finding
+VT-PG61,2025-05-09,72,Unscheduled Removal,Engine - in-service finding
+VT-NH67,2025-05-11,72,Unscheduled Removal,Engine - in-service finding
+VT-CF18,2025-05-12,72,Unscheduled Removal,Engine - in-service finding
+VT-DB93,2025-05-13,71,Unscheduled Removal,Power Plant - in-service finding
+VT-UL30,2025-05-13,73,Unscheduled Removal,Engine Fuel - in-service finding
+VT-WC15,2025-05-16,73,Unscheduled Removal,Engine Fuel - in-service finding
+VT-WK37,2025-05-17,71,Unscheduled Removal,Power Plant - in-service finding
+VT-XE40,2025-05-17,79,Unscheduled Removal,Engine Oil - in-service finding
+VT-TB89,2025-05-17,71,Unscheduled Removal,Power Plant - in-service finding
+VT-QD90,2025-05-17,71,Unscheduled Removal,Power Plant - in-service finding
+VT-XE40,2025-05-22,79,Unscheduled Removal,Engine Oil - in-service finding
+VT-EV70,2025-05-23,71,Unscheduled Removal,Power Plant - in-service finding
+VT-RW64,2025-05-24,72,Unscheduled Removal,Engine - in-service finding
+VT-QD90,2025-05-25,71,Unscheduled Removal,Power Plant - in-service finding
+VT-RD58,2025-05-25,72,Unscheduled Removal,Engine - in-service finding
+VT-HL46,2025-05-26,71,Unscheduled Removal,Power Plant - in-service finding
+VT-CQ40,2025-05-26,73,Unscheduled Removal,Engine Fuel - in-service finding
+VT-NB13,2025-05-27,73,Unscheduled Removal,Engine Fuel - in-service finding
+VT-VK17,2025-05-28,79,Unscheduled Removal,Engine Oil - in-service finding
+VT-CU64,2025-05-29,73,Unscheduled Removal,Engine Fuel - in-service finding
+VT-HL46,2025-05-29,79,Unscheduled Removal,Engine Oil - in-service finding

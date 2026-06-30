@@ -1,0 +1,13 @@
+iata,icao,name,city,country,lat,lon,tz,elevation_ft
+BLR,VOBL,Kempegowda Intl,Bengaluru,IN,13.1979,77.7063,Asia/Kolkata,3000
+HYD,VOHS,Rajiv Gandhi Intl,Hyderabad,IN,17.2403,78.4294,Asia/Kolkata,2024
+DEL,VIDP,Indira Gandhi Intl,Delhi,IN,28.5562,77.1,Asia/Kolkata,777
+BOM,VABB,Chhatrapati Shivaji,Mumbai,IN,19.0887,72.8679,Asia/Kolkata,39
+MAA,VOMM,Chennai Intl,Chennai,IN,12.9941,80.1709,Asia/Kolkata,52
+CCU,VECC,Netaji Subhash,Kolkata,IN,22.6547,88.4467,Asia/Kolkata,16
+COK,VOCI,Cochin Intl,Kochi,IN,10.152,76.4019,Asia/Kolkata,30
+GOI,VOGO,Goa Intl,Goa,IN,15.3808,73.8314,Asia/Kolkata,150
+PNQ,VAPO,Pune Airport,Pune,IN,18.5821,73.9197,Asia/Kolkata,1942
+AMD,VAAH,Sardar Vallabhbhai,Ahmedabad,IN,23.0772,72.6347,Asia/Kolkata,189
+JAI,VIJP,Jaipur Intl,Jaipur,IN,26.8242,75.8122,Asia/Kolkata,1263
+LKO,VILK,Chaudhary Charan,Lucknow,IN,26.7606,80.8893,Asia/Kolkata,410

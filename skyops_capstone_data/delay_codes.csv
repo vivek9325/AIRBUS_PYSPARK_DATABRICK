@@ -1,0 +1,11 @@
+delay_code,category,controllable_flag,description
+11,Passenger/Baggage,Y,"Late check-in, acceptance after deadline"
+36,Ramp/Loading,Y,"Fuelling / defuelling, fuel supplier"
+41,Technical/Aircraft,Y,"Aircraft defects, technical"
+51,Damage/Tech,Y,Damage during ground operations
+61,Flight Ops/Crew,Y,"Flight plan, late crew"
+71,Weather,N,Departure station weather
+73,Weather,N,De-icing of aircraft
+81,ATC,N,ATC restriction en-route / flow
+89,Airport/Govt,N,"Restrictions at airport, immigration"
+93,Reactionary,N,"Aircraft rotation, late inbound"
