@@ -307,6 +307,21 @@ gold_fuel = (sf.join(fuel, "flight_id")
                   )
 
 (gold_fuel.write.format("delta").mode("overwrite").saveAsTable(f"{CATALOG}.{SCHEMA}.gold_fuel_efficiency"))
+
+----------------------------------------------------------------------------------------------------------------------
+
+
+gold_util = (sf.groupBy("flight_date", "tail_number", "aircraft_type")
+             .agg(F.round(F.sum("block_min")/60.0,2).alias("block_hours"),
+                  
+                  F.count("*").alias("legs"))
+             .withColumn("util_rank",F.rank().over(Window.partitionBy("flight_date").orderBy(F.desc("block_hours"))))
+                  )
+
+(gold_util.write.format("delta").mode("overwrite").saveAsTable(f"{CATALOG}.{SCHEMA}.gold_aircraft_utilization"))
+
+
+
      
 
     
