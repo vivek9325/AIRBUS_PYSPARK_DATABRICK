@@ -320,6 +320,29 @@ gold_util = (sf.groupBy("flight_date", "tail_number", "aircraft_type")
 
 (gold_util.write.format("delta").mode("overwrite").saveAsTable(f"{CATALOG}.{SCHEMA}.gold_aircraft_utilization"))
 
+===========================================================================================================================================================================
+
+Prediction - ML
+
+--------------------------------------------------------------------------
+
+from pyspark.sql import functions as F
+
+ss = spark.table(f"{CATALOG}.{SCHEMA}.silver_sensors")
+
+feat = (ss.withColumn("d", F.to_date("ts"))
+        
+        
+        .groupBy("tail_number", "d")
+        .agg(F.sum(F.col("exceedance").cast("int")).alias("exceed_cnt"),
+             F.round(F.avg("egt_roll5"),1).alias("egt_mean"),
+             F.round(F.max("vib_ips"),3).alias("vib_max"),
+             F.round(F.avg("oil_pressure_psi"),1).alias("oilp_mean"),
+             F.count("*").alias("readings")             
+             )
+        
+        )
+
 
 
      
