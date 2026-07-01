@@ -220,6 +220,8 @@ print("clean :", silver_flights.count(), " quarantined:", quarantine.count())
 
 from pyspark.sql import Window, functions as F
 
+EGT_LIMIT = "620"
+VIB_LIMIT = "0.90"
 
 s = (spark.table(f"{CATALOG}.{SCHEMA}.bronze_engine_telemetry")
      .withColumn("ts", F.to_timestamp("ts_utc"))
