@@ -344,6 +344,24 @@ feat = (ss.withColumn("d", F.to_date("ts"))
         )
 
 
+-------------------------------------------------------------------------------------------------------------
+
+health = (feat 
+          
+          .withColumn("egt_pen", F.greatest(F.lit(0), (F.col("egt_mean")-560)/4))
+          .withColumn("vib_pen", F.greatest(F.lit(0), (F.col("vib_max")-0.5)/40))
+          .withColumn("oilp_pen", F.greatest(F.lit(0), (F.col("oilp_mean")*1.5)))
+          .withColumn("exc_pen", F.col("exceed_cnt")*5)
+          .withColumn("health_index", F.greatest(F.lit(0), F.lit(100)-F.col("egt_pen")-F.col("vib_pen")-F.col("oilp_pen") - F.col("exc_pen")))
+
+          .withColumn("risk_band", F.when(F.col("health_index")<40, "High")
+                      .when(F.col("health_index")<70, "Medium").otherwise("Low")
+                      
+                      )
+          
+          
+          )
+
 
      
 
