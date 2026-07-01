@@ -216,6 +216,38 @@ silver_flights = (deduped
 print("clean :", silver_flights.count(), " quarantined:", quarantine.count())
 
                           
+----------------------------------------------------------------------------------------------------------
+
+from pyspark.sql import Window, functions as F
+
+
+s = (spark.table(f"{CATALOG}.{SCHEMA}.bronze_engine_telemetry")
+     .withColumn("ts", F.to_timestamp("ts_utc"))
+     .filter(F.col("egt_c").isNotNull() & F.col("vib_ips").isNotNull()))
+     
+s = (s
+  .withColumn("exceed_egt",  F.col("egt_c")            > F.lit(EGT_LIMIT))
+  .withColumn("exceed_vib",  F.col("vib_ips")          > F.lit(VIB_LIMIT))
+  .withColumn("exceed_oilp", F.col("oil_pressure_psi") < F.lit(35.0))
+  .withColumn("exceedance",
+        F.col("exceed_egt") | F.col("exceed_vib") | F.col("exceed_oilp")))
+
+
+w5 = (Window.partitionBy("tail_number","engine_position")
+            .orderBy(F.col("ts").cast("long"))
+            .rowsBetween(-4, 0))
+ 
+silver_sensors = (s
+  .withColumn("egt_roll5", F.avg("egt_c").over(w5))
+  .withColumn("vib_roll5", F.avg("vib_ips").over(w5))
+  .withColumn("egt_delta", F.col("egt_c") - F.col("egt_roll5")))
+ 
+(silver_sensors.write.format("delta").mode("overwrite")
+   .option("overwriteSchema","true")
+   .saveAsTable(f"{CATALOG}.{SCHEMA}.silver_sensors"))
+ 
+display(silver_sensors.filter("exceedance").orderBy(F.desc("egt_c")).limit(20))
+
 
                   
 
