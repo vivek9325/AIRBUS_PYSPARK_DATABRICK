@@ -140,6 +140,16 @@ routes   = (spark.table(f"{CATALOG}.{SCHEMA}.bronze_routes")
 delaymap = (spark.table(f"{CATALOG}.{SCHEMA}.bronze_delay_codes")
             .select("delay_code","category","controllable_flag"))
 
+
+silver_flights = (deduped
+                  .withColumn("route_id", F.col("route_id").cast("int"))
+                  .join(F.broadcast(aircraft), "tail_number", "left")
+                  .join(F.broadcast(routes), "route_id", "left")
+                  .join(F.broadcast(delaymap), "delay_code", "left")
+                  .withColumn("dq_unknown_tail", F.col("aircraft_type").isNull())
+                  .withColumn("on_time", (F.col("dep_delay_min") <= 15).cast("int"))
+                  )
+
                          
 
                   
