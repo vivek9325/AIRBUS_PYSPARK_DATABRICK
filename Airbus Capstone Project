@@ -287,7 +287,27 @@ gold_route_otp = (sf.groupBy("flight_date", "route_id")
 
 --------------------------------------------------------------------------------------------------------
                   
+fuel = (spark.table(f"{CATALOG}.{SCHEMA}.bronze_fuel_uplift")
+        
+        .select("flight_id",
 
+                F.col("fuel_burn_kg").cast("double").alias("fuel_burn_kg"),
+                F.col("fuel_price_usd_per_kg").cast("double").alias("price"))                
+                )
+
+gold_fuel = (sf.join(fuel, "flight_id")
+             
+             .withColumn("kg_per_seat", F.col("fuel_burn_kg")/F.col("seats"))
+             .withColumn("fuel_cost_usd", F.col("fuel_burn_kg")*F.col("price"))
+             .groupBy("aircraft_type", "route_id")
+             .agg(F.round(F.avg("kg_per_seat"),2).alias("avg_kg_per_seat"),
+                  F.round(F.avg("fuel_cost_usd"),2).alias("avg_fuel_cost"),
+                  F.count("*").alias("legs"))
+                  
+                  )
+
+(gold_fuel.write.format("delta").mode("overwrite").saveAsTable(f"{CATALOG}.{SCHEMA}.gold_fuel_efficiency"))
+     
 
     
 
