@@ -363,7 +363,7 @@ health = (feat
           )
 
 
-     
+(health.write.format("delta").mode("overwrite").saveAsTable(f"{CATALOG}.{SCHEMA}.gold_health_index"))     
 
     
 
