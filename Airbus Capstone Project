@@ -250,7 +250,42 @@ silver_sensors = (s
  
 display(silver_sensors.filter("exceedance").orderBy(F.desc("egt_c")).limit(20))
 
+=============================================================================================================================================================================
 
+Gold Level
+
+----------------------------------------------------------------------------------------------
+
+CATALOG = "vk_capstone_project"
+SCHEMA = "vk_lakehouse"
+VOLUME = "vk_landing"
+
+spark.sql(f"CREATE SCHEMA IF NOT EXISTS `{CATALOG}`.`{SCHEMA}`")
+spark.sql(f"CREATE VOLUME IF NOT EXISTS `{CATALOG}`.`{SCHEMA}`.`{VOLUME}`")
+
+LANDING = f"/Volumes/{CATALOG}/{SCHEMA}/{VOLUME}"
+CHK = f"/Volumes/{CATALOG}/{SCHEMA}/{VOLUME}/_chk"
+
+print("Landing Path:", LANDING)
+print("Checkpoint Path:", CHK)
+
+------------------------------------------------------------------------------------------------
+
+from pyspark.sql import Window, functions as F
+
+sf = spark.table(f"{CATALOG}.{SCHEMA}.silver_flights_vk").filter("cancelled=0")
+
+gold_route_otp = (sf.groupBy("flight_date", "route_id")
+                  
+                  .agg(F.count("*").alias("departures"),
+                       F.round(F.avg("dep_delay_min"),1).alias("avg_dep_delay"),
+                       F.round(F.avg("on_time")*100,1).alias("otp_pct"),
+                       F.sum(F.when(F.col("controllable_flag")=="Y",1).otherwise(0)).alias("controllable_delays")))
+
+(gold_route_otp.write.format("delta").mode("overwrite").saveAsTable(f"{CATALOG}.{SCHEMA}.gold_route_otp"))
+
+
+--------------------------------------------------------------------------------------------------------
                   
 
 
